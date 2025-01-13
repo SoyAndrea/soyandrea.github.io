@@ -1,0 +1,44 @@
+project:
+  type: website
+
+website:
+  title: "Data by Andre"
+  navbar:
+    background: "#003049"
+    search: true
+    right:
+      - href: index.qmd
+        text: Home
+      - text: "Charlas & Talleres"
+        menu: 
+          - href:  about.qmd
+          
+      - text: "Enseñanza"
+      - text: "Comunidad"
+    tools:
+      - icon: github
+        href: https://github.com/SoyAndrea/
+      - icon: linkedin
+        href: https://www.linkedin.com/in/andreasociologa/
+      - icon: "{{< iconify simple-icons bluesky >}}"
+        href: https://bsky.app/profile/goandre.bsky.social
+    page-footer:
+      center: 
+      - text: "License"
+        href: license.md
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: true
+    lang: es
+    linkcolor: "#003049"
+    fontsize: 13pt
+    citations-hover: true
+    footnotes-hover: true
+    code-link: true
+
+
+editor: visual
+

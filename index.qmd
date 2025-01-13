@@ -1,0 +1,7 @@
+---
+title: "Hi there, I'm Andre 👋"
+---
+
+Soy licenciada en Sociología y maestranda en Generación y Análisis de Información Estadística. Me desempeño como Analista de Estadísticas Poblacionales en el Instituto Nacional de Estadística y Censos - INDEC Argentina y ejerzo la docencia universitaria en ciencia de datos en la Universidad Nacional Guillermo Brown.
+
+Actualmente soy instructora certificada en The Carpentries e integrante del equipo global de R-Ladies y formo parte de la cohorte de campeones del programa de rOpenSci 2023 - 2024.
