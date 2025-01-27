@@ -5,27 +5,29 @@ website:
   title: "Data by Andre"
   navbar:
     background: "#003049"
-    search: true
-    right:
-      - href: index.qmd
-        text: Home
-      - text: "Charlas & Talleres"
-        menu: 
-          - href:  about.qmd
-          
-      - text: "Enseñanza"
-      - text: "Comunidad"
-    tools:
+    left:
       - icon: github
         href: https://github.com/SoyAndrea/
+        aria-label: GitHub
       - icon: linkedin
         href: https://www.linkedin.com/in/andreasociologa/
-      - icon: "{{< iconify simple-icons bluesky >}}"
-        href: https://bsky.app/profile/goandre.bsky.social
-    page-footer:
-      center: 
-      - text: "License"
-        href: license.md
+    right:
+      - href: index.qmd
+        text: Sobre Mi
+      - text: "Curriculum"
+        menu:
+          # - text: "CV en español"
+          # - href: documentos/gomezvargas_cv.html
+          # - text: "English CV"
+          # - href: documentos/gomezvargas_cv_EN.html
+          - href: cv_ES.qmd
+      - href: blog.qmd
+      - href: talleres.qmd
+      - href: comunidad.qmd 
+      
+
+
+
 
 format:
   html:

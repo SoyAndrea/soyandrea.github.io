@@ -1,0 +1,14 @@
+---
+title: "Champions rOpenSci"
+author: "Andrea Gómez Vargas"
+date: 2025-01-27
+slug: champions-ropensci
+description: "Proceso en el programa de campeones"
+categories: [R, Paquete, rOpenSci, censo, arcenso, Champions]
+type: post
+---
+
+# Champions rOpenSci
+
+Escribe aquí el contenido de tu publicación.
+

@@ -1,0 +1,14 @@
+---
+title: "Tidyverse-devDay"
+author: "Andrea Gómez Vargas"
+date: 2025-01-27
+slug: tidyverse-devday
+description: "participacion en el dev day"
+categories: [R, posit, taller, tidyverse]
+type: post
+---
+
+# Tidyverse-devDay
+
+Escribe aquí el contenido de tu publicación.
+

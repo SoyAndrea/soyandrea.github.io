@@ -1,0 +1,60 @@
+---
+title: "auto"
+---
+
+```{r}
+create_post <- function(title, 
+                        author = "Andrea Gómez Vargas", 
+                        categories = NULL, 
+                        base_path = "posts", 
+                        description = "Agrega aquí una breve descripción del contenido.") {
+  # Crear el nombre del slug basado en el título
+  slug <- tolower(gsub(" ", "-", title))
+  
+  # Crear la ruta completa para la carpeta
+  folder_path <- file.path(base_path, slug)
+  
+  # Crear la carpeta si no existe
+  if (!dir.exists(folder_path)) {
+    dir.create(folder_path, recursive = TRUE)
+  }
+  
+  # Generar la fecha actual
+  date <- Sys.Date()
+  
+  # Crear el contenido del YAML
+  yaml_content <- paste0(
+    "---\n",
+    "title: \"", title, "\"\n",
+    "author: \"", author, "\"\n",
+    "date: ", date, "\n",
+    "slug: ", slug, "\n",
+    "description: \"", description, "\"\n",
+    "categories: [", paste(categories, collapse = ", "), "]\n",
+    "type: post\n",
+    "---\n\n",
+    "# ", title, "\n\n",
+    "Escribe aquí el contenido de tu publicación.\n"
+  )
+  
+  # Crear el archivo .qmd
+  qmd_path <- file.path(folder_path, "index.qmd")
+  writeLines(yaml_content, qmd_path)
+  
+  message("¡Post creado exitosamente en: ", folder_path, "!")
+}
+
+
+```
+
+```{r}
+create_post(
+  title = "positconf quarto dashboard",
+  categories = c("R", "positconf", "quarto", "quartodashboard"),
+  base_path = "blog",
+  description = " "
+)
+
+
+```
+

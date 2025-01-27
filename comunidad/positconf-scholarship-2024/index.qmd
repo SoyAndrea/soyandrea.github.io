@@ -1,0 +1,14 @@
+---
+title: "positconf scholarship 2024"
+author: "Andrea Gómez Vargas"
+date: 2025-01-27
+slug: positconf-scholarship-2024
+description: " "
+categories: [R, positconf, Scholarship]
+type: post
+---
+
+# positconf scholarship 2024
+
+Escribe aquí el contenido de tu publicación.
+

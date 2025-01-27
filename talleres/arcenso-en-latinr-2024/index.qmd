@@ -1,0 +1,12 @@
+---
+title: "arcenso en LatinR 2024"
+author: "Andrea Gómez Vargas"
+date: 2025-01-27
+slug: arcenso-en-latinr-2024
+categories: [R, LatinR, arcenso, rOpenSci]
+type: post
+---
+
+# arcenso en LatinR 2024
+
+Escribe aquí el contenido de tu publicación.

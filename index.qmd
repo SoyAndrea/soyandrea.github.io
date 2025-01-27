@@ -1,7 +1,70 @@
 ---
-title: "Hi there, I'm Andre 👋"
+title: "Andrea Gomez Vargas"
+subtitle: "Sociologa & Analista de datos"
+about:
+  template: trestles
+  image: image/andrea.jpg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/SoyAndrea
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/andreasociologa/
+    - icon: r-project
+      text: R-Ladies
+      href: https://rladies.org/about-us/global-team/
+format:
+  html:
+    toc: FALSE 
 ---
 
-Soy licenciada en Sociología y maestranda en Generación y Análisis de Información Estadística. Me desempeño como Analista de Estadísticas Poblacionales en el Instituto Nacional de Estadística y Censos - INDEC Argentina y ejerzo la docencia universitaria en ciencia de datos en la Universidad Nacional Guillermo Brown.
+### Hi there, I'm Andre 👋
 
-Actualmente soy instructora certificada en The Carpentries e integrante del equipo global de R-Ladies y formo parte de la cohorte de campeones del programa de rOpenSci 2023 - 2024.
+Soy licenciada en Sociología y maestranda en Generación y Análisis de Información Estadística. Actualmente, me desempeño como Analista de Estadísticas Poblacionales en el Instituto Nacional de Estadística y Censos - [INDEC Argentina](https://www.indec.gob.ar/) y como docente universitaria en ciencia de datos.
+
+Soy organizadora de [R en Buenos Aires](https://renbaires.github.io/), integrante del [equipo global de R-Ladies](https://rladies.org/about-us/global-team/), y formo parte de la [cohorte de campeones del programa de rOpenSci](https://ropensci.org/blog/2024/02/15/champions-program-champions-2024/#andrea-gomez-vargas) 2023 - 2024.
+
+#### Comunidades de práctica 💜
+
+<ul style="list-style-type: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center;">
+
+<li style="display: flex; justify-content: flex-start; align-items: center; margin: 5px;">
+
+<a href="https://github.com/renbaires"><strong>R en Buenos Aires</strong></a> <img src="https://avatars.githubusercontent.com/u/43609757" alt="R en Buenos Aires logo" style="margin-left: 10px; width: 50px; height: 50px;"/>
+
+</li>
+
+<li style="display: flex; justify-content: flex-start; align-items: center; margin: 5px;">
+
+<a href="https://github.com/ropensci"><strong>rOpenSci</strong></a> <img src="https://avatars.githubusercontent.com/u/1200269?s=200&amp;v=4" alt="rOpenSci logo" style="margin-left: 10px; width: 50px; height: 50px;"/>
+
+</li>
+
+<li style="display: flex; justify-content: flex-start; align-items: center; margin: 5px;">
+
+<a href="https://github.com/rladies"><strong>R-Ladies Global</strong></a> <img src="https://avatars.githubusercontent.com/u/21295846?s=200&amp;v=4" alt="R-Ladies Global logo" style="margin-left: 10px; width: 50px; height: 50px;"/>
+
+</li>
+
+<li style="display: flex; justify-content: flex-start; align-items: center; margin: 5px;">
+
+<a href="https://github.com/LatinR"><strong>LatinR</strong></a> <img src="https://avatars.githubusercontent.com/u/42558048?s=200&amp;v=4" alt="LatinR logo" style="margin-left: 10px; width: 50px; height: 50px;"/>
+
+</li>
+
+<li style="display: flex; justify-content: flex-start; align-items: center; margin: 5px;">
+
+<a href="https://github.com/carpentries"><strong>The Carpentries</strong></a> <img src="https://avatars.githubusercontent.com/u/19267758?s=200&amp;v=4" alt="The Carpentries logo" style="margin-left: 10px; width: 50px; height: 50px;"/>
+
+</li>
+
+<li style="display: flex; justify-content: flex-start; align-items: center; margin: 5px;">
+
+<a href="https://github.com/RLadies-BA"><strong>R-Ladies Buenos Aires</strong></a> <img src="https://avatars.githubusercontent.com/u/38664570?s=200&amp;v=4" alt="R-Ladies Buenos Aires logo" style="margin-left: 10px; width: 50px; height: 50px;"/>
+
+</li>
+
+</ul>
+
+Desde 2018, participo en espacios colaborativos de aprendizaje en ciencia de datos y código abierto. Mis esfuerzos se centran en comunidades que promueven el uso de `R` y fomentan la diversidad de género(s), creando un ambiente inclusivo y amigable para quienes desean aprender a programar en este lenguaje.

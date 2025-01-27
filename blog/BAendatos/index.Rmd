@@ -1,0 +1,178 @@
+---
+title: "#BAenDatos ¿Qué sabemos de la línea 144 en CABA?"
+author: "Andrea Gomez"
+date: "8/4/2021"
+slug: ba-datos
+description: Participación del desafío BA en Datos con una serie de visualizaciones sobre género.
+categories:
+  - R
+  - Sociología
+  - Género(s)
+  - Feminismo(s)
+  - Investigación social
+---
+
+Me sume al [**desafío de #BAenDatos**](https://www.buenosaires.gob.ar/agendadetransparencia/datos-abiertos/baendatos) con un serie de visualizaciones sobre género y encontré información interesante para compartir sobre la línea nacional para la atención, contención y asesoramiento en situaciones de violencia por razones de género
+
+![](featured.png) Para esto usé dos datasets: [**Llamadas linea 144**](https://data.buenosaires.gob.ar/dataset/llamadas-linea-144/archivo/72a45383-d48d-468a-a39b-051cc3ec239c) y [**Conocimiento de dispositivos de asistencia**](https://data.buenosaires.gob.ar/dataset/servicios-asistencia-victimas-violencia-genero/archivo/598323e9-4df6-4465-9785-b9591bc32a77), ambos en formato CSV
+
+**Las librerias a usar fueron tidyverse y plotly, acá te comparto el script usado para las visualizaciones.**
+
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+library(plotly)
+```
+
+**La línea 144 es el segundo dispositivo de asistencia más conocido en CABA** por las mujeres al momento de buscar atención, contención y asesoramiento ante situaciones de violencia por razones de género. ¿Cómo es esto posible?
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+df_dispositivos <- read.csv("lin_tel_ayu_annio__ser_asist_limpio.csv", sep = ";", encoding = "latin1")
+df_dispositivos[,-1]
+
+df_dispositivos <- df_dispositivos[order(df_dispositivos$porc_mujeres),]
+
+df_dispositivos$porc_fact <- factor(df_dispositivos$porc_mujeres, levels =df_dispositivos[["porc_mujeres"]])
+
+yform <- list(categoryorder = "array",
+              categoryarray = df_dispositivos$porc_fact,
+              title = "")
+
+fig <- plot_ly(df_dispositivos, x = ~porc_fact, y = ~servicios_asistencia ,  type = 'bar', orientation = 'h', marker = list(color = c(
+                                'rgba(39,127,142,1)',
+                                'rgba(39,127,142,1)',
+                                'rgba(39,127,142,1)', 
+                                'rgba(39,127,142,1)',
+                                'rgba(39,127,142,1)',
+                                'rgba(39,127,142,1)',
+                                'rgba(70,51,126,1)',
+                                'rgba(39,127,142,1)'))) %>% 
+  layout(xaxis = list(title = 'Porcentaje de conocimiento'),
+         title = "Conocimiento de dispositivos de asistencia",
+         yaxis = yform)
+
+fig
+```
+
+La [**línea 144**](https://www.argentina.gob.ar/generos/linea-144) fue creada para cumplir los objetivos establecidos por la Ley 26.485 sobre protección integral para prevenir, sancionar y erradicar la violencia contra las mujeres en los ámbitos en que desarrollen sus relaciones interpersonales (artículo 9), sancionada en 2009 por el Congreso de la Nación Argentina.
+
+Desde 2010 a la fecha, la línea 144 cumple la función de atender situaciones de violencia por razones de género las 24hrs, los 365 días en todo el país. En CABA hay un promedio de 12.900 llamadas anuales, aunque desde 2017 el total de llamadas recibidas ha incrementado un 100% de su promedio.
+
+```{r}
+library(readxl)
+linea144 <- read_excel("llamadas_linea_144.xlsx")
+
+df_llamadasanuales144 <- linea144 %>% select(año,total_llamadas_servicios_telefónicos)
+df_llamadasanuales144 = df_llamadasanuales144[-11,]
+df_llamadasanuales144$anio<-as.character(df_llamadasanuales144$año)
+
+#Promedio anual entre 2010 - 2019
+mean(df_llamadasanuales144$total_llamadas_servicios_telefónicos)
+
+totalanual <- plot_ly(df_llamadasanuales144, x =~anio)%>%
+  add_lines(y = ~total_llamadas_servicios_telefónicos, fill = 'tozeroy', fillcolor = 'rgba(68, 5, 83, 0.5)', line = list(shape = "spline", color = "#440553")) %>%
+  layout(
+        yaxis = list(title = 'Cantidad llamados',
+                    rangemode = "tozero",
+                    linecolor = "black"),
+        xaxis = list(title = 'Año'),
+        title = "Cantidad de llamadas recibidas en CABA (2010 -2019)"
+  )
+totalanual
+```
+
+### ¿Qué pasó en esos años?
+
+De la mano del [**#NiUnaMenos**](http://niunamenos.org.ar/), la políticas públicas para la erradicación de la violencia hacia las mujeres fue ampliando el acceso a sus vías de comunicación.
+
+Ya desde 2015 se impulsó una campaña para que los medios de comunicación informaran sobre la existencia de la línea 144, para 2016 se presenta el [**Plan Nacional**](https://www.argentina.gob.ar/noticias/el-presidente-macri-presento-el-plan-nacional-para-la-erradicacion-de-la-violencia-de) de Acción para la Prevención, Asistencia y Erradicación de la Violencia contra las Mujeres 2017-2019 en el que se incluyeron campañas de difusión y concientización sobre la violencia de género.
+
+Entre 2017 y 2018 el Ministerio de Desarrollo Social lanzó diversas campañas para el día de los enamorados para alertar sobre noviazgos violentos como "noviazgos sin violencia" y “¿Te Ama?”. Desde el GCBA lanzaron el test online para detectar noviazgos violentos. Entre tanto la línea 144 para 2017 fue habilitada por las empresas de telefonía celular como [**línea gratuita**](https://www.lanacion.com.ar/tecnologia/llamar-a-la-linea-144-para-hacer-denuncias-por-violencia-de-genero-sera-gratis-nid2091409/) y para 2018 fue lanzada la [**aplicación móvil gratuita**](https://www.telam.com.ar/notas/201803/262749-presentaron-la-aplicacion-para-celulares-del-144-para-asistir-a-la-mujeres-las-24-horas.html) de la misma línea para IOS y android. Esto implicó que para comunicarse con la línea 144 ya no fuera necesario contar con saldo o datos móviles.
+
+Así mismo, no hay que dejar de lado los hechos sociales que acompañaron a la sociedad Argentina en 2018 que tuvieron gran repercusión a nivel nacional e internacional en los que se encuentran el debate por la interrupción voluntaria del embarazo y la [**denuncia de Thelma Fardin**](https://www.telam.com.ar/notas/201812/313986-tras-la-denuncia-aumentaron-las-consultas-en-la-linea-de-violencia-de-genero.html).
+
+2018 ha sido el año con mayor cantidad de llamados a la línea llegando a un total de 25.197. Dentro de las estadísticas está contemplado que los hechos de público conocimiento o movilizaciones referidas a la misma temática intensifican la comunicación con la línea.
+
+Las comunicaciones al 144 se han distribuido en 3 líneas de ayuda de CABA que permiten orientar el tipo de consultas o asistencias a realiziar. Cabe destacar que la línea que más volumen de llamadas ha tenido es la Línea de Información General y Salud Integral, es clara la **demanda por información.**
+
+```{r}
+df_lineasdeayuda <- linea144 %>% select(año,total_linea_violencia_familiar, total_linea_te_ayudo, total_linea_de_informacion_general_y_salud_integral)
+df_lineasdeayuda = df_lineasdeayuda[-11,]
+df_lineasdeayuda$anio<-as.character(df_lineasdeayuda$año)
+df_lineasdeayuda$año<-NULL
+
+df_lineasdeayuda <- df_lineasdeayuda%>% pivot_longer(!anio,names_to = "linea", values_to = "count")
+df_lineasdeayuda<- df_lineasdeayuda%>%mutate(
+  linea=case_when(
+    linea=="total_linea_te_ayudo"~"Línea Te Ayudo",
+    linea=="total_linea_de_informacion_general_y_salud_integral"~"Línea de Información \n General y Salud Integral",
+    linea=="total_linea_violencia_familiar"~"Línea Violencia Familiar"
+  )
+)
+
+totallineas <- ggplot(df_lineasdeayuda, aes(fill=linea, y=count, x=anio)) + 
+    geom_bar(position="stack", stat="identity") + scale_fill_manual(values = c( "#FDE614","#277f91","#440154")) +
+    ggtitle("Porcentaje de llamados a las líneas de ayuda del 144 (CABA, 2010-1019)") +
+    xlab("Año") +
+    ylab("Porcentaje")
+
+ggplotly(totallineas)
+```
+
+```{r}
+totalporcentual <- ggplot(df_lineasdeayuda, aes(fill=linea, y=count, x=anio)) + 
+    geom_bar(position="fill", stat="identity") +
+    scale_fill_manual(values = c( "#FDE614","#277f91","#440154")) +
+    ggtitle("Porcentaje de llamados a las líneas de ayuda del 144 (CABA, 2010-1019)") +
+    xlab("Año") +
+    ylab("Porcentaje")
+    
+ggplotly(totalporcentual)
+```
+
+Cada línea cuenta con un **enfoque de atención: salud, vida familiar y adolescencia.** En términos generales en cada ámbito se comunican para solicitar información y para buscar asesoría y contención en situaciones de violencia. Es importante recordar que la línea 144 no se trata de una línea de emergencia.
+
+```{r}
+fig <- plot_ly(
+    labels = c("Linea 144","Linea Violencia Familiar","Informacion General \ny Violencia Familiar","Casos Maltrato \nFisico Emocional","Emergencia \nViolencia Familiar","Linea Te Ayudo","Asesoramiento","Casos Maltrato \nJuvenil y Abuso Sexual","Adolescente Violento","Noviazgo Violento","Emergencia Te Ayudo","Linea de Informacion General \ny Salud Integral", "Informacion \nSalud", "PAP", "Otros"),
+    parents = c("","Linea 144","Linea Violencia Familiar","Linea Violencia Familiar","Linea Violencia Familiar","Linea 144","Linea Te Ayudo","Linea Te Ayudo","Linea Te Ayudo","Linea Te Ayudo","Linea Te Ayudo","Linea 144","Linea de Informacion General \ny Salud Integral","Linea de Informacion General \ny Salud Integral","Linea de Informacion General \ny Salud Integral"),
+    values = c(129659, 64560, 16302, 47567, 601,10361, 2162, 7014, 576,571, 38,54738, 10752, 6890, 37096),
+    type = 'sunburst',
+    branchvalues = 'total',
+    insidetextorientation='tangencial'
+    ) %>%
+  
+      layout(
+      title="Llamadas a línea de asistencia 2010-2019",
+      colorway = c(
+        "#277f91",'rgb(253, 231, 37)','rgb(68, 1, 84)'
+      )
+    )
+
+fig
+```
+
+Para 2020 la atención de la línea 144 se extendió a whatsapp y mail, vale destacar que todavía no contamos con datos abiertos para poder analizar la información de la línea y su impacto con el COVID-19 y el ASPO.
+
+**Recuerda que podés comunicarte de manera gratuita las 24 hs., los 365 días, a través de un llamado al 144, por WhatsApp al 1127716463, por mail a [linea144\@mingeneros.gob.ar](mailto:linea144@mingeneros.gob.ar){.email} y descargando la app.**
+
+#### Participación en concurso
+
+<blockquote class="twitter-tweet">
+
+<p lang="es" dir="ltr">
+
+<a href="https://twitter.com/hashtag/BAenDatos?src=hash&amp;ref_src=twsrc%5Etfw">#BAenDatos</a> ¿Qué sabemos de la Línea 144 en CABA?<br>Me sumé al desafío de <a href="https://twitter.com/BAGobAbierto?ref_src=twsrc%5Etfw">@BAGobAbierto</a> & <a href="https://twitter.com/BAinnovacion?ref_src=twsrc%5Etfw">@BAinnovacion</a>, y encontré información interesante sobre la línea 144 para compartir.<br><br>Mirá el análisis completo en <a href="https://t.co/9wEvCQHDlT">https://t.co/9wEvCQHDlT</a><a href="https://twitter.com/hashtag/rladies?src=hash&amp;ref_src=twsrc%5Etfw">#rladies</a> <a href="https://t.co/eAnJZFO8Ls">pic.twitter.com/eAnJZFO8Ls</a>
+
+</p>
+
+— andrea (@me_andre) <a href="https://twitter.com/me_andre/status/1376404024342278144?ref_src=twsrc%5Etfw">March 29, 2021</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
+
+#### Presentación elaborada
+
+![](images/3.png) ![](images/4.png) ![](images/5.png) ![](images/6.png)

@@ -1,0 +1,14 @@
+---
+title: "positconf quarto dashboard"
+author: "Andrea Gómez Vargas"
+date: 2025-01-27
+slug: positconf-quarto-dashboard
+description: " "
+categories: [R, positconf, quarto, quartodashboard]
+type: post
+---
+
+# positconf quarto dashboard
+
+Escribe aquí el contenido de tu publicación.
+

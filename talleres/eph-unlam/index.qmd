@@ -1,0 +1,14 @@
+---
+title: "eph unlam"
+author: "Andrea Gómez Vargas"
+date: 2025-01-27
+slug: eph-unlam
+description: "taller unlam"
+categories: [R, eph, taller, R en Buenos Aires, tidyverse]
+type: post
+---
+
+# eph unlam
+
+Escribe aquí el contenido de tu publicación.
+
