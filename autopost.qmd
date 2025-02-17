@@ -48,13 +48,12 @@ create_post <- function(title,
 ```
 
 ```{r}
-create_post(
-  title = "positconf quarto dashboard",
-  categories = c("R", "positconf", "quarto", "quartodashboard"),
-  base_path = "blog",
-  description = " "
-)
+# create_post(
+#   title = "positconf quarto dashboard",
+#   categories = c("R", "positconf", "quarto", "quartodashboard"),
+#   base_path = "blog",
+#   description = " "
+# )
 
 
 ```
-

@@ -1,14 +1,25 @@
 ---
-title: "positconf scholarship 2024"
+title: "posit::conf - Oportunity Scholarship 2024"
 author: "Andrea Gómez Vargas"
-date: 2025-01-27
+date: 2024-08-12
 slug: positconf-scholarship-2024
-description: " "
+description: "Mi experiencia en posit::conf(2024)"
 categories: [R, positconf, Scholarship]
 type: post
 ---
 
-# positconf scholarship 2024
+# 
 
-Escribe aquí el contenido de tu publicación.
+Cuando recibí el correo con la noticia de que había sido seleccionada para la Oportunity Scholarship de posit::conf(2024), no podía creerlo. Ir a posit::conf era un sueño que había considerado lejano, pero esa beca hizo que se volviera realidad. En este post quiero contarles sobre mi experiencia y por qué animo a otras personas a postularse.
 
+#### La importancia de la Oportunity Scholarship
+
+Esta beca está dirigida a personas subrepresentadas en la comunidad de R y Posit, y tiene como objetivo facilitar el acceso a la conferencia a quienes, de otro modo, no podrían asistir por barreras económicas, geográficas o de otro tipo. Es mucho más que una ayuda financiera: es una puerta abierta a un mundo de oportunidades y crecimiento.
+
+#### La comunidad 
+
+### Mi consejo: ¡Postulate!
+
+Si estás dudando en postularte a la Oportunity Scholarship, te digo: ¡hacelo! No subestimes tu trabajo ni tu potencial. Esta beca no solo te lleva a una conferencia; te conecta con una comunidad internacional que te impulsa a crecer.
+
+Gracias a Posit por esta oportunidad. Y gracias a la comunidad R por demostrar, una vez más, que crecer es mejor cuando lo hacemos juntos.
