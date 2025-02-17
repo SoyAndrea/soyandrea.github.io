@@ -3,14 +3,15 @@ title: "posit::conf - Oportunity Scholarship 2024"
 author: "Andrea Gómez Vargas"
 date: 2024-08-12
 slug: positconf-scholarship-2024
-description: "Mi experiencia en posit::conf(2024)"
+description: "Mi experiencia en la posit::conf(2024)"
 categories: [R, positconf, Scholarship]
 type: post
 ---
 
-# 
 
-Cuando recibí el correo con la noticia de que había sido seleccionada para la Oportunity Scholarship de posit::conf(2024), no podía creerlo. Ir a posit::conf era un sueño que había considerado lejano, pero esa beca hizo que se volviera realidad. En este post quiero contarles sobre mi experiencia y por qué animo a otras personas a postularse.
+Cuando recibí el correo con la noticia de que había sido seleccionada para la Oportunity Scholarship de posit::conf(2024), no podía creerlo. Ir a la posit::conf era un sueño que había considerado lejano, pero esa beca hizo que se volviera realidad. En este post quiero contarles sobre mi experiencia y por qué animo a otras personas a postularse.
+
+![](oportunity1.png)
 
 #### La importancia de la Oportunity Scholarship
 
