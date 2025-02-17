@@ -2,8 +2,6 @@
   {
     "listing": "/talleres.html",
     "items": [
-      "/talleres/arcenso-en-latinr-2024/index.html",
-      "/talleres/arcenso-renba/index.html",
       "/talleres/eph-unlam/index.html",
       "/talleres/LatinR2023/index.html",
       "/talleres/EPHrladies/index.html",
@@ -45,6 +43,13 @@
       "/blog/BAendatos/index.html",
       "/blog/NidoColombia/index.html",
       "/blog/modoglitter-migracion/index.html"
+    ]
+  },
+  {
+    "listing": "/arcenso.html",
+    "items": [
+      "/arcenso/arcenso-renba/index.html",
+      "/arcenso/arcenso-latinr2024/index.html"
     ]
   }
 ]

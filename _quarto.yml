@@ -16,11 +16,8 @@ website:
         text: Sobre Mi
       - text: "Curriculum"
         menu:
-          # - text: "CV en español"
-          # - href: documentos/gomezvargas_cv.html
-          # - text: "English CV"
-          # - href: documentos/gomezvargas_cv_EN.html
           - href: cv_ES.qmd
+      - href: arcenso.qmd
       - href: blog.qmd
       - href: talleres.qmd
       - href: comunidad.qmd 

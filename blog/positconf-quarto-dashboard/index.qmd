@@ -1,7 +1,7 @@
 ---
 title: "positconf quarto dashboard"
 author: "Andrea Gómez Vargas"
-date: 2025-01-27
+date: 2025-02-16
 slug: positconf-quarto-dashboard
 description: " "
 categories: [R, positconf, quarto, quartodashboard]
