@@ -32,8 +32,8 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/blog/positconf-quarto-dashboard/index.html",
       "/blog/tidyverse-devday/index.html",
+      "/blog/positconf-quarto-dashboard/index.html",
       "/blog/personasmayores/index.html",
       "/blog/Mujeres-IT/index.html",
       "/blog/tidytuesday/index.html",

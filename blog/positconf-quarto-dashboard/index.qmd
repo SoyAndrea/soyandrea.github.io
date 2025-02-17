@@ -3,7 +3,7 @@ title: "positconf::workshops - mi primer quarto dashboard"
 author: "Andrea Gómez Vargas"
 date: 2024-08-12
 slug: positconf-quarto-dashboard
-description: "Comparto mi experiencia en el workshop"
+description: "Comparto mi experiencia en el workshop Build-a-Dashboard"
 categories: [R, positconf, quarto, quartodashboard]
 type: post
 ---
@@ -11,19 +11,27 @@ type: post
 ## Participé del workshop de Quarto Dashboards en posit::conf(2024)
 
 
-Como parte de la scholarship otorgada por posit PBC, tuve la oportunidad de participar en el workshop sobre Quarto Dashboards, dictado por la genia de Mine Çetinkaya-Rundel. Aprendimos a crear tableros interactivos con Quarto de manera sencilla y potente.
+Como parte de la *scholarship* otorgada por [posit PBC](https://posit.co), tuve la oportunidad de participar en el workshop sobre **Quarto Dashboards**, dictado por la genia de [Mine Çetinkaya-Rundel](https://mine-cr.com/). Aprendimos a crear tableros interactivos con Quarto de manera sencilla y potente.
 
 ¡Gracias a posit PBC por esta oportunidad! 🙌
 
+![](workshop3.jpg)
+
 ### El resultado final
 
-La temática fue súper interesante, ya que trabajamos con datos de los Juegos Olímpicos y medallas ganadas por países .
+La temática fue súper interesante, ya que trabajamos con datos de los Juegos Olímpicos y medallas ganadas por países.
+
+```{=html}
+<iframe width="800" height="600" src="https://soyandrea.github.io/olympicdash/" ></iframe>
+```
 
 ### Una foto para el recuerdo
 
 Además, aproveché para pedirle una foto a Mine porque admiro muchísimo su trabajo. 🫶
 
+![](workshop2.jpg)
+
 ### Links de interés
 
-- Build-a-Dashboard Workshop (with Quarto, R and/or Python)
-- Mi Olympic Games dashboard
+- [Build-a-Dashboard Workshop (with Quarto, R and/or Python)](https://posit-conf-2024.github.io/quarto-dashboards/)
+- [Mi Olympic Games dashboard](https://soyandrea.github.io/olympicdash/)
