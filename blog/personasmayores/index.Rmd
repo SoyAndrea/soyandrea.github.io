@@ -74,8 +74,12 @@ Cobertura geográfica:
 -   Totales provinciales de población urbana residente en hogares particulares.
 
 ```{r indec}
-base_personas <- get_total_urbano( year = 2023, type = "individual", vars = "all")
-base_hogares <-  get_total_urbano( year = 2023, type = "hogar", vars = "all")
+# base_personas <- get_total_urbano( year = 2023, type = "individual", vars = "all")
+# base_hogares <-  get_total_urbano( year = 2023, type = "hogar", vars = "all")
+
+base_personas <- read.delim("data/personas2023.txt", sep = ";")
+base_hogares <- read.delim("data/hogares2023.txt", sep = ";")
+
 
 EPHU2023 <- base_personas %>% 
   left_join(base_hogares %>% select(-PONDERA),
