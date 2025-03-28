@@ -4,14 +4,13 @@ author: "Andrea Gómez Vargas"
 date: 2024-12-20
 slug: arcenso-renba
 description: "Charla presentación paquete {arcenso} en R-Ladies & R en Buenos Aires"
-categories: [R, Paquete, rOpenSci, censo, arcenso, Charla]
+categories: [R, paquete, rOpenSci, censo, arcenso, Charla]
 type: post
 ---
 
 # {ARcenso}📦 - Data from Argentina’s Population Census
 
 #### Charla [R-Ladies Buenos Aires](https://github.com/RLadies-BA)<img src="https://avatars.githubusercontent.com/u/38664570?s=200&amp;v=4" alt="rladies buenos aires logo" height="27"/> & [R en Buenos Aires](https://github.com/renbaires) <img src="https://avatars.githubusercontent.com/u/43609757" alt="r en buenos aires logo" height="27"/>
-
 
 ![](flyer.png)
 
@@ -20,13 +19,12 @@ type: post
 -   [Andrea Gomez Vargas](https://github.com/SoyAndrea)
 -   [Emanuel Ciardullo](https://github.com/ECiardullo)
 
-### Resumen: 
+### Resumen:
 
 Presentamos el paquete `arcenso` a la comunidad de usuarios de la ciudad de Buenos Aires, Desde la idea hasta las primeras funciones disponibles, y del acompañamiento en comunidad como parte del programa de campeones y campeonas del software de rOpenSci.
 
-:::::: columns
+::: columns
 ::: {.column width="45%"}
-
 <blockquote class="twitter-tweet">
 
 <p lang="es" dir="ltr">
@@ -42,18 +40,29 @@ Gracias a todes por este increíble meet up junto a <a href="https://twitter.com
 ```{=html}
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ```
-
 :::
+
 ::: {.column width="10%"}
 :::
 
 ::: {.column width="45%"}
+<blockquote class="twitter-tweet">
 
-<blockquote class="twitter-tweet"><p lang="es" dir="ltr">La evolución de los logos del Censo 🇦🇷 <a href="https://t.co/gjM4e0RS8s">pic.twitter.com/gjM4e0RS8s</a></p>&mdash; R-Ladies BuenosAires (@RLadiesBA) <a href="https://twitter.com/RLadiesBA/status/1870224531710742853?ref_src=twsrc%5Etfw">December 20, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p lang="es" dir="ltr">
 
+La evolución de los logos del Censo 🇦🇷 <a href="https://t.co/gjM4e0RS8s">pic.twitter.com/gjM4e0RS8s</a>
 
+</p>
+
+— R-Ladies BuenosAires (@RLadiesBA) <a href="https://twitter.com/RLadiesBA/status/1870224531710742853?ref_src=twsrc%5Etfw">December 20, 2024</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
 :::
-::::::
+:::
 
 ### Slides
 

@@ -4,7 +4,7 @@ author: "Andrea Gómez Vargas"
 date: 2024-11-20
 slug: arcenso-latinr-2024
 description: Presentación paquete {arcenso} con rOpenSci"
-categories: [R, LatinR, arcenso, rOpenSci, paquete]
+categories: [R, LatinR, arcenso, rOpenSci, paquete, charla]
 type: post
 ---
 
@@ -46,7 +46,6 @@ No estoy llorando, este bebé salió a la luz en <a href="https://twitter.com/La
 ```{=html}
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ```
-
 ### Links de interés
 
 -   [web arcenso](https://soyandrea.github.io/arcenso/)

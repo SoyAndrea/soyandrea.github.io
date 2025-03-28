@@ -1,0 +1,15 @@
+{
+  "hash": "feac3a8cd4173cf9e1947e7476ed1769",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"auto\"\n---\n\n::: {.cell}\n\n```{.r .cell-code}\ncreate_post <- function(title, \n                        author = \"Andrea Gómez Vargas\", \n                        categories = NULL, \n                        base_path = \"posts\", \n                        description = \"Agrega aquí una breve descripción del contenido.\") {\n  # Crear el nombre del slug basado en el título\n  slug <- tolower(gsub(\" \", \"-\", title))\n  \n  # Crear la ruta completa para la carpeta\n  folder_path <- file.path(base_path, slug)\n  \n  # Crear la carpeta si no existe\n  if (!dir.exists(folder_path)) {\n    dir.create(folder_path, recursive = TRUE)\n  }\n  \n  # Generar la fecha actual\n  date <- Sys.Date()\n  \n  # Crear el contenido del YAML\n  yaml_content <- paste0(\n    \"---\\n\",\n    \"title: \\\"\", title, \"\\\"\\n\",\n    \"author: \\\"\", author, \"\\\"\\n\",\n    \"date: \", date, \"\\n\",\n    \"slug: \", slug, \"\\n\",\n    \"description: \\\"\", description, \"\\\"\\n\",\n    \"categories: [\", paste(categories, collapse = \", \"), \"]\\n\",\n    \"type: post\\n\",\n    \"---\\n\\n\",\n    \"# \", title, \"\\n\\n\",\n    \"Escribe aquí el contenido de tu publicación.\\n\"\n  )\n  \n  # Crear el archivo .qmd\n  qmd_path <- file.path(folder_path, \"index.qmd\")\n  writeLines(yaml_content, qmd_path)\n  \n  message(\"¡Post creado exitosamente en: \", folder_path, \"!\")\n}\n```\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\n# create_post(\n#   title = \"positconf quarto dashboard\",\n#   categories = c(\"R\", \"positconf\", \"quarto\", \"quartodashboard\"),\n#   base_path = \"blog\",\n#   description = \" \"\n# )\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

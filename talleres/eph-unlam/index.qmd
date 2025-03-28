@@ -4,7 +4,7 @@ author: "Andrea Gómez Vargas"
 date: 2024-10-29
 slug: r-unlam-2024
 description: "Taller organizado por la cátedra de Demografía Social de la Licenciatura en Ciencia Política de la UNLaM"
-categories: [R, Charla]
+categories: [R, Charlas, eph]
 type: post
 ---
 
@@ -12,19 +12,26 @@ type: post
 
 ## Organizado por la **Cátedra de Demografía Social de la licenciatura de Ciencia Política - UNLaM**, el [**Núcleo de Innovaciòn Social**](https://www.nucleodeinnovacion.com/) & [**R en Buenos Aires**](https://renbaires.github.io/).
 
-
 En esta ocasión, exploraremos las opciones que nos brinda R para el análisis sociodemográfico en el entorno de ciencia de datos, además de los diferentes paquetes de trabajo en R, especialmente aplicados a la Encuesta Permanente de Hogares (EPH) del Instituto Nacional de Estadística y Censos (INDEC) de Argentina.
 
 ![Equipo docente](docentes.jpg)
 
-
-
-### > Página web del taller: [r-unlam.netlify.app](https://r-unlam.netlify.app/)
-
+### \> Página web del taller: [r-unlam.netlify.app](https://r-unlam.netlify.app/)
 
 Este taller está a disposición del público bajo licencias de código abierto. Toda la documentación y los materiales publicados están disponibles bajo una licencia **CC BY-SA-NC**.
 
+<blockquote class="twitter-tweet">
 
-<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Gracias a quienes nos acompañaron en la jornada de R para la demografía social en la <a href="https://twitter.com/UnlamOficial?ref_src=twsrc%5Etfw">@UnlamOficial</a> a cargo de <a href="https://twitter.com/betsy_ar?ref_src=twsrc%5Etfw">@betsy_ar</a> &amp; <a href="https://twitter.com/me_andre?ref_src=twsrc%5Etfw">@me_andre</a>.<br><br>Todo el material se encuentra disponible en <a href="https://t.co/oJVwljMpyT">https://t.co/oJVwljMpyT</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/zBbKN1BsLe">pic.twitter.com/zBbKN1BsLe</a></p>&mdash; R en Buenos Aires (@renbaires) <a href="https://twitter.com/renbaires/status/1851594911528939627?ref_src=twsrc%5Etfw">October 30, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<p lang="es" dir="ltr">
 
+Gracias a quienes nos acompañaron en la jornada de R para la demografía social en la <a href="https://twitter.com/UnlamOficial?ref_src=twsrc%5Etfw">@UnlamOficial</a> a cargo de <a href="https://twitter.com/betsy_ar?ref_src=twsrc%5Etfw">@betsy_ar</a> & <a href="https://twitter.com/me_andre?ref_src=twsrc%5Etfw">@me_andre</a>.<br><br>Todo el material se encuentra disponible en <a href="https://t.co/oJVwljMpyT">https://t.co/oJVwljMpyT</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/zBbKN1BsLe">pic.twitter.com/zBbKN1BsLe</a>
 
+</p>
+
+— R en Buenos Aires (@renbaires) <a href="https://twitter.com/renbaires/status/1851594911528939627?ref_src=twsrc%5Etfw">October 30, 2024</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```

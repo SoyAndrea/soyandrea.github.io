@@ -9,7 +9,7 @@ categories:
   - R
   - Accesibilidad
   - Inclusión
-  - Charla
+  - Charlas
 type: post
 ---
 

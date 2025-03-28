@@ -1,1 +1,8 @@
 /* css styles */
+
+.title-block-header {
+    background-color: #afbcc5; /* Azul oscuro, cambialo al color que quieras */
+    color: black;  /* Cambia el color del texto si es necesario */
+    text-align: center;
+    padding: 20px 0;
+}

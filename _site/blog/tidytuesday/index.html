@@ -2,10 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.4.553">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="author" content="Andrea Gomez Vargas">
-<title>Mis primeros pasos en #tidytuesday – Data by Andre</title>
+<title>Data by Andre - Mis primeros pasos en #tidytuesday</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +31,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -110,7 +110,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </a>
   </div>
             <div id="quarto-search" class="" title="Buscar"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -132,7 +132,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Sobre Mi</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-curriculum" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-curriculum" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Curriculum</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-curriculum">
@@ -160,7 +160,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
 </ul>
 </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+          <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -242,8 +242,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/count.html">count</a></span><span class="op">(</span><span class="va">winners</span>, <span class="va">Nationality</span>, <span class="va">Category</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span>   </span>
 <span>    <span class="fu"><a href="https://rdrr.io/pkg/plotly/man/plot_ly.html">plot_ly</a></span><span class="op">(</span>x<span class="op">=</span><span class="op">~</span><span class="va">Nationality</span>, y<span class="op">=</span><span class="op">~</span><span class="va">n</span>,  type <span class="op">=</span> <span class="st">'bar'</span><span class="op">)</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div class="plotly html-widget html-fill-item" id="htmlwidget-c96bfbbfa2a91dda0e0b" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-c96bfbbfa2a91dda0e0b">{"x":{"visdat":{"455c491942a6":["function () ","plotlyVisDat"]},"cur_data":"455c491942a6","attrs":{"455c491942a6":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"xaxis":{"domain":[0,1],"automargin":true,"title":"Nationality","type":"category","categoryorder":"array","categoryarray":["Australia","Belgium","Canada","China","Denmark","Ethiopia","France","Germany","Ireland","Italy","Japan","Kenya","Mexico","Morocco","Netherlands","Norway","Poland","Portugal","Soviet Union","Spain","Sweden","Switzerland","United Kingdom","United States"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"n"},"hovermode":"closest","showlegend":false},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":["Australia","Australia","Belgium","Canada","China","Denmark","Denmark","Ethiopia","Ethiopia","France","Germany","Ireland","Ireland","Ireland","Italy","Japan","Japan","Kenya","Kenya","Mexico","Mexico","Morocco","Netherlands","Norway","Norway","Poland","Portugal","Portugal","Soviet Union","Spain","Sweden","Sweden","Switzerland","Switzerland","United Kingdom","United Kingdom","United Kingdom","United Kingdom","United States","United States","United States","United States"],"y":[2,1,1,4,1,1,2,5,4,3,5,2,3,1,4,2,1,16,14,3,2,2,1,1,6,2,3,1,1,1,1,2,6,4,6,16,15,7,2,2,6,1],"type":"bar","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div class="plotly html-widget html-fill-item" id="htmlwidget-6318bb2066bb18472e0f" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-6318bb2066bb18472e0f">{"x":{"visdat":{"2f644f5b2b5f":["function () ","plotlyVisDat"]},"cur_data":"2f644f5b2b5f","attrs":{"2f644f5b2b5f":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"xaxis":{"domain":[0,1],"automargin":true,"title":"Nationality","type":"category","categoryorder":"array","categoryarray":["Australia","Belgium","Canada","China","Denmark","Ethiopia","France","Germany","Ireland","Italy","Japan","Kenya","Mexico","Morocco","Netherlands","Norway","Poland","Portugal","Soviet Union","Spain","Sweden","Switzerland","United Kingdom","United States"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"n"},"hovermode":"closest","showlegend":false},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":["Australia","Australia","Belgium","Canada","China","Denmark","Denmark","Ethiopia","Ethiopia","France","Germany","Ireland","Ireland","Ireland","Italy","Japan","Japan","Kenya","Kenya","Mexico","Mexico","Morocco","Netherlands","Norway","Norway","Poland","Portugal","Portugal","Soviet Union","Spain","Sweden","Sweden","Switzerland","Switzerland","United Kingdom","United Kingdom","United Kingdom","United Kingdom","United States","United States","United States","United States"],"y":[2,1,1,4,1,1,2,5,4,3,5,2,3,1,4,2,1,16,14,3,2,2,1,1,6,2,3,1,1,1,1,2,6,4,6,16,15,7,2,2,6,1],"type":"bar","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <ul>
@@ -266,8 +266,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span>                           tickangle <span class="op">=</span> <span class="op">-</span><span class="fl">45</span><span class="op">)</span>,</span>
 <span>              barmode <span class="op">=</span> <span class="st">"stack"</span>,bargap <span class="op">=</span> <span class="fl">2</span>, plot_bgcolor<span class="op">=</span><span class="st">'white'</span><span class="op">)</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div class="plotly html-widget html-fill-item" id="htmlwidget-da6186b901a2743aa20b" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-da6186b901a2743aa20b">{"x":{"visdat":{"455c6fef2aaf":["function () ","plotlyVisDat"]},"cur_data":"455c6fef2aaf","attrs":{"455c6fef2aaf":{"x":{},"y":{},"color":{},"colors":["#f18701","#f7b801","#7678ed","#3d348b"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Winners of London marathon by Nationality in each category from 1981 - 2022","yaxis":{"domain":[0,1],"automargin":true,"title":"Number of winners","range":[0,45]},"xaxis":{"domain":[0,1],"automargin":true,"title":"Nationality","categoryorder":"total descending","tickangle":-45,"type":"category","categoryarray":["Australia","Belgium","Canada","China","Denmark","Ethiopia","France","Germany","Ireland","Italy","Japan","Kenya","Mexico","Morocco","Netherlands","Norway","Poland","Portugal","Soviet Union","Spain","Sweden","Switzerland","United Kingdom","United States"]},"barmode":"stack","bargap":2,"plot_bgcolor":"white","hovermode":"closest","showlegend":true},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":["Denmark","Ethiopia","Japan","Kenya","Mexico","Morocco","Norway","Portugal","Soviet Union","Spain","United Kingdom","United States"],"y":[1,5,2,16,3,2,1,3,1,1,6,2],"type":"bar","name":"Men","marker":{"color":"rgba(241,135,1,1)","line":{"color":"rgba(241,135,1,1)"}},"textfont":{"color":"rgba(241,135,1,1)"},"error_y":{"color":"rgba(241,135,1,1)"},"error_x":{"color":"rgba(241,135,1,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Australia","Belgium","Canada","France","Ireland","Mexico","Sweden","Switzerland","United Kingdom","United States"],"y":[2,1,4,3,2,2,1,6,16,2],"type":"bar","name":"Wheelchair Men","marker":{"color":"rgba(247,184,1,1)","line":{"color":"rgba(247,184,1,1)"}},"textfont":{"color":"rgba(247,184,1,1)"},"error_y":{"color":"rgba(247,184,1,1)"},"error_x":{"color":"rgba(247,184,1,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Australia","Denmark","Ireland","Italy","Japan","Netherlands","Sweden","Switzerland","United Kingdom","United States"],"y":[1,2,3,4,1,1,2,4,15,6],"type":"bar","name":"Wheelchair Women","marker":{"color":"rgba(118,120,237,1)","line":{"color":"rgba(118,120,237,1)"}},"textfont":{"color":"rgba(118,120,237,1)"},"error_y":{"color":"rgba(118,120,237,1)"},"error_x":{"color":"rgba(118,120,237,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["China","Ethiopia","Germany","Ireland","Kenya","Norway","Poland","Portugal","United Kingdom","United States"],"y":[1,4,5,1,14,6,2,1,7,1],"type":"bar","name":"Women","marker":{"color":"rgba(61,52,139,1)","line":{"color":"rgba(61,52,139,1)"}},"textfont":{"color":"rgba(61,52,139,1)"},"error_y":{"color":"rgba(61,52,139,1)"},"error_x":{"color":"rgba(61,52,139,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div class="plotly html-widget html-fill-item" id="htmlwidget-273caa675f247d3991e7" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-273caa675f247d3991e7">{"x":{"visdat":{"2f645d13302d":["function () ","plotlyVisDat"]},"cur_data":"2f645d13302d","attrs":{"2f645d13302d":{"x":{},"y":{},"color":{},"colors":["#f18701","#f7b801","#7678ed","#3d348b"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Winners of London marathon by Nationality in each category from 1981 - 2022","yaxis":{"domain":[0,1],"automargin":true,"title":"Number of winners","range":[0,45]},"xaxis":{"domain":[0,1],"automargin":true,"title":"Nationality","categoryorder":"total descending","tickangle":-45,"type":"category","categoryarray":["Australia","Belgium","Canada","China","Denmark","Ethiopia","France","Germany","Ireland","Italy","Japan","Kenya","Mexico","Morocco","Netherlands","Norway","Poland","Portugal","Soviet Union","Spain","Sweden","Switzerland","United Kingdom","United States"]},"barmode":"stack","bargap":2,"plot_bgcolor":"white","hovermode":"closest","showlegend":true},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":["Denmark","Ethiopia","Japan","Kenya","Mexico","Morocco","Norway","Portugal","Soviet Union","Spain","United Kingdom","United States"],"y":[1,5,2,16,3,2,1,3,1,1,6,2],"type":"bar","name":"Men","marker":{"color":"rgba(241,135,1,1)","line":{"color":"rgba(241,135,1,1)"}},"textfont":{"color":"rgba(241,135,1,1)"},"error_y":{"color":"rgba(241,135,1,1)"},"error_x":{"color":"rgba(241,135,1,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Australia","Belgium","Canada","France","Ireland","Mexico","Sweden","Switzerland","United Kingdom","United States"],"y":[2,1,4,3,2,2,1,6,16,2],"type":"bar","name":"Wheelchair Men","marker":{"color":"rgba(247,184,1,1)","line":{"color":"rgba(247,184,1,1)"}},"textfont":{"color":"rgba(247,184,1,1)"},"error_y":{"color":"rgba(247,184,1,1)"},"error_x":{"color":"rgba(247,184,1,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Australia","Denmark","Ireland","Italy","Japan","Netherlands","Sweden","Switzerland","United Kingdom","United States"],"y":[1,2,3,4,1,1,2,4,15,6],"type":"bar","name":"Wheelchair Women","marker":{"color":"rgba(118,120,237,1)","line":{"color":"rgba(118,120,237,1)"}},"textfont":{"color":"rgba(118,120,237,1)"},"error_y":{"color":"rgba(118,120,237,1)"},"error_x":{"color":"rgba(118,120,237,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["China","Ethiopia","Germany","Ireland","Kenya","Norway","Poland","Portugal","United Kingdom","United States"],"y":[1,4,5,1,14,6,2,1,7,1],"type":"bar","name":"Women","marker":{"color":"rgba(61,52,139,1)","line":{"color":"rgba(61,52,139,1)"}},"textfont":{"color":"rgba(61,52,139,1)"},"error_y":{"color":"rgba(61,52,139,1)"},"error_x":{"color":"rgba(61,52,139,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section><section id="ggplot2" class="level3"><h3 class="anchored" data-anchor-id="ggplot2"><code>{ggplot2}</code></h3>
@@ -342,7 +342,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const onCopySuccess = function(e) {
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -374,29 +385,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
   });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -404,7 +393,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

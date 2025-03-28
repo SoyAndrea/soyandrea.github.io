@@ -21,7 +21,7 @@ format:
 
 ### Hi there, I'm Andre 👋
 
-Soy licenciada en Sociología y maestranda en Generación y Análisis de Información Estadística. Actualmente, me desempeño como Analista de Estadísticas Poblacionales en el Instituto Nacional de Estadística y Censos - [INDEC Argentina](https://www.indec.gob.ar/) y como docente universitaria en ciencia de datos.
+Soy licenciada en Sociología y actualmente me desempeño como Analista de Estadísticas Poblacionales en el sector público.
 
 Soy organizadora de [R en Buenos Aires](https://renbaires.github.io/), integrante del [equipo global de R-Ladies](https://rladies.org/about-us/global-team/), y formo parte de la [cohorte de campeones del programa de rOpenSci](https://ropensci.org/blog/2024/02/15/champions-program-champions-2024/#andrea-gomez-vargas) 2023 - 2024.
 

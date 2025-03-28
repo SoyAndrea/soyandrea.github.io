@@ -1,0 +1,11 @@
+---
+title: "Community call - programa de rOpenSci"
+author: "Andrea Gómez Vargas"
+date: 2025-03-12
+slug: arcenso-community-call
+description: "Charla presentación paquete {arcenso} en R-Ladies & R en Buenos Aires"
+categories: [R, paquete, rOpenSci, censo, arcenso, Charla]
+type: post
+---
+
+# Fomentando la Ciencia Abierta en América Latina - Programa de rOpenSci 

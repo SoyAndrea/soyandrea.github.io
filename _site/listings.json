@@ -2,6 +2,7 @@
   {
     "listing": "/talleres.html",
     "items": [
+      "/talleres/tableropm-latinr2024/index.html",
       "/talleres/eph-unlam/index.html",
       "/talleres/LatinR2023/index.html",
       "/talleres/EPHrladies/index.html",
@@ -18,15 +19,10 @@
     ]
   },
   {
-    "listing": "/comunidad.html",
+    "listing": "/arcenso.html",
     "items": [
-      "/comunidad/champions-ropensci/index.html",
-      "/comunidad/positconf-scholarship-2024/index.html",
-      "/comunidad/femITconf2022/index.html",
-      "/comunidad/DegenerandoCP/index.html",
-      "/comunidad/we-are-R-ladies/index.html",
-      "/comunidad/rladiesBuenosAires/index.html",
-      "/comunidad/accesibilidad-inclusion/index.html"
+      "/arcenso/arcenso-renba/index.html",
+      "/arcenso/arcenso-latinr2024/index.html"
     ]
   },
   {
@@ -46,10 +42,15 @@
     ]
   },
   {
-    "listing": "/arcenso.html",
+    "listing": "/comunidad.html",
     "items": [
-      "/arcenso/arcenso-renba/index.html",
-      "/arcenso/arcenso-latinr2024/index.html"
+      "/comunidad/champions-ropensci/index.html",
+      "/comunidad/positconf-scholarship-2024/index.html",
+      "/comunidad/femITconf2022/index.html",
+      "/comunidad/DegenerandoCP/index.html",
+      "/comunidad/we-are-R-ladies/index.html",
+      "/comunidad/rladiesBuenosAires/index.html",
+      "/comunidad/accesibilidad-inclusion/index.html"
     ]
   }
 ]

@@ -4,7 +4,7 @@ listing:
   contents: arcenso
   sort: "date desc"
   type: default
-  image-align: right
+  image-align: left
   max-description-length: 175
   date-format: medium
   categories: true
@@ -13,3 +13,19 @@ listing:
 page-layout: full
 title-block-banner: false
 ---
+
+::: columns
+::: {.column width="30%"}
+![hex arcenso](arcensohex.png)
+:::
+
+::: {.column width="70%"}
+**arcenso** es un paquete en desarrollo que facilitará el acceso a los datos oficiales de los censos nacionales de población en Argentina.
+
+Este proyecto fue apoyado por el Programa de Campeones de rOpenSci 2023-2024, con Andrea Gómez Vargas & Emanuel Ciardullo como autores.
+
+-   [arcenso website](https://soyandrea.github.io/arcenso/)
+
+📢 **En esta sección encontrarás todas las noticias, eventos y participaciones relacionadas con arcenso.**
+:::
+:::

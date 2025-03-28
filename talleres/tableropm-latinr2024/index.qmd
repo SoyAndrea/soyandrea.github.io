@@ -1,0 +1,43 @@
+---
+title: "LatinR 2024: Shinydashboard personas mayores"
+author: "Equipo DES"
+date: 2024-11-20
+slug: Shinydashboard-latinr-2024
+description: Presentación tablero estadístico personas mayores 
+categories: [R, LatinR, shiny, charla]
+type: post
+---
+
+# Tablero estadístico en Shinydashboard de personas mayores en Argentina  📊 🇦🇷
+
+## Charla LatinR 2024
+### Panel: Automatización de procesos, gestión de datos y reportes
+
+![](portada.png)
+
+En esta presentación compartiremos el tablero estadístico elaborado por la Dirección de Estadísticas Sectoriales del INDEC de Argentina sobre la población de personas mayores y su proceso de migración de productos estadísticos en formato estándar (PDF) a herramientas interactivas de visualización de datos(Shiny, Plotly, Leaflet, entre otros), y los diferentes paquetes que brinda R en la búsqueda de innovación en la presentación de estadísticas oficiales. 
+
+### Autores
+
+- [Juan Manuel Damiani](https://www.linkedin.com/in/jmdamiani5/)
+
+- [Barbara Estévez Leston](https://www.linkedin.com/in/b%C3%A1rbara-est%C3%A9vez-leston-74ba224a/)
+
+- [Andrea Gomez Vargas]()
+
+- Leandro Olivo
+
+### Presentación
+
+{{< video https://youtu.be/Ofy3PPZXh0M?si=ydCrRBQlKEmya8Xo >}}
+
+### Slides
+
+```{r echo=FALSE}
+knitr::include_url("https://soyandrea.github.io/tableropm-latinr2024/",height = 400)
+```
+
+### Links de referencia 
+- Tablero:  [https://shiny.indec.gob.ar/tablero_pm/](https://shiny.indec.gob.ar/tablero_pm/)
+
+- Publicaciones: [https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-21-130](https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-21-130)
