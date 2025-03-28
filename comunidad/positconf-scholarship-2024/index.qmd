@@ -157,7 +157,7 @@ Finalmente, pude vivir el momento más R-Ladies de la conferencia: todas juntas,
 
 Si estás dudando en postularte a la Oportunity Scholarship, te digo: ¡hazlo! No subestimes tu trabajo, ni tu potencial. Esta beca no solo te lleva a una conferencia; te conecta con una comunidad que te impulsa a crecer.
 
-> Gracias a Posit por esta oportunidad. Y gracias a la comunidad R por demostrar, una vez más, que crecer es mejor cuando lo hacemos colectivamente.
+Gracias a Posit por esta oportunidad. Y gracias a la comunidad R por demostrar, una vez más, que crecer es mejor cuando lo hacemos colectivamente.
 
 
 :::
