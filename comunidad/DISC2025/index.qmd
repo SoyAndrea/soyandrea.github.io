@@ -7,16 +7,13 @@ categories: [conferencia,DISC, Scholarship]
 type: post
 ---
 
+## The NumFOCUS Diversity & Inclusion in Scientific Computing (“DISC”) Unconf
 
-## The NumFOCUS Diversity & Inclusion in Scientific Computing (“DISC”) Unconf 
-
-![fotografía grupal asistentes, derechos: IBM ](2025-03-15 - DISC Unconference 2025 @ IBM (30 of 31).jpg)
-
+![fotografía grupal asistentes, derechos: IBM](2025-03-15%20-%20DISC%20Unconference%202025%20@%20IBM%20(30%20of%2031).jpg)
 
 El objetivo de la conferencia es reunir a líderes de todo el mundo que trabajen en Diversidad, Equidad e Inclusión en sus espacios de trabajo, comunidades y otros ámbitos. Juntos, crearán materiales de vanguardia sobre DEI en código abierto.
 
 Los participantes son seleccionados entre proyectos afiliados y patrocinadores de NumFOCUS, la comunidad PyData y, lo que es más importante, comunidades de programación y código abierto fuera del ecosistema de NumFOCUS.
-
 
 ## Hola Brasil, Hola EDIA
 
@@ -24,12 +21,8 @@ Los participantes son seleccionados entre proyectos afiliados y patrocinadores d
 
 Me sumé a este proyecto para abordar cómo la incertidumbre geopolítica está relegando las iniciativas de EDIA (Equidad, Diversidad, Inclusión y Accesibilidad). La falta de diversidad en el liderazgo, la ausencia de mecanismos de rendición de cuentas y la resistencia al cambio limitan el debate abierto y dificultan la defensa de estos esfuerzos en distintos ámbitos. En nuestras discusiones, analizamos el contexto actual a nivel internacional y local, y propusimos la creación de un documento que recopile iniciativas de diversas organizaciones para seguir impulsando la EDIA de manera estructurada. Próximamente, este material tomará forma para fortalecer el compromiso con estos valores.
 
-
-[Equipo de trabajo en EDIA](team.png)
+![Equipo de trabajo en EDIA](team.png)
 
 > Repositorio de los proyectos <https://github.com/numfocus/disc-unconference-2025-projects>
 
-
-## [rOpenSci Participation at NumFOCUS’ DISC Unconf](https://ropensci.org/blog/2025/03/24/numfocus-unconf/) 
-
-
+## [rOpenSci Participation at NumFOCUS’ DISC Unconf](https://ropensci.org/blog/2025/03/24/numfocus-unconf/)

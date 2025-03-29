@@ -16,14 +16,10 @@ Así fue como decidí postularme para desarrollar el paquete de datos censales o
 
 > [Introducing rOpenSci Champions - Cohort 2023-2024](https://ropensci.org/blog/2024/02/15/champions-program-champions-2024/)
 
-La cohorte duró un año y me brindó la oportunidad de conocer personas apasionadas por R en todo el mundo, sumando ideas valiosas a mi proyecto. Al final del proceso, se creó [_**arcenso:  Data from Argentina’s Population Census**_](https://soyandrea.github.io/arcenso/index.html). Además, me permitió asistir a conferencias y talleres, algo que no imaginaba que sucedería, pero que me demostró que una idea puede tener un gran impacto tanto a nivel local como internacional.
+La cohorte duró un año y me brindó la oportunidad de conocer personas apasionadas por R en todo el mundo, sumando ideas valiosas a mi proyecto. Al final del proceso, se creó [***arcenso: Data from Argentina’s Population Census***](https://soyandrea.github.io/arcenso/index.html). Además, me permitió asistir a conferencias y talleres, algo que no imaginaba que sucedería, pero que me demostró que una idea puede tener un gran impacto tanto a nivel local como internacional.
 
+### Todas las actividades sobre el paquete se encuentran en esta sección: [conoce arcenso](https://soyandrea.github.io/conoce-arcenso)
 
-## > Todas las actividades sobre el paquete se encuentran en esta sección: [conoce arcenso](https://soyandrea.github.io/conoce-arcenso)
+Esta es la foto de la última reunión como cohorte :) 
 
-
-![](ropensci (1).png)
-
-
-
-
+![](ropensci%20(1).png)
