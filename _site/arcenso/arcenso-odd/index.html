@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.57">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<meta name="author" content="Equipo DES">
-<meta name="description" content="Presentación tablero estadístico personas mayores">
-<title>LatinR 2024: Shinydashboard personas mayores – Data by Andre</title>
+
+<meta name="author" content="Andrea Gómez Vargas">
+<meta name="description" content="#OpenDataDay 2025 - charla debate">
+
+<title>The Turing Way Fireside Chat – Data by Andre</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +23,7 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 </style>
+
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
@@ -36,7 +40,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -62,12 +67,18 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Enviar",
     "search-label": "Buscar"
   }
-}</script><link rel="stylesheet" href="../../styles.css">
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
 </head>
+
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Data by Andre</span>
@@ -79,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-<li class="nav-item compact">
+  <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/SoyAndrea/"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
 <span class="menu-text"></span></a>
@@ -90,8 +101,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
 </ul>
-<ul class="navbar-nav navbar-nav-scroll ms-auto">
-<li class="nav-item">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
     <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Sobre Mi</span></a>
   </li>  
@@ -99,13 +110,13 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-curriculum" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Curriculum</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-curriculum">
-<li>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-curriculum">    
+        <li>
     <a class="dropdown-item" href="../../cv_ES.html">
  <span class="dropdown-text">Andrea Gomez Vargas - CV</span></a>
   </li>  
     </ul>
-</li>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../arcenso.html"> 
 <span class="menu-text">arcenso</span></a>
@@ -123,48 +134,45 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Comunidad</span></a>
   </li>  
 </ul>
-</div> <!-- /navcollapse -->
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">En esta página</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
    
   <ul>
-<li>
-<a href="#tablero-estad%C3%ADstico-en-shinydashboard-de-personas-mayores-en-argentina" id="toc-tablero-estadístico-en-shinydashboard-de-personas-mayores-en-argentina" class="nav-link active" data-scroll-target="#tablero-estad%C3%ADstico-en-shinydashboard-de-personas-mayores-en-argentina">Tablero estadístico en Shinydashboard de personas mayores en Argentina 📊 🇦🇷</a>
+  <li><a href="#nurturing-open-science-in-challenging-economic-and-political-times" id="toc-nurturing-open-science-in-challenging-economic-and-political-times" class="nav-link active" data-scroll-target="#nurturing-open-science-in-challenging-economic-and-political-times">Nurturing Open Science in Challenging Economic and Political times</a>
   <ul class="collapse">
-<li>
-<a href="#charla-latinr-2024" id="toc-charla-latinr-2024" class="nav-link" data-scroll-target="#charla-latinr-2024">Charla LatinR 2024</a>
-  <ul class="collapse">
-<li><a href="#panel-automatizaci%C3%B3n-de-procesos-gesti%C3%B3n-de-datos-y-reportes" id="toc-panel-automatización-de-procesos-gestión-de-datos-y-reportes" class="nav-link" data-scroll-target="#panel-automatizaci%C3%B3n-de-procesos-gesti%C3%B3n-de-datos-y-reportes">Panel: Automatización de procesos, gestión de datos y reportes</a></li>
-  <li><a href="#autores" id="toc-autores" class="nav-link" data-scroll-target="#autores">Autores</a></li>
-  <li><a href="#presentaci%C3%B3n" id="toc-presentación" class="nav-link" data-scroll-target="#presentaci%C3%B3n">Presentación</a></li>
-  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
-  <li><a href="#links-de-referencia" id="toc-links-de-referencia" class="nav-link" data-scroll-target="#links-de-referencia">Links de referencia</a></li>
+  <li><a href="#fireside-chat-en-youtube" id="toc-fireside-chat-en-youtube" class="nav-link" data-scroll-target="#fireside-chat-en-youtube">Fireside Chat en Youtube</a></li>
+  </ul></li>
   </ul>
-</li>
-  </ul>
-</li>
-  </ul></nav>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
-<h1 class="title">LatinR 2024: Shinydashboard personas mayores</h1>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The Turing Way Fireside Chat</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">R</div>
-    <div class="quarto-category">LatinR</div>
-    <div class="quarto-category">shiny</div>
-    <div class="quarto-category">charla</div>
+    <div class="quarto-category">Data</div>
+    <div class="quarto-category">arcenso</div>
+    <div class="quarto-category">Charla</div>
+    <div class="quarto-category">Open Science</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Presentación tablero estadístico personas mayores
+    #OpenDataDay 2025 - charla debate
   </div>
 </div>
 
@@ -174,14 +182,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Autor/a</div>
     <div class="quarto-title-meta-contents">
-             <p>Equipo DES </p>
+             <p>Andrea Gómez Vargas </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Fecha de publicación</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">20 de noviembre de 2024</p>
+      <p class="date">6 de marzo de 2025</p>
     </div>
   </div>
   
@@ -190,32 +198,33 @@ ul.task-list li input[type="checkbox"] {
   
 
 
-</header><section id="tablero-estadístico-en-shinydashboard-de-personas-mayores-en-argentina" class="level1"><h1>Tablero estadístico en Shinydashboard de personas mayores en Argentina 📊 🇦🇷</h1>
-<section id="charla-latinr-2024" class="level2"><h2 class="anchored" data-anchor-id="charla-latinr-2024">Charla LatinR 2024</h2>
-<section id="panel-automatización-de-procesos-gestión-de-datos-y-reportes" class="level3"><h3 class="anchored" data-anchor-id="panel-automatización-de-procesos-gestión-de-datos-y-reportes">Panel: Automatización de procesos, gestión de datos y reportes</h3>
-<p><img src="portada.png" class="img-fluid"></p>
-<p>En esta presentación compartiremos el tablero estadístico elaborado por la Dirección de Estadísticas Sectoriales del INDEC de Argentina sobre la población de personas mayores y su proceso de migración de productos estadísticos en formato estándar (PDF) a herramientas interactivas de visualización de datos(Shiny, Plotly, Leaflet, entre otros), y los diferentes paquetes que brinda R en la búsqueda de innovación en la presentación de estadísticas oficiales.</p>
-</section><section id="autores" class="level3"><h3 class="anchored" data-anchor-id="autores">Autores</h3>
-<ul>
-<li><p><a href="https://www.linkedin.com/in/jmdamiani5/">Juan Manuel Damiani</a></p></li>
-<li><p><a href="https://www.linkedin.com/in/b%C3%A1rbara-est%C3%A9vez-leston-74ba224a/">Barbara Estévez Leston</a></p></li>
-<li><p><a href="">Andrea Gomez Vargas</a></p></li>
-<li><p>Leandro Olivo</p></li>
-</ul></section><section id="presentación" class="level3"><h3 class="anchored" data-anchor-id="presentación">Presentación</h3>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/Ofy3PPZXh0M?si=ydCrRBQlKEmya8Xo" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</section><section id="slides" class="level3"><h3 class="anchored" data-anchor-id="slides">Slides</h3>
-<div class="cell">
-<iframe src="https://soyandrea.github.io/tableropm-latinr2024/" width="672" height="400" data-external="1">
-</iframe>
+</header>
+
+
+<section id="nurturing-open-science-in-challenging-economic-and-political-times" class="level1">
+<h1>Nurturing Open Science in Challenging Economic and Political times</h1>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p>La serie Turing Way Fireside Chat presenta a expertos, campeones y sus proyectos de diferentes comunidades internacionales en reproducibilidad, investigación abierta, ética, colaboración y todo lo demás. En esta ocasión co-organizado como parte del #OpenDataDay con Open Knowledge Foundation y moderada por Esther Plomp (Universidad de Aruba, Aruba), este panel contó con las opiniones de Andrea Gómez (ARcenso, Argentina), Anelda van der Walt (Talarify, Sudáfrica), Pen-Yuan Hsing (MammelWeb, Reino Unido) y Shern Tee (The Turing Way/LAMMPS, Australia).</p>
+</div><div class="column" style="width:40%;">
+<p><br> <br></p>
+<p><img src="flyer.png" class="img-fluid"></p>
 </div>
-</section><section id="links-de-referencia" class="level3"><h3 class="anchored" data-anchor-id="links-de-referencia">Links de referencia</h3>
-<ul>
-<li><p>Tablero: <a href="https://shiny.indec.gob.ar/tablero_pm/">https://shiny.indec.gob.ar/tablero_pm/</a></p></li>
-<li><p>Publicaciones: <a href="https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-21-130">https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-21-130</a></p></li>
-</ul>
+</div>
+<p>En esta discusión, el panel de expertos abordó cómo el actual panorama político y económico ha influido en las prácticas de investigación y academia, impactando a sus comunidades y roles, y destacando las acciones que están tomando para mantenerse resilientes. Se trataron los riesgos y desafíos derivados de la limitada financiación disponible para las comunidades de Ciencia Abierta, así como otros contextos en el sur global. En este espacio, <strong>se presentó el paquete arcenso y su utilidad en los tiempos que vivimos, resaltando sus potencialidades como herramienta para la comunidad.</strong></p>
+<blockquote class="blockquote">
+<p>Quiero agradecer a Liz Hare, compañera de cohorte en el programa de Champions, por postularme para participar en el debate y por recordarme la importancia de mi proyecto. Es un honor poder compartir mi trabajo y aprender de tantas experiencias enriquecedoras</p>
+</blockquote>
+<section id="fireside-chat-en-youtube" class="level3">
+<h3 class="anchored" data-anchor-id="fireside-chat-en-youtube">Fireside Chat en Youtube</h3>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/p2Odyp9VIPA?si=1GWwscOaOuAvJx1V" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 
 
-</section></section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -636,6 +645,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

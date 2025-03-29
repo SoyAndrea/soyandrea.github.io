@@ -23,7 +23,7 @@ type: post
 
 Presentamos el paquete `arcenso` a la comunidad de usuarios de la ciudad de Buenos Aires, Desde la idea hasta las primeras funciones disponibles, y del acompañamiento en comunidad como parte del programa de campeones y campeonas del software de rOpenSci.
 
-::: columns
+:::::: columns
 ::: {.column width="45%"}
 <blockquote class="twitter-tweet">
 
@@ -62,7 +62,7 @@ La evolución de los logos del Censo 🇦🇷 <a href="https://t.co/gjM4e0RS8s">
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ```
 :::
-:::
+::::::
 
 ### Slides
 

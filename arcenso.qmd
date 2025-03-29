@@ -4,17 +4,17 @@ listing:
   contents: arcenso
   sort: "date desc"
   type: default
-  image-align: left
+  image-align: right
   max-description-length: 175
   date-format: medium
-  categories: true
+  categories: cloud 
   sort-ui: false
   filter-ui: false
 page-layout: full
 title-block-banner: false
 ---
 
-::: columns
+::::: columns
 ::: {.column width="30%"}
 ![hex arcenso](arcensohex.png)
 :::
@@ -28,4 +28,4 @@ Este proyecto fue apoyado por el Programa de Campeones de rOpenSci 2023-2024, co
 
 📢 **En esta sección encontrarás todas las noticias, eventos y participaciones relacionadas con arcenso.**
 :::
-:::
+:::::

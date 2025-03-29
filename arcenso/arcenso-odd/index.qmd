@@ -1,0 +1,43 @@
+---
+title: "The Turing Way Fireside Chat"
+author: "Andrea Gómez Vargas"
+date: 2025-03-06
+slug: arcenso-odd2025
+description: "#OpenDataDay 2025 - charla debate"
+categories: [Data, arcenso, Charla, Open Science]
+type: post
+---
+
+
+# Nurturing Open Science in Challenging Economic and Political times
+
+
+::: {.columns}
+::: {.column width="60%"}
+
+La serie Turing Way Fireside Chat presenta a expertos, campeones y sus proyectos de diferentes comunidades internacionales en reproducibilidad, investigación abierta, ética, colaboración y todo lo demás. En esta ocasión co-organizado como parte del #OpenDataDay con Open Knowledge Foundation y moderada por Esther Plomp (Universidad de Aruba, Aruba), este panel contó con las opiniones de Andrea Gómez (ARcenso, Argentina), Anelda van der Walt (Talarify, Sudáfrica), Pen-Yuan Hsing (MammelWeb, Reino Unido) y Shern Tee (The Turing Way/LAMMPS, Australia).
+
+
+:::
+::: {.column width="40%"}
+
+<br>
+<br>
+
+![](flyer.png)
+
+:::
+:::
+
+
+
+En esta discusión, el panel de expertos abordó cómo el actual panorama político y económico ha influido en las prácticas de investigación y academia, impactando a sus comunidades y roles, y destacando las acciones que están tomando para mantenerse resilientes. Se trataron los riesgos y desafíos derivados de la limitada financiación disponible para las comunidades de Ciencia Abierta, así como otros contextos en el sur global. En este espacio, **se presentó el paquete arcenso y su utilidad en los tiempos que vivimos, resaltando sus potencialidades como herramienta para la comunidad.**
+
+
+> Quiero agradecer a Liz Hare, compañera de cohorte en el programa de Champions, por postularme para participar en el debate y por recordarme la importancia de mi proyecto. Es un honor poder compartir mi trabajo y aprender de tantas experiencias enriquecedoras
+
+
+
+### Fireside Chat en Youtube
+
+{{< video https://youtu.be/p2Odyp9VIPA?si=1GWwscOaOuAvJx1V >}}

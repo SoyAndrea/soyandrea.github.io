@@ -1,11 +1,12 @@
 ---
 title: "Andrea Gomez Vargas - CV"
+title-block-banner: true
 ---
 
 **Licenciada en Sociología & Maestranda en Generación y Análisis de Información Estadística**.
 
-- [Descargar CV en PDF](documentos/gomezvargas_cv.pdf)
-- [Download CV in PDF](documentos/gomezvargas_cv_EN.html)
+-   [Descargar CV en PDF](documentos/gomezvargas_cv.pdf)
+-   [Download CV in PDF](documentos/gomezvargas_cv_EN.html)
 
 ## Experiencia profesional
 
