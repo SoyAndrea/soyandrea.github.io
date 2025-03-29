@@ -7,9 +7,10 @@ listing:
   image-align: left
   max-description-length: 175
   date-format: medium
-  categories: true
+  categories: cloud
   sort-ui: false
   filter-ui: false
 page-layout: full
-title-block-banner: true
+title-block-banner: "#c9d2d8"
+title-block-banner-color: "#000000"
 ---

@@ -1,14 +1,29 @@
 ---
-title: "Champions rOpenSci"
+title: "rOpenSci: Champions Program ⭐⭐⭐ "
 author: "Andrea Gómez Vargas"
-date: 2025-01-27
+date: 2024-03-01
 slug: champions-ropensci
-description: "Proceso en el programa de campeones"
-categories: [R, Paquete, rOpenSci, censo, arcenso, Champions]
+description: "Mi Proceso en el programa de campeones cohorte  2023-2024"
+categories: [R, rOpenSci, censo, Champions]
 type: post
 ---
 
 # Champions rOpenSci
 
-Escribe aquí el contenido de tu publicación.
+Llegó el segundo llamado para el programa de campeones y campeonas de rOpenSci a mediados de 2023, y sentí que era el momento de postularme para llevar mis conocimientos de R al siguiente nivel. Quería abordar de manera profesional los temas con los que más trabajo y me interesan: la información censal.
+
+Así fue como decidí postularme para desarrollar el paquete de datos censales oficiales de Argentina. Confiada en aprender de los mejores, me comprometí con el programa al saber que había quedado seleccionada entre 10 personas de un total de 98 postulantes a nivel mundial.
+
+> [Introducing rOpenSci Champions - Cohort 2023-2024](https://ropensci.org/blog/2024/02/15/champions-program-champions-2024/)
+
+La cohorte duró un año y me brindó la oportunidad de conocer personas apasionadas por R en todo el mundo, sumando ideas valiosas a mi proyecto. Al final del proceso, se creó [_**arcenso:  Data from Argentina’s Population Census**_](https://soyandrea.github.io/arcenso/index.html). Además, me permitió asistir a conferencias y talleres, algo que no imaginaba que sucedería, pero que me demostró que una idea puede tener un gran impacto tanto a nivel local como internacional.
+
+
+## > Todas las actividades sobre el paquete se encuentran en esta sección: [conoce arcenso](https://soyandrea.github.io/conoce-arcenso)
+
+
+![](ropensci (1).png)
+
+
+
 

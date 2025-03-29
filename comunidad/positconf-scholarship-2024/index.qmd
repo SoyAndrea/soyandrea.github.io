@@ -4,7 +4,7 @@ author: "Andrea Gómez Vargas"
 date: 2024-08-12
 slug: positconf-scholarship-2024
 description: "Mi experiencia en la posit::conf(2024)"
-categories: [R, positconf, Scholarship]
+categories: [R, positconf, Scholarship, conferencia]
 type: post
 ---
 
@@ -12,102 +12,69 @@ Cuando recibí el correo con la noticia de que había sido seleccionada para la 
 
 ![](oportunity1.png)
 
-
 ### La importancia de la Oportunity Scholarship
 
 Esta beca está dirigida a personas subrepresentadas en la comunidad de R y Posit, y tiene como objetivo facilitar el acceso a la conferencia a quienes, de otro modo, no podrían asistir por barreras económicas, geográficas o de otro tipo. Es mucho más que una ayuda financiera: es **una puerta abierta a un mundo de oportunidades y crecimiento.**
 
 ### La conferencia
 
-:::: {.columns}
-
+::::: columns
 ::: {.column width="60%"}
-
 La disfruté toda, de inicio a fin. Participé en todo lo que pude: un día corrí con los runners, otro disfruté del carnaval, conocí a otros amigos de Latinoamérica y a quienes querían conocer más personas en la conferencia. Pasé por comida italiana, ¡y hasta probé la pizza de la ciudad!
 
 Charlas favoritas: ¡Fueron muchas! En especial las que tenían que ver con Quarto y tablas, pero aquí dejo las que más me gustaron:
 
-- [Allen Downey - A future of data science](https://youtu.be/YKMZIzYBgTk?si=ZKjo2z9tOAjofbHH)
-- [Charlotte Wickham on Quarto](https://youtu.be/s_Vh9HIeLVg?si=zcP8kBXYqiyGv70x&t=1243)
-- [Shannon Pileggi - Context is King](https://youtu.be/eoI9QZdHBMw?si=xTiC2FbQZ7qSpfBl)
-- [Luis D. Verde Arregoitia - Why’d you load that package for?](https://youtu.be/q4vmmlUEoQg?si=0R7K8-eJ2cDFfcs9)
-- [Shannon Pileggi - Balancing Global Infrastructure and Local Autonomy: Lessons from R-Ladies Global](https://youtu.be/Baoa9Yr6TaM?si=CC1x9UldGrPOEyBM)
+-   [Allen Downey - A future of data science](https://youtu.be/YKMZIzYBgTk?si=ZKjo2z9tOAjofbHH)
+-   [Charlotte Wickham on Quarto](https://youtu.be/s_Vh9HIeLVg?si=zcP8kBXYqiyGv70x&t=1243)
+-   [Shannon Pileggi - Context is King](https://youtu.be/eoI9QZdHBMw?si=xTiC2FbQZ7qSpfBl)
+-   [Luis D. Verde Arregoitia - Why’d you load that package for?](https://youtu.be/q4vmmlUEoQg?si=0R7K8-eJ2cDFfcs9)
+-   [Shannon Pileggi - Balancing Global Infrastructure and Local Autonomy: Lessons from R-Ladies Global](https://youtu.be/Baoa9Yr6TaM?si=CC1x9UldGrPOEyBM)
 
 El workshop en el que participé: Mención especial para Mine, y en esta sección cuento lo que hicimos con Quarto Dashboards.
-
 :::
 
 ::: {.column width="35%"}
-
 ![](oportunity5.jpg)
-
 :::
-
-::::
-
+:::::
 
 ### La comunidad
 
-
-:::: {.columns}
-
+:::::: columns
 ::: {.column width="35%"}
-
 ![](oportunity7.jpg)
-
 :::
 
 ::: {.column width="5%"}
-
 :::
-
-
-::: {.column width="60%"}
-
-<br>
-
-  Mi aprendizaje en ciencia de datos comenzó con la comunidad de R en Buenos Aires y se expandió por Latinoamérica hasta R-Ladies Global. No hay nada más enriquecedor que el aprendizaje colaborativo y la horizontalidad. En esta oportunidad, pude conocer a personas de diferentes lugares del mundo que compartían la misma pasión por la ciencia de datos y con quienes llevaba años trabajando en comunidad de manera virtual. Finalmente, pude verlas en persona.
-
->  ¡y, por supuesto, a toda persona que pude, le pedí una foto!
-
-:::
-
-::::
-
-
-
-:::: {.columns}
 
 ::: {.column width="60%"}
 <br>
-<br>
-<br>
-Pude conocer a mis ídolos detrás del mundo Tidyverse, Quarto y gt, así como al equipo de Posit, que hace magia en sus conferencias, incluyendo a Kaia y Rachael. 😊
 
+Mi aprendizaje en ciencia de datos comenzó con la comunidad de R en Buenos Aires y se expandió por Latinoamérica hasta R-Ladies Global. No hay nada más enriquecedor que el aprendizaje colaborativo y la horizontalidad. En esta oportunidad, pude conocer a personas de diferentes lugares del mundo que compartían la misma pasión por la ciencia de datos y con quienes llevaba años trabajando en comunidad de manera virtual. Finalmente, pude verlas en persona.
 
+> ¡y, por supuesto, a toda persona que pude, le pedí una foto!
+:::
+::::::
+
+::::: columns
+::: {.column width="60%"}
+<br> <br> <br> Pude conocer a mis ídolos detrás del mundo Tidyverse, Quarto y gt, así como al equipo de Posit, que hace magia en sus conferencias, incluyendo a Kaia y Rachael. 😊
 :::
 
 ::: {.column width="35%"}
-
 ![posit team collage](oportunity3.jpg)
-
 :::
+:::::
 
-::::
-
-
-
-:::: {.columns}
-
+:::::: columns
 ::: {.column width="60%"}
 ![ropensci team](oportunity4.jpg)
 
 ![rladies and pyladies](oportunity2.jpg)
-
 :::
 
 ::: {.column width="5%"}
-
 :::
 
 ::: {.column width="35%"}
@@ -115,54 +82,35 @@ Pude conocer a mis ídolos detrás del mundo Tidyverse, Quarto y gt, así como a
 
 Tras meses de trabajo en el programa de Campeones de rOpenSci, algunos Scholars logramos encontrarnos en persona en Seattle. De izquierda a derecha: Luis (mi mentor), yo (Andrea), Sunny (Champion) & Francisco (Mentor).
 
-<br>
-<br>
-<br>
-<br>
-Finalmente, pude vivir el momento más R-Ladies de la conferencia: todas juntas, desde distintos lugares del mundo, reunidas para celebrar nuestra comunidad junto a PyLadies (Confieso que ayudé a organizar la foto 😉).
-
-
-
+<br> <br> <br> <br> Finalmente, pude vivir el momento más R-Ladies de la conferencia: todas juntas, desde distintos lugares del mundo, reunidas para celebrar nuestra comunidad junto a PyLadies (Confieso que ayudé a organizar la foto 😉).
 :::
-
-::::
-
-
+::::::
 
 ### Lo que me llevo
 
-- Confianza: creer en mi y en mis habilidades.
+-   Confianza: creer en mi y en mis habilidades.
 
-- Comunidad: la base para compartir conocimientos y apoyo mutuo.
+-   Comunidad: la base para compartir conocimientos y apoyo mutuo.
 
-- Inspiración: Volví llena de ideas y proyectos que quiero implementar y compartir.
-
+-   Inspiración: Volví llena de ideas y proyectos que quiero implementar y compartir.
 
 ### Mi consejo: ¡Postúlate!
-:::: {.columns}
 
+:::::: columns
 ::: {.column width="35%"}
-
 ![](oportunity6.jpg)
-
 :::
 
 ::: {.column width="5%"}
-
 :::
 
 ::: {.column width="60%"}
-<br>
-<br>
+<br> <br>
 
 Si estás dudando en postularte a la Oportunity Scholarship, te digo: ¡hazlo! No subestimes tu trabajo, ni tu potencial. Esta beca no solo te lleva a una conferencia; te conecta con una comunidad que te impulsa a crecer.
 
 Gracias a Posit por esta oportunidad. Y gracias a la comunidad R por demostrar, una vez más, que crecer es mejor cuando lo hacemos colectivamente.
-
-
 :::
+::::::
 
-::::
-
-
-### Bonus track: Tidyverse Dev Day! 
+### Bonus track: [Tidyverse Dev Day!](https://soyandrea.github.io/blog/tidyverse-devday/)

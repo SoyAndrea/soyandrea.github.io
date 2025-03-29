@@ -19,12 +19,18 @@
     ]
   },
   {
-    "listing": "/arcenso.html",
+    "listing": "/comunidad.html",
     "items": [
-      "/arcenso/community call/index.html",
-      "/arcenso/arcenso-odd/index.html",
-      "/arcenso/arcenso-renba/index.html",
-      "/arcenso/arcenso-latinr2024/index.html"
+      "/comunidad/DISC2025/index.html",
+      "/comunidad/R-buenosaires/index.html",
+      "/comunidad/positconf-scholarship-2024/index.html",
+      "/comunidad/champions-ropensci/index.html",
+      "/comunidad/Rladies-global/iindex.html",
+      "/comunidad/femITconf2022/index.html",
+      "/comunidad/DegenerandoCP/index.html",
+      "/comunidad/we-are-R-ladies/index.html",
+      "/comunidad/Rladies-BuenosAires/index.html",
+      "/comunidad/accesibilidad-inclusion/index.html"
     ]
   },
   {
@@ -44,15 +50,12 @@
     ]
   },
   {
-    "listing": "/comunidad.html",
+    "listing": "/conoce-arcenso.html",
     "items": [
-      "/comunidad/champions-ropensci/index.html",
-      "/comunidad/positconf-scholarship-2024/index.html",
-      "/comunidad/femITconf2022/index.html",
-      "/comunidad/DegenerandoCP/index.html",
-      "/comunidad/we-are-R-ladies/index.html",
-      "/comunidad/rladiesBuenosAires/index.html",
-      "/comunidad/accesibilidad-inclusion/index.html"
+      "/conoce-arcenso/community-call/index.html",
+      "/conoce-arcenso/arcenso-odd/index.html",
+      "/conoce-arcenso/arcenso-renba/index.html",
+      "/conoce-arcenso/arcenso-latinr2024/index.html"
     ]
   }
 ]

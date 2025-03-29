@@ -21,7 +21,7 @@ website:
       - text: "Curriculum"
         menu:
           - href: cv_ES.qmd
-      - href: arcenso.qmd
+      - href: conoce-arcenso.qmd
       - href: blog.qmd
       - href: talleres.qmd
       - href: comunidad.qmd 

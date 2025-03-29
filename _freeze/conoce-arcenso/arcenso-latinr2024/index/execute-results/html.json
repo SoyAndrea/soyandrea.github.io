@@ -1,0 +1,15 @@
+{
+  "hash": "ce94672624cb51356e745b2c6d77b9e8",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"LatinR 2024: arcenso con rOpenSci\"\nauthor: \"Andrea Gómez Vargas\"\ndate: 2024-11-20\nslug: arcenso-latinr-2024\ndescription: Presentación paquete {arcenso} con rOpenSci\"\ncategories: [R, LatinR, arcenso, rOpenSci, paquete, Charla]\ntype: post\n---\n\n\n\n# {ARcenso}: primeros pasos desarrollando un paquete en comunidad con rOpenSci 📦\n\n### Panel: Proceso de desarrollo de paquetes\n\nEn esta charla compartimos la experiencia de armar un paquete desde cero acompañados por rOpenSci y toda su comunidad, con las capacitaciones, la mentoría 1:1 y la sesiones de coworking que delimitaron los puntos de partida y estrategias para el armado del proyecto, la toma de decisiones, el armado conceptual, los desafíos y aprendizajes a la hora de construir un paquete, las primeras funciones y la hoja de ruta para incorporar los seis periodos censales.\n\n### Oradores\n\n-   [Andrea Gomez Vargas](https://github.com/SoyAndrea)\n-   [Emanuel Ciardullo](https://github.com/ECiardullo)\n\n### Presentación\n\n\n\n{{< video https://youtu.be/YYfyBrQhMQc?si=rfruwDTsfbjwPa1F >}}\n\n\n\n\n### Slides\n\n\n\n::: {.cell}\n<iframe src=\"https://soyandrea.github.io/arcenso-latinR2024/\" width=\"672\" height=\"400\" data-external=\"1\"></iframe>\n:::\n\n\n\n### Social media\n\n<blockquote class=\"twitter-tweet\">\n\n<p lang=\"es\" dir=\"ltr\">\n\nNo estoy llorando, este bebé salió a la luz en <a href=\"https://twitter.com/LatinR_Conf?ref_src=twsrc%5Etfw\">@LatinR_Conf</a> en su primer versión en github <a href=\"https://t.co/pVF8JB2DFt\">https://t.co/pVF8JB2DFt</a> 💜<a href=\"https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw\">#rstats</a><a href=\"https://twitter.com/hashtag/LatinR2024?src=hash&amp;ref_src=twsrc%5Etfw\">#LatinR2024</a> <a href=\"https://t.co/DyLiUHTFSz\">pic.twitter.com/DyLiUHTFSz</a>\n\n</p>\n\n— andrea (@me_andre) <a href=\"https://twitter.com/me_andre/status/1859244999243657685?ref_src=twsrc%5Etfw\">November 20, 2024</a>\n\n</blockquote>\n\n\n\n```{=html}\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n```\n\n\n\n### Links de interés\n\n-   [web arcenso](https://soyandrea.github.io/arcenso/)\n-   [repositorio en GitHub de arcenso](https://github.com/SoyAndrea/arcenso)\n-   slides en Quarto [soyandrea.github.io/arcenso-latinR2024/](https://soyandrea.github.io/arcenso-latinR2024/)\n-   [rOpenSci Champions Program - Andrea Gomez Vargas](https://ropensci.org/blog/2024/02/15/champions-program-champions-2024/#andrea-gomez-vargas)\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

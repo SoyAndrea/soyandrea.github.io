@@ -1,0 +1,63 @@
+---
+title: "R en Buenos Aires"
+author: "Andrea Gómez Vargas"
+date: 2025-01-23
+description: "Desde septiembre de 2024, lidero el capítulo. En esta nota, comparto en español la entrevista a rConsortium sobre su objetivo."
+categories: [R, comunidad, Buenos Aires, rconsortium]
+type: post
+---
+
+
+Tras un largo periodo de ausencia, R en Buenos Aires regresa con nuevos organizadores y una renovada visión para la comunidad local de R, no solo en la Ciudad de Buenos Aires, sino también en su Área Metropolitana. El corazón de R en Buenos Aires está en su comunidad, pero nada sería posible sin el esfuerzo y compromiso de quienes organizan y colaboran activamente para hacer realidad cada evento y proyecto. Actualmente, en la organización estamos [Ariana Bardauil](https://github.com/ariibard) y yo, con la colaboración de [Emanuel Ciardullo](https://github.com/ECiardullo). 
+
+
+![photo registration for december 20th meetup](renBA-2.jpg)
+
+> nota original  [https://r-consortium.org/posts/r-en-buenos-aires-new-generations-working-to-strengthen-the-community/](https://r-consortium.org/posts/r-en-buenos-aires-new-generations-working-to-strengthen-the-community/)
+
+
+## R en Buenos Aires: Nuevas generaciones trabajan para fortalecer la comunidad
+
+
+:::::: columns
+::: {.column width="30%"}
+
+![](renBA.png)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="65%"}
+El R Consortium entrevistó recientemente a Andrea Gomez Vargas para conocer sobre el Grupo de Usuarios de R en Buenos Aires. Andrea es licenciada en Sociología. Actualmente trabaja como analista de estadísticas de población en el Instituto Nacional de Estadísticas y Censos - INDEC Argentina. También es docente universitaria en ciencias sociales y ciencia de datos.
+
+Andrea es miembro activo de la comunidad de R en Argentina y Latinoamérica desde 2018. Ha sido parte de R-Ladies Buenos Aires y actualmente es parte del equipo global de R-Ladies y del comité organizador de LatinR.
+
+Andrea formó parte de la cohorte 2023-2024 del programa rOpenSci champions, y en 2024 decidió asumir el liderazgo de R en Buenos Aires.
+
+:::
+::::::
+
+
+
+### ¿Por qué decidió asumir el liderazgo del capítulo?
+
+Decidí asumir el liderazgo del capítulo para contribuir activamente al impacto local de la comunidad de usuarios de R. La mayor parte de mis conocimientos han provenido de estas comunidades: la confianza y el apoyo desinteresado que he recibido me han ayudado a crecer como profesional y me han inspirado para emprender proyectos que nunca pensé que podría hacer. Por esta razón, creo que es esencial volver a participar en actividades que inviten a las nuevas generaciones a participar, explorar nuevas herramientas y oportunidades, y colaborar en un espacio que acoja todos los niveles de experiencia y diversas trayectorias profesionales.
+
+
+### ¿Qué le motiva a seguir promoviendo el aprendizaje de R?
+
+Las comunidades son espacios esenciales para derribar las barreras de acceso a la información y el conocimiento, especialmente cuando se trata de software libre y de código abierto. Cuando estos recursos son de pago o sólo llegan a un pequeño porcentaje de personas, se crean desigualdades. Como profesora de universidad pública, tengo la creencia de que todo el mundo, independientemente de su procedencia, debe tener la oportunidad de aprender y crecer en un entorno colaborativo y abierto. Eso es lo que me mantiene motivada para seguir difundiendo los conocimientos de R y garantizar que sigan siendo accesibles para todos.
+
+### ¿Cuáles son tus principales objetivos para el capítulo de R en Buenos Aires, y qué desafíos anticipas para alcanzarlos?
+
+Los principales objetivos en este momento para el capítulo de R en Buenos Aires son tener más eventos para difundir temas relevantes en la comunidad, como el uso de Quarto, Shiny, paquetes de R, Git y GitHub. Un desafío clave es asegurar que el trabajo voluntario no nos abrume ni nos lleve al agotamiento, ya que organizar estos eventos requiere mucho trabajo detrás de escena. Actualmente, además de mí, Emanuel y Ariana forman parte del equipo local que coordina las actividades, y aunque el trabajo en equipo es esencial, debemos encontrar un equilibrio entre el esfuerzo colectivo y el bienestar de los miembros del capítulo.
+
+## Encuéntranos en Redes Sociales
+
+-   Linkedin: <https://www.linkedin.com/company/r-en-buenos-aires/>
+-   Github: <https://github.com/renbaires>
+-   X: [https://x.com/renbaires](https://github.com/renbaires)\
+-   Instagram: [https://www.instagram.com/renbuenosaires](https://github.com/renbaires)
+
+

@@ -3,13 +3,16 @@ title: "Comunidad"
 listing:
   contents: comunidad
   sort: "date desc"
-  type: default
+  type: grid
   image-align: right
   max-description-length: 175
   date-format: medium
-  categories: true
+  categories: cloud
   sort-ui: false
   filter-ui: false
 page-layout: full
-title-block-banner: true
+#title-block-banner: true
+title-block-banner: "#c9d2d8"
+title-block-banner-color: "#000000"
+subtitle: "Participo en comunidades de ciencia de datos y código abierto, enfocándome en promover el uso de R y fomentar la diversidad."
 ---

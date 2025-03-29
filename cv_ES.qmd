@@ -141,4 +141,4 @@ Buenos Aires
 
 [*useR! 2021 The R Conference*](https://soyandrea.netlify.app/publication/user2021/) *Using R in Latin America: the great, the good, the bad, and the ugly.* García Alonso, Virginia A.; Corrales, Paola; Huaylla, Claudia A.; **Gómez Vargas, Andrea**; Chávez, Joselyn; Fierro Arcos, Denisse. Session 9B - Community and Outreach 2. 2021.
 
-> Ver más en [soyandrea.netlify.app/mundoR](https://soyandrea.netlify.app/publication/)
+> **Ver más en Charlas & Talleres  [soyandrea.github.io/talleres](https://soyandrea.github.io/talleres.html)**

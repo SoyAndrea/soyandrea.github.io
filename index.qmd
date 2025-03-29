@@ -66,5 +66,3 @@ Soy organizadora de [R en Buenos Aires](https://renbaires.github.io/), integrant
 </li>
 
 </ul>
-
-Desde 2018, participo en espacios colaborativos de aprendizaje en ciencia de datos y código abierto. Mis esfuerzos se centran en comunidades que promueven el uso de `R` y fomentan la diversidad de género(s), creando un ambiente inclusivo y amigable para quienes desean aprender a programar en este lenguaje.

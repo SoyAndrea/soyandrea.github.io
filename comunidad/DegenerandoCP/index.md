@@ -6,7 +6,8 @@ Description: "Participación en el ciclo de charlas (de)Generando la Ciencia Pol
 slug: seminario-cp
 categories:
   - Charlas
-  - Rladies
+  - RLadies
+  - Buenos Aires
   - R
   - Feminismo(s)
   - Género(s)
