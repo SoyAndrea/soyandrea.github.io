@@ -1,0 +1,58 @@
+[
+  {
+    "listing": "/talleres.html",
+    "items": [
+      "/talleres/tableropm-latinr2024/index.html",
+      "/talleres/eph-unlam/index.html",
+      "/talleres/LatinR2023/index.html",
+      "/talleres/EPHrladies/index.html",
+      "/talleres/RenAgro/index.html",
+      "/talleres/csvconf7/index.html",
+      "/talleres/gt_BadBunny/index.html",
+      "/talleres/ASET/index.html",
+      "/talleres/accessibilitydatavis/index.html",
+      "/talleres/LatinR2021/index.html",
+      "/talleres/ComoempezaR/index.html",
+      "/talleres/reinventarTEC2021/index.html",
+      "/talleres/useR2021/index.html",
+      "/talleres/RenBaires/index.html"
+    ]
+  },
+  {
+    "listing": "/arcenso.html",
+    "items": [
+      "/arcenso/community call/index.html",
+      "/arcenso/arcenso-odd/index.html",
+      "/arcenso/arcenso-renba/index.html",
+      "/arcenso/arcenso-latinr2024/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/tidyverse-devday/index.html",
+      "/blog/positconf-quarto-dashboard/index.html",
+      "/blog/personasmayores/index.html",
+      "/blog/Mujeres-IT/index.html",
+      "/blog/tidytuesday/index.html",
+      "/blog/pasalavos/index.html",
+      "/blog/alosvotoscolombia/index.html",
+      "/blog/mujeresvideojuegos/index.html",
+      "/blog/BAendatos/index.html",
+      "/blog/NidoColombia/index.html",
+      "/blog/modoglitter-migracion/index.html"
+    ]
+  },
+  {
+    "listing": "/comunidad.html",
+    "items": [
+      "/comunidad/champions-ropensci/index.html",
+      "/comunidad/positconf-scholarship-2024/index.html",
+      "/comunidad/femITconf2022/index.html",
+      "/comunidad/DegenerandoCP/index.html",
+      "/comunidad/we-are-R-ladies/index.html",
+      "/comunidad/rladiesBuenosAires/index.html",
+      "/comunidad/accesibilidad-inclusion/index.html"
+    ]
+  }
+]
