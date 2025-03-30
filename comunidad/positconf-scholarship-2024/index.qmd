@@ -30,7 +30,7 @@ Charlas favoritas: ¡Fueron muchas! En especial las que tenían que ver con Quar
 -   [Luis D. Verde Arregoitia - Why’d you load that package for?](https://youtu.be/q4vmmlUEoQg?si=0R7K8-eJ2cDFfcs9)
 -   [Shannon Pileggi - Balancing Global Infrastructure and Local Autonomy: Lessons from R-Ladies Global](https://youtu.be/Baoa9Yr6TaM?si=CC1x9UldGrPOEyBM)
 
-El workshop en el que participé: Mención especial para Mine, y en esta sección cuento lo que hicimos con Quarto Dashboards.
+El workshop en el que participé: [Mención especial para Mine, y en esta sección cuento lo que hicimos con Quarto Dashboards](https://soyandrea.github.io/blog/positconf-quarto-dashboard/).
 :::
 
 ::: {.column width="35%"}
