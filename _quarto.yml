@@ -7,6 +7,11 @@ execute:
 
 website:
   title: "Data by Andre"
+  repo-url: https://github.com/SoyAndrea/soyandrea.github.io
+  repo-actions: [edit, source, issue]
+  page-footer: 
+    center: "Copyright 2025, Andrea Gomez Vargas" 
+    background: "#003049"
   navbar:
     background: "#003049"
     left:
@@ -17,7 +22,7 @@ website:
         href: https://www.linkedin.com/in/andreasociologa/
     right:
       - href: index.qmd
-        text: Sobre Mi
+        text: Hola
       - text: "Curriculum"
         menu:
           - href: cv_ES.qmd
@@ -26,7 +31,6 @@ website:
       - href: talleres.qmd
       - href: comunidad.qmd 
       
-
 
 
 

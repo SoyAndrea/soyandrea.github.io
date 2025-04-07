@@ -11,21 +11,21 @@ listing:
   sort-ui: false
   filter-ui: false
 page-layout: full
-title-block-banner: false
+title-block-banner: "#c9d2d8"
+title-block-banner-color: "#000000"
+subtitle: "En esta sección encontrarás todas las noticias, eventos y participaciones relacionadas con el paquete."
 ---
 
 ::::: columns
-::: {.column width="30%"}
-![hex arcenso](arcensohex.png)
-:::
+
 
 ::: {.column width="70%"}
-**arcenso** es un paquete en desarrollo que facilitará el acceso a los datos oficiales de los censos nacionales de población en Argentina.
+[{arcenso}](https://soyandrea.github.io/arcenso/) es un paquete en desarrollo que facilitará el acceso a los datos oficiales de los censos nacionales de población en Argentina.
 
-Este proyecto fue apoyado por el Programa de Campeones de rOpenSci 2023-2024, con Andrea Gómez Vargas & Emanuel Ciardullo como autores.
+Este proyecto fue apoyado por el [Programa de Campeones de rOpenSci 2023-2024](https://soyandrea.github.io/comunidad/champions-ropensci/), con Andrea Gómez Vargas & Emanuel Ciardullo como autores.
+:::
 
--   [arcenso website](https://soyandrea.github.io/arcenso/)
-
-📢 **En esta sección encontrarás todas las noticias, eventos y participaciones relacionadas con arcenso.**
+::: {.column width="30%"}
+![hex arcenso](arcensohex.png){width=150px}
 :::
 :::::

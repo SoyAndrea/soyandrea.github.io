@@ -21,48 +21,52 @@ format:
 
 ### Hi there, I'm Andre 👋
 
-Soy licenciada en Sociología y actualmente me desempeño como Analista de Estadísticas Poblacionales en el sector público.
+Socióloga y actualmente me desempeño como Analista de Estadísticas Poblacionales en el sector público. Y soy organizadora de [R en Buenos Aires](https://renbaires.github.io/) e integro el [equipo global de R-Ladies](https://rladies.org/about-us/global-team/). 
 
-Soy organizadora de [R en Buenos Aires](https://renbaires.github.io/), integrante del [equipo global de R-Ladies](https://rladies.org/about-us/global-team/), y formo parte de la [cohorte de campeones del programa de rOpenSci](https://ropensci.org/blog/2024/02/15/champions-program-champions-2024/#andrea-gomez-vargas) 2023 - 2024.
 
-#### Comunidades de práctica 💜
+<li style="display: flex; align-items: center; margin: 10px 0;">
+  <img src="image/arcenso.png" alt="arcenso logo" style="margin-right: 15px; width: 110px; height: 110px;"/>
+  <h4 style="margin: 0; font-size: 1.4em;">
+    <a href="https://soyandrea.github.io/conoce-arcenso.html" style="text-decoration: none; color: inherit;">
+      Conocé <code>arcenso</code>, mi primer paquete en R 📦
+    </a>
+  </h4>
+</li>
+
+
+
+#### Comunidades de R en las que participo 💜
 
 <ul style="list-style-type: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center;">
 
-<li style="display: flex; justify-content: flex-start; align-items: center; margin: 5px;">
+  <li style="display: flex; justify-content: flex-start; align-items: center; margin: 5px;">
+    <a href="https://github.com/renbaires"><strong>R en Buenos Aires</strong></a>
+    <img src="https://avatars.githubusercontent.com/u/43609757" alt="R en Buenos Aires logo" style="margin-left: 10px; width: 40px; height: 40px;"/>
+  </li>
 
-<a href="https://github.com/renbaires"><strong>R en Buenos Aires</strong></a> <img src="https://avatars.githubusercontent.com/u/43609757" alt="R en Buenos Aires logo" style="margin-left: 10px; width: 50px; height: 50px;"/>
+  <li style="display: flex; justify-content: flex-start; align-items: center; margin: 5px;">
+    <a href="https://github.com/ropensci"><strong>rOpenSci</strong></a>
+    <img src="https://avatars.githubusercontent.com/u/1200269?s=200&amp;v=4" alt="rOpenSci logo" style="margin-left: 10px; width: 40px; height: 40px;"/>
+  </li>
 
-</li>
+  <li style="display: flex; justify-content: flex-start; align-items: center; margin: 5px;">
+    <a href="https://github.com/rladies"><strong>R-Ladies Global</strong></a>
+    <img src="https://avatars.githubusercontent.com/u/21295846?s=200&amp;v=4" alt="R-Ladies Global logo" style="margin-left: 10px; width: 40px; height: 40px;"/>
+  </li>
 
-<li style="display: flex; justify-content: flex-start; align-items: center; margin: 5px;">
+  <li style="display: flex; justify-content: flex-start; align-items: center; margin: 5px;">
+    <a href="https://github.com/LatinR"><strong>LatinR</strong></a>
+    <img src="https://avatars.githubusercontent.com/u/42558048?s=200&amp;v=4" alt="LatinR logo" style="margin-left: 10px; width: 40px; height: 40px;"/>
+  </li>
 
-<a href="https://github.com/ropensci"><strong>rOpenSci</strong></a> <img src="https://avatars.githubusercontent.com/u/1200269?s=200&amp;v=4" alt="rOpenSci logo" style="margin-left: 10px; width: 50px; height: 50px;"/>
+  <li style="display: flex; justify-content: flex-start; align-items: center; margin: 5px;">
+    <a href="https://github.com/carpentries"><strong>The Carpentries</strong></a>
+    <img src="https://avatars.githubusercontent.com/u/19267758?s=200&amp;v=4" alt="The Carpentries logo" style="margin-left: 10px; width: 40px; height: 40px;"/>
+  </li>
 
-</li>
-
-<li style="display: flex; justify-content: flex-start; align-items: center; margin: 5px;">
-
-<a href="https://github.com/rladies"><strong>R-Ladies Global</strong></a> <img src="https://avatars.githubusercontent.com/u/21295846?s=200&amp;v=4" alt="R-Ladies Global logo" style="margin-left: 10px; width: 50px; height: 50px;"/>
-
-</li>
-
-<li style="display: flex; justify-content: flex-start; align-items: center; margin: 5px;">
-
-<a href="https://github.com/LatinR"><strong>LatinR</strong></a> <img src="https://avatars.githubusercontent.com/u/42558048?s=200&amp;v=4" alt="LatinR logo" style="margin-left: 10px; width: 50px; height: 50px;"/>
-
-</li>
-
-<li style="display: flex; justify-content: flex-start; align-items: center; margin: 5px;">
-
-<a href="https://github.com/carpentries"><strong>The Carpentries</strong></a> <img src="https://avatars.githubusercontent.com/u/19267758?s=200&amp;v=4" alt="The Carpentries logo" style="margin-left: 10px; width: 50px; height: 50px;"/>
-
-</li>
-
-<li style="display: flex; justify-content: flex-start; align-items: center; margin: 5px;">
-
-<a href="https://github.com/RLadies-BA"><strong>R-Ladies Buenos Aires</strong></a> <img src="https://avatars.githubusercontent.com/u/38664570?s=200&amp;v=4" alt="R-Ladies Buenos Aires logo" style="margin-left: 10px; width: 50px; height: 50px;"/>
-
-</li>
+  <li style="display: flex; justify-content: flex-start; align-items: center; margin: 5px;">
+    <a href="https://github.com/RLadies-BA"><strong>R-Ladies Buenos Aires</strong></a>
+    <img src="https://avatars.githubusercontent.com/u/38664570?s=200&amp;v=4" alt="R-Ladies Buenos Aires logo" style="margin-left: 10px; width: 40px; height: 40px;"/>
+  </li>
 
 </ul>
