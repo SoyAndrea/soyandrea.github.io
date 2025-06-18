@@ -1,14 +1,16 @@
 ---
-title: "LatinR 2024: arcenso con rOpenSci"
+title: "LatinR 2024: ARcenso con rOpenSci"
 author: "Andrea Gómez Vargas"
 date: 2024-11-20
 slug: arcenso-latinr-2024
 description: Presentación paquete {arcenso} con rOpenSci"
-categories: [R, LatinR, arcenso, rOpenSci, paquete, Charla]
+categories: [R, LatinR, ARcenso, rOpenSci, paquete, Charla]
 type: post
 ---
 
 # {ARcenso}: primeros pasos desarrollando un paquete en comunidad con rOpenSci 📦
+
+![](flyer.png)
 
 ### Panel: Proceso de desarrollo de paquetes
 
@@ -49,7 +51,7 @@ No estoy llorando, este bebé salió a la luz en <a href="https://twitter.com/La
 
 ### Links de interés
 
--   [web arcenso](https://soyandrea.github.io/arcenso/)
--   [repositorio en GitHub de arcenso](https://github.com/SoyAndrea/arcenso)
+-   [web ARcenso](https://soyandrea.github.io/arcenso/)
+-   [repositorio en GitHub de ARcenso](https://github.com/SoyAndrea/arcenso)
 -   slides en Quarto [soyandrea.github.io/arcenso-latinR2024/](https://soyandrea.github.io/arcenso-latinR2024/)
 -   [rOpenSci Champions Program - Andrea Gomez Vargas](https://ropensci.org/blog/2024/02/15/champions-program-champions-2024/#andrea-gomez-vargas)

@@ -1,5 +1,5 @@
 ---
-title: "arcenso"
+title: "ARcenso"
 listing:
   contents: conoce-arcenso
   sort: "date desc"
@@ -17,15 +17,13 @@ subtitle: "En esta sección encontrarás todas las noticias, eventos y participa
 ---
 
 ::::: columns
-
-
 ::: {.column width="70%"}
-[{arcenso}](https://soyandrea.github.io/arcenso/) es un paquete en desarrollo que facilitará el acceso a los datos oficiales de los censos nacionales de población en Argentina.
+[{ARcenso}](https://soyandrea.github.io/arcenso/) es un paquete en desarrollo que facilitará el acceso a los datos oficiales de los censos nacionales de población en Argentina.
 
 Este proyecto fue apoyado por el [Programa de Campeones de rOpenSci 2023-2024](https://soyandrea.github.io/comunidad/champions-ropensci/), con Andrea Gómez Vargas & Emanuel Ciardullo como autores.
 :::
 
 ::: {.column width="30%"}
-![hex arcenso](arcensohex.png){width=150px}
+![hex ARcenso](image/arcenso.png){width="150px"}
 :::
 :::::

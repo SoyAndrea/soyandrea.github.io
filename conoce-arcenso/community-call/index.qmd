@@ -4,7 +4,7 @@ author: "Andrea Gómez Vargas"
 date: 2025-03-12
 slug: community-call
 description: "Charla sobre el programa de campeones & {arcenso} "
-categories: [R, paquete, rOpenSci, arcenso, Charla]
+categories: [R, paquete, rOpenSci, ARcenso, Charla]
 type: post
 ---
 

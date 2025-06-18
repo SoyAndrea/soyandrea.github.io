@@ -4,7 +4,7 @@ author: "Andrea Gómez Vargas"
 date: 2025-03-06
 slug: arcenso-odd2025
 description: "#OpenDataDay 2025 - charla debate"
-categories: [Data, arcenso, Charla, Open Science]
+categories: [Data, ARcenso, Charla, Open Science]
 type: post
 ---
 

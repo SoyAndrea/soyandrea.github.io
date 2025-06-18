@@ -1,10 +1,10 @@
 ---
-title: "R en red: arcenso, oportunidades y comunidad"
+title: "R en red: ARcenso, oportunidades y comunidad"
 author: "Andrea Gómez Vargas"
 date: 2024-12-20
 slug: arcenso-renba
-description: "Charla presentación paquete {arcenso} en R-Ladies & R en Buenos Aires"
-categories: [R, paquete, rOpenSci, censo, arcenso, Charla]
+description: "Charla presentación paquete {ARcenso} en R-Ladies & R en Buenos Aires"
+categories: [R, paquete, rOpenSci, censo, ARcenso, Charla]
 type: post
 ---
 
@@ -12,11 +12,7 @@ type: post
 
 #### Charla [R-Ladies Buenos Aires](https://github.com/RLadies-BA)<img src="https://avatars.githubusercontent.com/u/38664570?s=200&amp;v=4" alt="rladies buenos aires logo" height="27"/> & [R en Buenos Aires](https://github.com/renbaires) <img src="https://avatars.githubusercontent.com/u/43609757" alt="r en buenos aires logo" height="27"/>
 
-
-
-![](flyer.png)
-
-
+![](flyer.png) 
 
 ### Oradores
 
@@ -25,7 +21,7 @@ type: post
 
 ### Resumen:
 
-Presentamos el paquete `arcenso` a la comunidad de usuarios de la ciudad de Buenos Aires, Desde la idea hasta las primeras funciones disponibles, y del acompañamiento en comunidad como parte del programa de campeones y campeonas del software de rOpenSci.
+Presentamos el paquete `ARcenso` a la comunidad de usuarios de la ciudad de Buenos Aires, Desde la idea hasta las primeras funciones disponibles, y del acompañamiento en comunidad como parte del programa de campeones y campeonas del software de rOpenSci.
 
 :::::: columns
 ::: {.column width="45%"}
