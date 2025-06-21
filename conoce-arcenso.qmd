@@ -4,7 +4,7 @@ listing:
   contents: conoce-arcenso
   sort: "date desc"
   type: default
-  image-align: right
+  image-align: left
   max-description-length: 175
   date-format: medium
   categories: cloud 
@@ -13,7 +13,6 @@ listing:
 page-layout: full
 title-block-banner: "#c9d2d8"
 title-block-banner-color: "#000000"
-subtitle: "En esta sección encontrarás todas las noticias, eventos y participaciones relacionadas con el paquete."
 ---
 
 ::::: columns

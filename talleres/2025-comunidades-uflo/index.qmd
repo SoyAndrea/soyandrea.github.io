@@ -1,0 +1,71 @@
+---
+title: "Comunidades de usuarios de R"
+date: 2025-06-19
+description: clase abierta en la Licenciatura en Sociología de la Universidad de Flores
+categories: [R, charla,UFLO, Comunidad]
+type: post
+---
+
+
+:::: {.columns}
+
+
+::: {.column width="60%"}
+
+Organizan: materias Análisis de Datos I & Minería de Texto para la investigación Social de la licenciatura de sociología
+
+Moderadoras:
+
+- Ariana Bardauil
+
+- Betsy Cohen
+
+
+
+
+:::
+
+::: {.column width="40%"}
+
+![](uflo.jpg){width=70%}
+
+:::
+
+::::
+
+
+## Sobre la charla
+
+La propuesta de la charla estaba dirigida principalmente a estudiantes, pero estuvo abierta a cualquier persona interesada en conocer más sobre cómo funcionan las comunidades de usuarios y qué posibilidades pueden ofrecer.
+
+
+En la charla, conté:
+
+
+- Por qué las comunidades de usuarios son espacios clave para aprender, crecer y encontrar apoyo.
+
+- Ejemplos de comunidades locales como R en Buenos Aires y R-Ladies Buenos Aires, regionales como LatinR y globales como R-Ladies, rOpenSci, entre otras donde se puede participar, aprender y también enseñar.
+
+- Cómo me acerqué al mundo de R y a sus comunidades, empezando sin tener mucha experiencia.
+
+
+- La experiencia de desarrollar el paquete `arcenso` y ejemplo práctico de un paquete de datos que nació a partir de un problema real, y de mi trabajo diario como analista de estadísticas de población.
+
+
+## Presentación
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGqwvsL5AM/3JlvP8qor8Z1tbyhi2qmeA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGqwvsL5AM&#x2F;3JlvP8qor8Z1tbyhi2qmeA&#x2F;view?utm_content=DAGqwvsL5AM&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">comunidades R</a> de Andrea Gomez Vargas
+
+
+
+>Me encantó compartir este espacio y ver el interés de quienes participaron, llegamos a ser casi 30 personas. Creo que animarse a acercarse a una comunidad (aunque no sepamos mucho al principio) puede abrirnos muchas puertas y ayudarnos a crecer, tanto en lo profesional como en lo personal.
+
+
+

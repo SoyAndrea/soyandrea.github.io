@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="clase abierta en la Licenciatura en Sociología de la Universidad de Flores">
 
-<title>ARcenso – Data by Andre</title>
+<title>Comunidades de usuarios de R – Data by Andre</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +24,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,94 +67,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<style>
-
-      .quarto-title-block .quarto-title-banner h1,
-      .quarto-title-block .quarto-title-banner h2,
-      .quarto-title-block .quarto-title-banner h3,
-      .quarto-title-block .quarto-title-banner h4,
-      .quarto-title-block .quarto-title-banner h5,
-      .quarto-title-block .quarto-title-banner h6
-      {
-        color: #000000;
-      }
-
-      .quarto-title-block .quarto-title-banner {
-        color: #000000;
-background: #c9d2d8;
-      }
-</style>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Data by Andre</span>
     </a>
   </div>
@@ -178,7 +102,7 @@ window.Quarto = {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Hola</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -187,25 +111,25 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-curriculum">    
         <li>
-    <a class="dropdown-item" href="./cv_ES.html">
+    <a class="dropdown-item" href="../../cv_ES.html">
  <span class="dropdown-text">Andrea Gomez Vargas - CV</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./conoce-arcenso.html" aria-current="page"> 
+    <a class="nav-link" href="../../conoce-arcenso.html"> 
 <span class="menu-text">ARcenso</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talleres.html"> 
+    <a class="nav-link" href="../../talleres.html"> 
 <span class="menu-text">Charlas &amp; Talleres</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./comunidad.html"> 
+    <a class="nav-link" href="../../comunidad.html"> 
 <span class="menu-text">Comunidad</span></a>
   </li>  
 </ul>
@@ -216,251 +140,97 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">ARcenso</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="ARcenso"><span class="quarto-category-count category-cloud-10">ARcenso</span></div><div class="category" data-category="Charla"><span class="quarto-category-count category-cloud-10">Charla</span></div><div class="category" data-category="Comunidad"><span class="quarto-category-count category-cloud-8">Comunidad</span></div><div class="category" data-category="Data"><span class="quarto-category-count category-cloud-3">Data</span></div><div class="category" data-category="LatinR"><span class="quarto-category-count category-cloud-3">LatinR</span></div><div class="category" data-category="Open Science"><span class="quarto-category-count category-cloud-3">Open Science</span></div><div class="category" data-category="R"><span class="quarto-category-count category-cloud-8">R</span></div><div class="category" data-category="censo"><span class="quarto-category-count category-cloud-3">censo</span></div><div class="category" data-category="paquete"><span class="quarto-category-count category-cloud-8">paquete</span></div><div class="category" data-category="rOpenSci"><span class="quarto-category-count category-cloud-8">rOpenSci</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#sobre-la-charla" id="toc-sobre-la-charla" class="nav-link active" data-scroll-target="#sobre-la-charla">Sobre la charla</a></li>
+  <li><a href="#presentación" id="toc-presentación" class="nav-link" data-scroll-target="#presentación">Presentación</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/edit/main/talleres/2025-comunidades-uflo/index.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/blob/main/talleres/2025-comunidades-uflo/index.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Comunidades de usuarios de R</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">charla</div>
+    <div class="quarto-category">UFLO</div>
+    <div class="quarto-category">Comunidad</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    clase abierta en la Licenciatura en Sociología de la Universidad de Flores
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
 
+    
+    <div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">19 de junio de 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <div class="columns">
-<div class="column" style="width:70%;">
-<p><a href="https://soyandrea.github.io/arcenso/">{ARcenso}</a> es un paquete en desarrollo que facilitará el acceso a los datos oficiales de los censos nacionales de población en Argentina.</p>
-<p>Este proyecto fue apoyado por el <a href="https://soyandrea.github.io/comunidad/champions-ropensci/">Programa de Campeones de rOpenSci 2023-2024</a>, con Andrea Gómez Vargas &amp; Emanuel Ciardullo como autores.</p>
-</div><div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="image/arcenso.png" class="img-fluid figure-img" width="150"></p>
-<figcaption>hex ARcenso</figcaption>
-</figure>
+<div class="column" style="width:60%;">
+<p>Organizan: materias Análisis de Datos I &amp; Minería de Texto para la investigación Social de la licenciatura de sociología</p>
+<p>Moderadoras:</p>
+<ul>
+<li><p>Ariana Bardauil</p></li>
+<li><p>Betsy Cohen</p></li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img src="uflo.jpg" class="img-fluid" style="width:70.0%"></p>
 </div>
 </div>
+<section id="sobre-la-charla" class="level2">
+<h2 class="anchored" data-anchor-id="sobre-la-charla">Sobre la charla</h2>
+<p>La propuesta de la charla estaba dirigida principalmente a estudiantes, pero estuvo abierta a cualquier persona interesada en conocer más sobre cómo funcionan las comunidades de usuarios y qué posibilidades pueden ofrecer.</p>
+<p>En la charla, conté:</p>
+<ul>
+<li><p>Por qué las comunidades de usuarios son espacios clave para aprender, crecer y encontrar apoyo.</p></li>
+<li><p>Ejemplos de comunidades locales como R en Buenos Aires y R-Ladies Buenos Aires, regionales como LatinR y globales como R-Ladies, rOpenSci, entre otras donde se puede participar, aprender y también enseñar.</p></li>
+<li><p>Cómo me acerqué al mundo de R y a sus comunidades, empezando sin tener mucha experiencia.</p></li>
+<li><p>La experiencia de desarrollar el paquete <code>arcenso</code> y ejemplo práctico de un paquete de datos que nació a partir de un problema real, y de mi trabajo diario como analista de estadísticas de población.</p></li>
+</ul>
+</section>
+<section id="presentación" class="level2">
+<h2 class="anchored" data-anchor-id="presentación">Presentación</h2>
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+<p><iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://www.canva.com/design/DAGqwvsL5AM/3JlvP8qor8Z1tbyhi2qmeA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"> </iframe></p>
 </div>
+<p><a href="https://www.canva.com/design/DAGqwvsL5AM/3JlvP8qor8Z1tbyhi2qmeA/view?utm_content=DAGqwvsL5AM&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">comunidades R</a> de Andrea Gomez Vargas</p>
+<blockquote class="blockquote">
+<p>Me encantó compartir este espacio y ver el interés de quienes participaron, llegamos a ser casi 30 personas. Creo que animarse a acercarse a una comunidad (aunque no sepamos mucho al principio) puede abrirnos muchas puertas y ayudarnos a crecer, tanto en lo profesional como en lo personal.</p>
+</blockquote>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="R,paquete,rOpenSci,ARcenso,Charla" data-listing-date-sort="1741748400000" data-listing-file-modified-sort="1750471196997" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
-<div class="thumbnail">
-<p><a href="./conoce-arcenso/2025-community-call/index.html" class="no-external"></a></p><a href="./conoce-arcenso/2025-community-call/index.html" class="no-external">
-<p class="card-img-top"><img src="conoce-arcenso\2025-community-call\ropensci.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./conoce-arcenso/2025-community-call/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./conoce-arcenso/2025-community-call/index.html" class="no-external">rOpenSci - Community call</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./conoce-arcenso/2025-community-call/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('paquete'); return false;">
-paquete
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('rOpenSci'); return false;">
-rOpenSci
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ARcenso'); return false;">
-ARcenso
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Charla'); return false;">
-Charla
-</div>
-</div>
-<div class="listing-description">
-<a href="./conoce-arcenso/2025-community-call/index.html" class="no-external">Charla sobre el programa de campeones &amp; {arcenso} </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./conoce-arcenso/2025-community-call/index.html" class="no-external">
-<div class="listing-date">
-12 mar 2025
-</div>
-<div class="listing-author">
-Andrea Gómez Vargas
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="1" data-categories="Data,ARcenso,Charla,Open Science,Comunidad" data-listing-date-sort="1741230000000" data-listing-file-modified-sort="1750472459725" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="220">
-<div class="thumbnail">
-<p><a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external"></a></p><a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external">
-<p class="card-img-top"><img src="conoce-arcenso\2025-opendataday\flyer.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external">The Turing Way Fireside Chat</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Data'); return false;">
-Data
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ARcenso'); return false;">
-ARcenso
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Charla'); return false;">
-Charla
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Open Science'); return false;">
-Open Science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Comunidad'); return false;">
-Comunidad
-</div>
-</div>
-<div class="listing-description">
-<a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external">#OpenDataDay 2025 - charla debate</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external">
-<div class="listing-date">
-6 mar 2025
-</div>
-<div class="listing-author">
-Andrea Gómez Vargas
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="2" data-categories="R,paquete,rOpenSci,censo,ARcenso,Charla,Comunidad" data-listing-date-sort="1734663600000" data-listing-file-modified-sort="1750470837192" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
-<div class="thumbnail">
-<p><a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external"></a></p><a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external">
-<p class="card-img-top"><img src="conoce-arcenso\2024-renred-buenosaires\flyer.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external">R en red: ARcenso, oportunidades y comunidad</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('paquete'); return false;">
-paquete
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('rOpenSci'); return false;">
-rOpenSci
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('censo'); return false;">
-censo
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ARcenso'); return false;">
-ARcenso
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Charla'); return false;">
-Charla
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Comunidad'); return false;">
-Comunidad
-</div>
-</div>
-<div class="listing-description">
-<a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external">Charla presentación paquete {ARcenso} en R-Ladies &amp; R en Buenos Aires</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external">
-<div class="listing-date">
-20 dic 2024
-</div>
-<div class="listing-author">
-Andrea Gómez Vargas
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="3" data-categories="R,LatinR,ARcenso,rOpenSci,paquete,Charla,Comunidad" data-listing-date-sort="1732071600000" data-listing-file-modified-sort="1750472756610" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
-<div class="thumbnail">
-<p><a href="./conoce-arcenso/2024-latinr/index.html" class="no-external"></a></p><a href="./conoce-arcenso/2024-latinr/index.html" class="no-external">
-<p class="card-img-top"><img src="conoce-arcenso\2024-latinr\portada.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./conoce-arcenso/2024-latinr/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./conoce-arcenso/2024-latinr/index.html" class="no-external">LatinR 2024: ARcenso con rOpenSci</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./conoce-arcenso/2024-latinr/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('LatinR'); return false;">
-LatinR
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ARcenso'); return false;">
-ARcenso
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('rOpenSci'); return false;">
-rOpenSci
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('paquete'); return false;">
-paquete
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Charla'); return false;">
-Charla
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Comunidad'); return false;">
-Comunidad
-</div>
-</div>
-<div class="listing-description">
-<a href="./conoce-arcenso/2024-latinr/index.html" class="no-external">Presentación paquete {ARcenso} con rOpenSci</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./conoce-arcenso/2024-latinr/index.html" class="no-external">
-<div class="listing-date">
-20 nov 2024
-</div>
-<div class="listing-author">
-Andrea Gómez Vargas
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No hay resultados
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -889,7 +659,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>Copyright 2025, Andrea Gomez Vargas</p>
-<div class="toc-actions"><ul><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/edit/main/conoce-arcenso.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/blob/main/conoce-arcenso.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/edit/main/talleres/2025-comunidades-uflo/index.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/blob/main/talleres/2025-comunidades-uflo/index.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.57">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
-<title>ARcenso – Data by Andre</title>
+<meta name="author" content="agomezvargas">
+<meta name="description" content="Taller para R-Ladies Buenos Aires en colaboración con Karina Bartolomé">
+<title>Creando tablas en {gt} con Spotify API &amp; Bad Bunny – Data by Andre</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,26 +21,22 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
-
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -67,95 +62,14 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Enviar",
     "search-label": "Buscar"
   }
-}</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<style>
-
-      .quarto-title-block .quarto-title-banner h1,
-      .quarto-title-block .quarto-title-banner h2,
-      .quarto-title-block .quarto-title-banner h3,
-      .quarto-title-block .quarto-title-banner h4,
-      .quarto-title-block .quarto-title-banner h5,
-      .quarto-title-block .quarto-title-banner h6
-      {
-        color: #000000;
-      }
-
-      .quarto-title-block .quarto-title-banner {
-        color: #000000;
-background: #c9d2d8;
-      }
-</style>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+}</script><link rel="stylesheet" href="../../styles.css">
 </head>
-
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Data by Andre</span>
     </a>
   </div>
@@ -165,7 +79,7 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item compact">
+<li class="nav-item compact">
     <a class="nav-link" href="https://github.com/SoyAndrea/"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
 <span class="menu-text"></span></a>
@@ -176,292 +90,146 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+<ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Hola</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-curriculum" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Curriculum</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-curriculum">    
-        <li>
-    <a class="dropdown-item" href="./cv_ES.html">
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-curriculum">
+<li>
+    <a class="dropdown-item" href="../../cv_ES.html">
  <span class="dropdown-text">Andrea Gomez Vargas - CV</span></a>
   </li>  
     </ul>
-  </li>
+</li>
   <li class="nav-item">
-    <a class="nav-link active" href="./conoce-arcenso.html" aria-current="page"> 
+    <a class="nav-link" href="../../conoce-arcenso.html"> 
 <span class="menu-text">ARcenso</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talleres.html"> 
+    <a class="nav-link" href="../../talleres.html"> 
 <span class="menu-text">Charlas &amp; Talleres</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./comunidad.html"> 
+    <a class="nav-link" href="../../comunidad.html"> 
 <span class="menu-text">Comunidad</span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
+</div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">ARcenso</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="ARcenso"><span class="quarto-category-count category-cloud-10">ARcenso</span></div><div class="category" data-category="Charla"><span class="quarto-category-count category-cloud-10">Charla</span></div><div class="category" data-category="Comunidad"><span class="quarto-category-count category-cloud-8">Comunidad</span></div><div class="category" data-category="Data"><span class="quarto-category-count category-cloud-3">Data</span></div><div class="category" data-category="LatinR"><span class="quarto-category-count category-cloud-3">LatinR</span></div><div class="category" data-category="Open Science"><span class="quarto-category-count category-cloud-3">Open Science</span></div><div class="category" data-category="R"><span class="quarto-category-count category-cloud-8">R</span></div><div class="category" data-category="censo"><span class="quarto-category-count category-cloud-3">censo</span></div><div class="category" data-category="paquete"><span class="quarto-category-count category-cloud-8">paquete</span></div><div class="category" data-category="rOpenSci"><span class="quarto-category-count category-cloud-8">rOpenSci</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+<li><a href="#r-ladies-buenos-aires-meetup-creando-tablas-en-gt-con-spotify-api-bad-bunny" id="toc-r-ladies-buenos-aires-meetup-creando-tablas-en-gt-con-spotify-api-bad-bunny" class="nav-link active" data-scroll-target="#r-ladies-buenos-aires-meetup-creando-tablas-en-gt-con-spotify-api-bad-bunny">R-Ladies Buenos Aires Meetup: Creando tablas en {gt} con Spotify API &amp; Bad Bunny</a></li>
+  <li>
+<a href="#repositorio-github-en-rladies-bagt-spotify" id="toc-repositorio-github-en-rladies-bagt-spotify" class="nav-link" data-scroll-target="#repositorio-github-en-rladies-bagt-spotify">Repositorio GitHub en RLadies-BA/gt-spotify</a>
+  <ul class="collapse">
+<li><a href="#slides-generadas-con-xaringan-." id="toc-slides-generadas-con-xaringan-." class="nav-link" data-scroll-target="#slides-generadas-con-xaringan-.">Slides generadas con {xaringan} 📦.</a></li>
+  <li><a href="#tabla-final-del-meetup-en-gt" id="toc-tabla-final-del-meetup-en-gt" class="nav-link" data-scroll-target="#tabla-final-del-meetup-en-gt">Tabla final del meetup en {gt}</a></li>
+  <li><a href="#mir%C3%A1-el-taller-en-el-canal-de-youtube-de-rladies-buenos-aires" id="toc-mirá-el-taller-en-el-canal-de-youtube-de-rladies-buenos-aires" class="nav-link" data-scroll-target="#mir%C3%A1-el-taller-en-el-canal-de-youtube-de-rladies-buenos-aires">Mirá el taller en el canal de Youtube de Rladies Buenos Aires</a></li>
+  <li><a href="#redes-sociales" id="toc-redes-sociales" class="nav-link" data-scroll-target="#redes-sociales">Redes sociales</a></li>
+  </ul>
+</li>
+  </ul><div class="toc-actions"><ul><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/edit/main/talleres/2023-gt-BadBunny/index.Rmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/blob/main/talleres/2023-gt-BadBunny/index.Rmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title">Creando tablas en {gt} con Spotify API &amp; Bad Bunny</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">gt</div>
+    <div class="quarto-category">taller</div>
+    <div class="quarto-category">tablas</div>
+    <div class="quarto-category">Rladies</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Taller para R-Ladies Buenos Aires en colaboración con Karina Bartolomé
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor/a</div>
+    <div class="quarto-title-meta-contents">
+             <p>agomezvargas </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">23 de noviembre de 2022</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
-
-<div class="columns">
-<div class="column" style="width:70%;">
-<p><a href="https://soyandrea.github.io/arcenso/">{ARcenso}</a> es un paquete en desarrollo que facilitará el acceso a los datos oficiales de los censos nacionales de población en Argentina.</p>
-<p>Este proyecto fue apoyado por el <a href="https://soyandrea.github.io/comunidad/champions-ropensci/">Programa de Campeones de rOpenSci 2023-2024</a>, con Andrea Gómez Vargas &amp; Emanuel Ciardullo como autores.</p>
-</div><div class="column" style="width:30%;">
+</header><section id="r-ladies-buenos-aires-meetup-creando-tablas-en-gt-con-spotify-api-bad-bunny" class="level2"><h2 class="anchored" data-anchor-id="r-ladies-buenos-aires-meetup-creando-tablas-en-gt-con-spotify-api-bad-bunny">R-Ladies Buenos Aires Meetup: Creando tablas en {gt} con Spotify API &amp; Bad Bunny</h2>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="image/arcenso.png" class="img-fluid figure-img" width="150"></p>
-<figcaption>hex ARcenso</figcaption>
+<figure class="figure"><p><img src="featured.png" class="img-fluid figure-img"></p>
+<figcaption>flyer</figcaption></figure>
+</div>
+<p>En colaboración con <a href="https://karbartolome-blog.netlify.app/">Kari Bartolomé</a> desarrollamos el taller mostrando cómo podemos obtener información desde Spotify API y plasmarla en una tabla usando el paquete {gt} que permite mostrar mucho más que solo números. Aunque el paquete no es parte del Tydiverse, su sintaxis y estructura es compatible con esta poderosa herramienta para el análisis de datos. Y cómo si fuera poco, nos traen un ejemplo con info de nada más y nada menos que Bad Bunny 🐰🎵</p>
+</section><section id="repositorio-github-en-rladies-bagt-spotify" class="level2"><h2 class="anchored" data-anchor-id="repositorio-github-en-rladies-bagt-spotify">Repositorio GitHub en <a href="https://github.com/RLadies-BA/gt-spotify">RLadies-BA/gt-spotify</a>
+</h2>
+<section id="slides-generadas-con-xaringan-." class="level3"><h3 class="anchored" data-anchor-id="slides-generadas-con-xaringan-.">Slides generadas con {xaringan} 📦.</h3>
+<div class="cell">
+<iframe src="https://karbartolome.github.io/gt-spotify/01_slides/rladies_gt_spotify.html#1" width="672" height="400px" data-external="1">
+</iframe>
+</div>
+</section><section id="tabla-final-del-meetup-en-gt" class="level3"><h3 class="anchored" data-anchor-id="tabla-final-del-meetup-en-gt">Tabla final del meetup en {gt}</h3>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure"><p><img src="tabla_badbunny.png" class="img-fluid figure-img" width="1120"></p>
 </figure>
 </div>
 </div>
 </div>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="R,paquete,rOpenSci,ARcenso,Charla" data-listing-date-sort="1741748400000" data-listing-file-modified-sort="1750471196997" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
-<div class="thumbnail">
-<p><a href="./conoce-arcenso/2025-community-call/index.html" class="no-external"></a></p><a href="./conoce-arcenso/2025-community-call/index.html" class="no-external">
-<p class="card-img-top"><img src="conoce-arcenso\2025-community-call\ropensci.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./conoce-arcenso/2025-community-call/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./conoce-arcenso/2025-community-call/index.html" class="no-external">rOpenSci - Community call</a>
+</section><section id="mirá-el-taller-en-el-canal-de-youtube-de-rladies-buenos-aires" class="level3"><h3 class="anchored" data-anchor-id="mirá-el-taller-en-el-canal-de-youtube-de-rladies-buenos-aires">Mirá el taller en el canal de Youtube de <a href="https://www.youtube.com/@RLadiesBuenosAires">Rladies Buenos Aires</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./conoce-arcenso/2025-community-call/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('paquete'); return false;">
-paquete
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('rOpenSci'); return false;">
-rOpenSci
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ARcenso'); return false;">
-ARcenso
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Charla'); return false;">
-Charla
-</div>
-</div>
-<div class="listing-description">
-<a href="./conoce-arcenso/2025-community-call/index.html" class="no-external">Charla sobre el programa de campeones &amp; {arcenso} </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./conoce-arcenso/2025-community-call/index.html" class="no-external">
-<div class="listing-date">
-12 mar 2025
-</div>
-<div class="listing-author">
-Andrea Gómez Vargas
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="1" data-categories="Data,ARcenso,Charla,Open Science,Comunidad" data-listing-date-sort="1741230000000" data-listing-file-modified-sort="1750472459725" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="220">
-<div class="thumbnail">
-<p><a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external"></a></p><a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external">
-<p class="card-img-top"><img src="conoce-arcenso\2025-opendataday\flyer.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external">The Turing Way Fireside Chat</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Data'); return false;">
-Data
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ARcenso'); return false;">
-ARcenso
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Charla'); return false;">
-Charla
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Open Science'); return false;">
-Open Science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Comunidad'); return false;">
-Comunidad
-</div>
-</div>
-<div class="listing-description">
-<a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external">#OpenDataDay 2025 - charla debate</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external">
-<div class="listing-date">
-6 mar 2025
-</div>
-<div class="listing-author">
-Andrea Gómez Vargas
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="2" data-categories="R,paquete,rOpenSci,censo,ARcenso,Charla,Comunidad" data-listing-date-sort="1734663600000" data-listing-file-modified-sort="1750470837192" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
-<div class="thumbnail">
-<p><a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external"></a></p><a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external">
-<p class="card-img-top"><img src="conoce-arcenso\2024-renred-buenosaires\flyer.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external">R en red: ARcenso, oportunidades y comunidad</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('paquete'); return false;">
-paquete
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('rOpenSci'); return false;">
-rOpenSci
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('censo'); return false;">
-censo
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ARcenso'); return false;">
-ARcenso
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Charla'); return false;">
-Charla
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Comunidad'); return false;">
-Comunidad
-</div>
-</div>
-<div class="listing-description">
-<a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external">Charla presentación paquete {ARcenso} en R-Ladies &amp; R en Buenos Aires</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external">
-<div class="listing-date">
-20 dic 2024
-</div>
-<div class="listing-author">
-Andrea Gómez Vargas
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="3" data-categories="R,LatinR,ARcenso,rOpenSci,paquete,Charla,Comunidad" data-listing-date-sort="1732071600000" data-listing-file-modified-sort="1750472756610" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
-<div class="thumbnail">
-<p><a href="./conoce-arcenso/2024-latinr/index.html" class="no-external"></a></p><a href="./conoce-arcenso/2024-latinr/index.html" class="no-external">
-<p class="card-img-top"><img src="conoce-arcenso\2024-latinr\portada.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./conoce-arcenso/2024-latinr/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./conoce-arcenso/2024-latinr/index.html" class="no-external">LatinR 2024: ARcenso con rOpenSci</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./conoce-arcenso/2024-latinr/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('LatinR'); return false;">
-LatinR
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ARcenso'); return false;">
-ARcenso
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('rOpenSci'); return false;">
-rOpenSci
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('paquete'); return false;">
-paquete
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Charla'); return false;">
-Charla
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Comunidad'); return false;">
-Comunidad
-</div>
-</div>
-<div class="listing-description">
-<a href="./conoce-arcenso/2024-latinr/index.html" class="no-external">Presentación paquete {ARcenso} con rOpenSci</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./conoce-arcenso/2024-latinr/index.html" class="no-external">
-<div class="listing-date">
-20 nov 2024
-</div>
-<div class="listing-author">
-Andrea Gómez Vargas
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No hay resultados
-</div>
-</div></main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wciGM5rMBos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+</section><section id="redes-sociales" class="level3"><h3 class="anchored" data-anchor-id="redes-sociales">Redes sociales</h3>
+<blockquote class="twitter-tweet blockquote">
+<p lang="es" dir="ltr">
+</p>
+<p>Por si se lo perdieron, recién cerramos el taller de <a href="https://twitter.com/RLadiesBA?ref_src=twsrc%5Etfw"><span class="citation" data-cites="RLadiesBA">@RLadiesBA</span></a> con <a href="https://twitter.com/me_andre?ref_src=twsrc%5Etfw"><span class="citation" data-cites="me_andre">@me_andre</span></a> donde mostramos cómo generar tablas {gt} 📦con datos de la API de Spotify. Dejamos una función para generar esta tabla con su artista más escuchado:<br>➡️Slides: <a href="https://t.co/PYTi6mQpHX">https://t.co/PYTi6mQpHX</a><a href="https://twitter.com/lasligasmenores?ref_src=twsrc%5Etfw"><span class="citation" data-cites="lasligasmenores">@lasligasmenores</span></a> <a href="https://t.co/DdSRzfqnhe">pic.twitter.com/DdSRzfqnhe</a></p>
+
+<p>— Karina Bartolomé (<span class="citation" data-cites="karbartolome">@karbartolome</span>) <a href="https://twitter.com/karbartolome/status/1595561478836436992?ref_src=twsrc%5Etfw">November 23, 2022</a></p>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><blockquote class="twitter-tweet blockquote">
+<p lang="es" dir="ltr">
+</p>
+<p>Tremendo el taller sobre gt con datos de Spotify dictado por <a href="https://twitter.com/me_andre?ref_src=twsrc%5Etfw"><span class="citation" data-cites="me_andre">@me_andre</span></a> y <a href="https://twitter.com/karbartolome?ref_src=twsrc%5Etfw"><span class="citation" data-cites="karbartolome">@karbartolome</span></a> <a href="https://twitter.com/hashtag/RLadiesBA?src=hash&amp;ref_src=twsrc%5Etfw">#RLadiesBA</a> <a href="https://twitter.com/hashtag/RStatsES?src=hash&amp;ref_src=twsrc%5Etfw">#RStatsES</a> <a href="https://t.co/A645nqIdz3">pic.twitter.com/A645nqIdz3</a></p>
+
+<p>— Patricia Loto (<span class="citation" data-cites="patriloto">@patriloto</span>) <a href="https://twitter.com/patriloto/status/1595575646343806976?ref_src=twsrc%5Etfw">November 24, 2022</a></p>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -882,21 +650,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
+<footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">
       &nbsp;
     </div>   
     <div class="nav-footer-center">
 <p>Copyright 2025, Andrea Gomez Vargas</p>
-<div class="toc-actions"><ul><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/edit/main/conoce-arcenso.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/blob/main/conoce-arcenso.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/edit/main/talleres/2023-gt-BadBunny/index.Rmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/blob/main/talleres/2023-gt-BadBunny/index.Rmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
-
-
 
 
 </body></html>

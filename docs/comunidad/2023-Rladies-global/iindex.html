@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Andrea Gómez Vargas">
+<meta name="description" content="Desde junio de 2023 formo parte del equipo global de R-Ladies 💜">
 
-<title>ARcenso – Data by Andre</title>
+<title>R-Ladies Global team 💜 – Data by Andre</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,94 +68,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<style>
-
-      .quarto-title-block .quarto-title-banner h1,
-      .quarto-title-block .quarto-title-banner h2,
-      .quarto-title-block .quarto-title-banner h3,
-      .quarto-title-block .quarto-title-banner h4,
-      .quarto-title-block .quarto-title-banner h5,
-      .quarto-title-block .quarto-title-banner h6
-      {
-        color: #000000;
-      }
-
-      .quarto-title-block .quarto-title-banner {
-        color: #000000;
-background: #c9d2d8;
-      }
-</style>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Data by Andre</span>
     </a>
   </div>
@@ -178,7 +103,7 @@ window.Quarto = {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Hola</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -187,25 +112,25 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-curriculum">    
         <li>
-    <a class="dropdown-item" href="./cv_ES.html">
+    <a class="dropdown-item" href="../../cv_ES.html">
  <span class="dropdown-text">Andrea Gomez Vargas - CV</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./conoce-arcenso.html" aria-current="page"> 
+    <a class="nav-link" href="../../conoce-arcenso.html"> 
 <span class="menu-text">ARcenso</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talleres.html"> 
+    <a class="nav-link" href="../../talleres.html"> 
 <span class="menu-text">Charlas &amp; Talleres</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./comunidad.html"> 
+    <a class="nav-link" href="../../comunidad.html"> 
 <span class="menu-text">Comunidad</span></a>
   </li>  
 </ul>
@@ -216,251 +141,91 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">ARcenso</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="ARcenso"><span class="quarto-category-count category-cloud-10">ARcenso</span></div><div class="category" data-category="Charla"><span class="quarto-category-count category-cloud-10">Charla</span></div><div class="category" data-category="Comunidad"><span class="quarto-category-count category-cloud-8">Comunidad</span></div><div class="category" data-category="Data"><span class="quarto-category-count category-cloud-3">Data</span></div><div class="category" data-category="LatinR"><span class="quarto-category-count category-cloud-3">LatinR</span></div><div class="category" data-category="Open Science"><span class="quarto-category-count category-cloud-3">Open Science</span></div><div class="category" data-category="R"><span class="quarto-category-count category-cloud-8">R</span></div><div class="category" data-category="censo"><span class="quarto-category-count category-cloud-3">censo</span></div><div class="category" data-category="paquete"><span class="quarto-category-count category-cloud-8">paquete</span></div><div class="category" data-category="rOpenSci"><span class="quarto-category-count category-cloud-8">rOpenSci</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#paso-de-local-a-global" id="toc-paso-de-local-a-global" class="nav-link active" data-scroll-target="#paso-de-local-a-global">Paso de Local a Global</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/edit/main/comunidad/2023-Rladies-global/iindex.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/blob/main/comunidad/2023-Rladies-global/iindex.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">R-Ladies Global team 💜</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">comunidad</div>
+    <div class="quarto-category">Global</div>
+    <div class="quarto-category">RLadies</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Desde junio de 2023 formo parte del equipo global de R-Ladies 💜
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor/a</div>
+    <div class="quarto-title-meta-contents">
+             <p>Andrea Gómez Vargas </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">1 de junio de 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
-
-<div class="columns">
-<div class="column" style="width:70%;">
-<p><a href="https://soyandrea.github.io/arcenso/">{ARcenso}</a> es un paquete en desarrollo que facilitará el acceso a los datos oficiales de los censos nacionales de población en Argentina.</p>
-<p>Este proyecto fue apoyado por el <a href="https://soyandrea.github.io/comunidad/champions-ropensci/">Programa de Campeones de rOpenSci 2023-2024</a>, con Andrea Gómez Vargas &amp; Emanuel Ciardullo como autores.</p>
-</div><div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="image/arcenso.png" class="img-fluid figure-img" width="150"></p>
-<figcaption>hex ARcenso</figcaption>
-</figure>
-</div>
-</div>
-</div>
+</header>
 
 
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="R,paquete,rOpenSci,ARcenso,Charla" data-listing-date-sort="1741748400000" data-listing-file-modified-sort="1750471196997" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
-<div class="thumbnail">
-<p><a href="./conoce-arcenso/2025-community-call/index.html" class="no-external"></a></p><a href="./conoce-arcenso/2025-community-call/index.html" class="no-external">
-<p class="card-img-top"><img src="conoce-arcenso\2025-community-call\ropensci.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./conoce-arcenso/2025-community-call/index.html" class="no-external"></a></p>
+<section id="paso-de-local-a-global" class="level2">
+<h2 class="anchored" data-anchor-id="paso-de-local-a-global">Paso de Local a Global</h2>
+<p><img src="globalteam.png" class="img-fluid"></p>
+<p>Tras varios años en el capítulo local de Buenos Aires, decidí unirme al equipo global de R-Ladies para seguir creciendo dentro de la comunidad de R. Mi objetivo es fortalecer los liderazgos y comprender los desafíos a nivel global para seguir apoyando su misión: promover la diversidad de género en la comunidad de R. Desde mi rol, me sumé al Website Team pero no es lo único en lo que aporto, he participado en otras actividades y tareas.</p>
+<p><em>“En 2023 se anunciaron vacantes en el Equipo Global de R-Ladies, que apoya los esfuerzos organizativos y facilita el crecimiento de la comunidad. R-Ladies es impulsado 100% por voluntarias, y agradecemos a quienes dedican su tiempo y esfuerzo para defender nuestra misión.</em></p>
+<p><em>R-Ladies Global es gestionado por un equipo de voluntarias con roles específicos dentro de la organización. El equipo directivo garantiza una estructura sólida, el cumplimiento de compromisos con patrocinadores y miembros, y la evolución de R-Ladies en su conjunto.”</em></p>
+<blockquote class="blockquote">
+<p>NEWS: <a href="https://rladies.org/news/news/new-to-global-team-2023/">Welcome to the R-Ladies Global Team</a></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Conoce el equipo completo de R-Ladies Global <a href="https://rladies.org/about-us/global-team/" class="uri">https://rladies.org/about-us/global-team/</a></p>
+</blockquote>
+<blockquote class="mastodon-embed blockquote" data-embed-url="https://hachyderm.io/@RLadiesGlobal/112089595174705776/embed" style="background: #FCF8FF; border-radius: 8px; border: 1px solid #C9C4DA; margin: 0; max-width: 540px; min-width: 270px; overflow: hidden; padding: 0;">
+<a href="https://hachyderm.io/@RLadiesGlobal/112089595174705776" target="_blank" style="align-items: center; color: #1C1A25; display: flex; flex-direction: column; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Roboto, sans-serif; font-size: 14px; justify-content: center; letter-spacing: 0.25px; line-height: 20px; padding: 24px; text-decoration: none;"> <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewbox="0 0 79 75"><path d="M74.7135 16.6043C73.6199 8.54587 66.5351 2.19527 58.1366 0.964691C56.7196 0.756754 51.351 0 38.9148 0H38.822C26.3824 0 23.7135 0.756754 22.2966 0.964691C14.1319 2.16118 6.67571 7.86752 4.86669 16.0214C3.99657 20.0369 3.90371 24.4888 4.06535 28.5726C4.29578 34.4289 4.34049 40.275 4.877 46.1075C5.24791 49.9817 5.89495 53.8251 6.81328 57.6088C8.53288 64.5968 15.4938 70.4122 22.3138 72.7848C29.6155 75.259 37.468 75.6697 44.9919 73.971C45.8196 73.7801 46.6381 73.5586 47.4475 73.3063C49.2737 72.7302 51.4164 72.086 52.9915 70.9542C53.0131 70.9384 53.0308 70.9178 53.0433 70.8942C53.0558 70.8706 53.0628 70.8445 53.0637 70.8179V65.1661C53.0634 65.1412 53.0574 65.1167 53.0462 65.0944C53.035 65.0721 53.0189 65.0525 52.9992 65.0371C52.9794 65.0218 52.9564 65.011 52.9318 65.0056C52.9073 65.0002 52.8819 65.0003 52.8574 65.0059C48.0369 66.1472 43.0971 66.7193 38.141 66.7103C29.6118 66.7103 27.3178 62.6981 26.6609 61.0278C26.1329 59.5842 25.7976 58.0784 25.6636 56.5486C25.6622 56.5229 25.667 56.4973 25.6775 56.4738C25.688 56.4502 25.7039 56.4295 25.724 56.4132C25.7441 56.397 25.7678 56.3856 25.7931 56.3801C25.8185 56.3746 25.8448 56.3751 25.8699 56.3816C30.6101 57.5151 35.4693 58.0873 40.3455 58.086C41.5183 58.086 42.6876 58.086 43.8604 58.0553C48.7647 57.919 53.9339 57.6701 58.7591 56.7361C58.8794 56.7123 58.9998 56.6918 59.103 56.6611C66.7139 55.2124 73.9569 50.665 74.6929 39.1501C74.7204 38.6967 74.7892 34.4016 74.7892 33.9312C74.7926 32.3325 75.3085 22.5901 74.7135 16.6043ZM62.9996 45.3371H54.9966V25.9069C54.9966 21.8163 53.277 19.7302 49.7793 19.7302C45.9343 19.7302 44.0083 22.1981 44.0083 27.0727V37.7082H36.0534V27.0727C36.0534 22.1981 34.124 19.7302 30.279 19.7302C26.8019 19.7302 25.0651 21.8163 25.0617 25.9069V45.3371H17.0656V25.3172C17.0656 21.2266 18.1191 17.9769 20.2262 15.568C22.3998 13.1648 25.2509 11.9308 28.7898 11.9308C32.8859 11.9308 35.9812 13.492 38.0447 16.6111L40.036 19.9245L42.0308 16.6111C44.0943 13.492 47.1896 11.9308 51.2788 11.9308C54.8143 11.9308 57.6654 13.1648 59.8459 15.568C61.9529 17.9746 63.0065 21.2243 63.0065 25.3172L62.9996 45.3371Z" fill="currentColor"></path></svg>
+<div style="color: #787588; margin-top: 16px;">
+Post by <span class="citation" data-cites="RLadiesGlobal">@RLadiesGlobal</span><span class="citation" data-cites="hachyderm.io">@hachyderm.io</span>
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./conoce-arcenso/2025-community-call/index.html" class="no-external">rOpenSci - Community call</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./conoce-arcenso/2025-community-call/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('paquete'); return false;">
-paquete
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('rOpenSci'); return false;">
-rOpenSci
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ARcenso'); return false;">
-ARcenso
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Charla'); return false;">
-Charla
-</div>
-</div>
-<div class="listing-description">
-<a href="./conoce-arcenso/2025-community-call/index.html" class="no-external">Charla sobre el programa de campeones &amp; {arcenso} </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./conoce-arcenso/2025-community-call/index.html" class="no-external">
-<div class="listing-date">
-12 mar 2025
-</div>
-<div class="listing-author">
-Andrea Gómez Vargas
+<div style="font-weight: 500;">
+View on Mastodon
 </div>
 </a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="1" data-categories="Data,ARcenso,Charla,Open Science,Comunidad" data-listing-date-sort="1741230000000" data-listing-file-modified-sort="1750472459725" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="220">
-<div class="thumbnail">
-<p><a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external"></a></p><a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external">
-<p class="card-img-top"><img src="conoce-arcenso\2025-opendataday\flyer.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external">The Turing Way Fireside Chat</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Data'); return false;">
-Data
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ARcenso'); return false;">
-ARcenso
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Charla'); return false;">
-Charla
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Open Science'); return false;">
-Open Science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Comunidad'); return false;">
-Comunidad
-</div>
-</div>
-<div class="listing-description">
-<a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external">#OpenDataDay 2025 - charla debate</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./conoce-arcenso/2025-opendataday/index.html" class="no-external">
-<div class="listing-date">
-6 mar 2025
-</div>
-<div class="listing-author">
-Andrea Gómez Vargas
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="2" data-categories="R,paquete,rOpenSci,censo,ARcenso,Charla,Comunidad" data-listing-date-sort="1734663600000" data-listing-file-modified-sort="1750470837192" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
-<div class="thumbnail">
-<p><a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external"></a></p><a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external">
-<p class="card-img-top"><img src="conoce-arcenso\2024-renred-buenosaires\flyer.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external">R en red: ARcenso, oportunidades y comunidad</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('paquete'); return false;">
-paquete
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('rOpenSci'); return false;">
-rOpenSci
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('censo'); return false;">
-censo
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ARcenso'); return false;">
-ARcenso
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Charla'); return false;">
-Charla
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Comunidad'); return false;">
-Comunidad
-</div>
-</div>
-<div class="listing-description">
-<a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external">Charla presentación paquete {ARcenso} en R-Ladies &amp; R en Buenos Aires</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="no-external">
-<div class="listing-date">
-20 dic 2024
-</div>
-<div class="listing-author">
-Andrea Gómez Vargas
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="3" data-categories="R,LatinR,ARcenso,rOpenSci,paquete,Charla,Comunidad" data-listing-date-sort="1732071600000" data-listing-file-modified-sort="1750472756610" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
-<div class="thumbnail">
-<p><a href="./conoce-arcenso/2024-latinr/index.html" class="no-external"></a></p><a href="./conoce-arcenso/2024-latinr/index.html" class="no-external">
-<p class="card-img-top"><img src="conoce-arcenso\2024-latinr\portada.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./conoce-arcenso/2024-latinr/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./conoce-arcenso/2024-latinr/index.html" class="no-external">LatinR 2024: ARcenso con rOpenSci</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./conoce-arcenso/2024-latinr/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('LatinR'); return false;">
-LatinR
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ARcenso'); return false;">
-ARcenso
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('rOpenSci'); return false;">
-rOpenSci
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('paquete'); return false;">
-paquete
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Charla'); return false;">
-Charla
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Comunidad'); return false;">
-Comunidad
-</div>
-</div>
-<div class="listing-description">
-<a href="./conoce-arcenso/2024-latinr/index.html" class="no-external">Presentación paquete {ARcenso} con rOpenSci</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./conoce-arcenso/2024-latinr/index.html" class="no-external">
-<div class="listing-date">
-20 nov 2024
-</div>
-<div class="listing-author">
-Andrea Gómez Vargas
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No hay resultados
-</div>
-</div></main> <!-- /main -->
+</blockquote>
+<script data-allowed-prefixes="https://hachyderm.io/" async="" src="https://hachyderm.io/embed.js"></script>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -889,7 +654,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>Copyright 2025, Andrea Gomez Vargas</p>
-<div class="toc-actions"><ul><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/edit/main/conoce-arcenso.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/blob/main/conoce-arcenso.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/edit/main/comunidad/2023-Rladies-global/iindex.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/blob/main/comunidad/2023-Rladies-global/iindex.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
