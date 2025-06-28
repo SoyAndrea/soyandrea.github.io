@@ -1,0 +1,15 @@
+{
+  "hash": "489201294f09d7c198a96f322a0599b1",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Government Advances in Statistical Programming\"\nauthor: \"Andrea Gómez Vargas\"\ndate: 2025-06-25\ndescription: Presentación paquete {ARcenso} \ncategories: [R, GASP, ARcenso, rOpenSci, paquete, Charla, Comunidad]\ntype: post\n---\n\n\n\n# ARcenso: a Package Born From Chaos, Powered by Community 📦\n\n### Lightning Talks: Publishing Data and Metadata\n\n<br>\n\nEstuvimos contando sobre arcenso en GASP 2025, un evento virtual que se realizó del 24 al 26 de junio y reunió a más de 100 personas por día de distintos ámbitos: gobierno, academia e industria, todas interesadas en el uso de estadísticas públicas. Fue una gran oportunidad para compartir este proyecto con personas que trabajan con datos censales en Estados Unidos, como integrantes del Census Bureau o investigadoras de universidades como la de Chicago. Presentamos cómo arcenso busca ordenar y hacer accesibles los datos del censo argentino a través de un paquete en R, pensado para facilitar su uso por parte de funcionariado, investigadoras y la ciudadanía en general. También compartimos cómo la comunidad R fue clave para desarrollar esta herramienta: desde aprender buenas prácticas hasta recibir apoyo e inspiración para transformar el caos en un recurso útil para todas las personas que trabajan con datos.\n\n\n\n### Oradores\n\n-   [Andrea Gomez Vargas](https://github.com/SoyAndrea)\n-   [Emanuel Ciardullo](https://github.com/ECiardullo)\n\n\n### Programa de la sesión\n\n![](gasp25.png){width=70%} \n\n\n\n### Apoyan \n\n:::::: columns\n::: {.column width=\"50%\"}\n\n\n\nEl evento fue patrocinado por el grupo Data Science for Federal Statistics (DSFS) —parte del Federal Committee on Statistical Methodology (FCSM)— y organizado con el apoyo de la American Statistical Association (ASA). \n\n\n:::\n\n::: {.column width=\"1%\"}\n:::\n\n::: {.column width=\"40%\"}\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPrXjVM_HltGLva_1ZkIY4wG8mb52470N_3Q&s){width=70%}\n\n![](https://www.amstat.org/assets/images/fb-og.jpg){width=70%}\n\n:::\n::::::\n\n\n\n### Slides\n\n\n\n::: {.cell}\n<iframe src=\"https://eciardullo.github.io/arcenso-GASP25/\" width=\"672\" height=\"400\" data-external=\"1\"></iframe>\n:::\n\n\n\n\n### Links de interés\n\n-   GASP home <https://community.amstat.org/gasp/home>\n-   [web ARcenso](https://soyandrea.github.io/arcenso/)\n-   [repositorio en GitHub de ARcenso](https://github.com/SoyAndrea/arcenso)\n-   slides en Quarto [eciardullo.github.io/arcenso-GASP25](https://eciardullo.github.io/arcenso-GASP25/#/title-slide)\n-   [rOpenSci Champions Program - Andrea Gomez Vargas](https://ropensci.org/blog/2024/02/15/champions-program-champions-2024/#andrea-gomez-vargas)\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

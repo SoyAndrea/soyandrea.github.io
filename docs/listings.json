@@ -21,21 +21,6 @@
     ]
   },
   {
-    "listing": "/comunidad.html",
-    "items": [
-      "/comunidad/2025-DISCUnconference/index.html",
-      "/comunidad/2024-R-buenosaires/index.html",
-      "/comunidad/2024-positconf-scholarship/index.html",
-      "/comunidad/2024-champions-ropensci/index.html",
-      "/comunidad/2023-Rladies-global/iindex.html",
-      "/comunidad/2022-femITconf/index.html",
-      "/comunidad/2022-DegenerandoCP/index.html",
-      "/comunidad/2022-we-are-R-ladies/index.html",
-      "/comunidad/2019-Rladies-BuenosAires/index.html",
-      "/comunidad/2020-accesibilidad-inclusion/index.html"
-    ]
-  },
-  {
     "listing": "/blog.html",
     "items": [
       "/blog/2024-tidyverse-devday/index.html",
@@ -51,8 +36,24 @@
     ]
   },
   {
+    "listing": "/comunidad.html",
+    "items": [
+      "/comunidad/2025-DISCUnconference/index.html",
+      "/comunidad/2024-R-buenosaires/index.html",
+      "/comunidad/2024-positconf-scholarship/index.html",
+      "/comunidad/2024-champions-ropensci/index.html",
+      "/comunidad/2023-Rladies-global/iindex.html",
+      "/comunidad/2022-femITconf/index.html",
+      "/comunidad/2022-DegenerandoCP/index.html",
+      "/comunidad/2022-we-are-R-ladies/index.html",
+      "/comunidad/2019-Rladies-BuenosAires/index.html",
+      "/comunidad/2020-accesibilidad-inclusion/index.html"
+    ]
+  },
+  {
     "listing": "/conoce-arcenso.html",
     "items": [
+      "/conoce-arcenso/2025-GASP/index.html",
       "/conoce-arcenso/2025-community-call/index.html",
       "/conoce-arcenso/2025-opendataday/index.html",
       "/conoce-arcenso/2024-renred-buenosaires/index.html",

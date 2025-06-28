@@ -3,7 +3,7 @@ title: "ARcenso"
 listing:
   contents: conoce-arcenso
   sort: "date desc"
-  type: default
+  type: grid
   image-align: left
   max-description-length: 175
   date-format: medium
