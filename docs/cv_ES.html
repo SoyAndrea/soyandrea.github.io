@@ -163,13 +163,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#experiencia-profesional" id="toc-experiencia-profesional" class="nav-link active" data-scroll-target="#experiencia-profesional">Experiencia profesional</a></li>
-  <li><a href="#desarrollo-de-software" id="toc-desarrollo-de-software" class="nav-link" data-scroll-target="#desarrollo-de-software">Desarrollo de Software 📦</a></li>
-  <li><a href="#becas" id="toc-becas" class="nav-link" data-scroll-target="#becas">Becas</a></li>
-  <li><a href="#formación-profesional" id="toc-formación-profesional" class="nav-link" data-scroll-target="#formación-profesional">Formación profesional</a></li>
+  <li><a href="#experiencia-profesional" id="toc-experiencia-profesional" class="nav-link active" data-scroll-target="#experiencia-profesional">Experiencia profesional</a>
+  <ul class="collapse">
   <li><a href="#consultorías" id="toc-consultorías" class="nav-link" data-scroll-target="#consultorías">Consultorías</a></li>
   <li><a href="#experiencia-docente" id="toc-experiencia-docente" class="nav-link" data-scroll-target="#experiencia-docente">Experiencia docente</a></li>
+  </ul></li>
+  <li><a href="#desarrollo-de-software" id="toc-desarrollo-de-software" class="nav-link" data-scroll-target="#desarrollo-de-software">Desarrollo de Software 📦</a></li>
+  <li><a href="#formación-profesional" id="toc-formación-profesional" class="nav-link" data-scroll-target="#formación-profesional">Formación profesional</a>
+  <ul class="collapse">
   <li><a href="#cursos-y-capacitaciones" id="toc-cursos-y-capacitaciones" class="nav-link" data-scroll-target="#cursos-y-capacitaciones">Cursos y capacitaciones</a></li>
+  </ul></li>
+  <li><a href="#becas" id="toc-becas" class="nav-link" data-scroll-target="#becas">Becas</a></li>
   <li><a href="#congresos-charlas-ponencias" id="toc-congresos-charlas-ponencias" class="nav-link" data-scroll-target="#congresos-charlas-ponencias">Congresos, charlas, ponencias</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/edit/main/cv_ES.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/blob/main/cv_ES.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
@@ -189,57 +193,27 @@ ul.task-list li input[type="checkbox"] {
 <section id="experiencia-profesional" class="level2">
 <h2 class="anchored" data-anchor-id="experiencia-profesional">Experiencia profesional</h2>
 <p><strong>Analista de Estadísticas Poblacionales, INDEC (2021 – actualidad)</strong></p>
-<p><em>Rol en la Dirección Nacional de Estadísticas Sociales y de Población. Buenos Aires.</em> <br> <br> - Trabajo en pipelines de datos desarrollados en R. Análisis y procesamiento de bases de datos utilizando R y SQL de diversas fuentes de datos (censos, encuestas y registros administrativos). <br>- Diseño, desarrollo y entrega de productos estadísticos digitales basados en datos. <br>- Elaboración y cálculo de indicadores sociodemográficos a nivel nacional.</p>
+<p><em>Rol en la Dirección Nacional de Estadísticas Sociales y de Población. Buenos Aires.</em> <br></p>
+<p>Trabajo en el diseño y desarrollo de procesos integrados de análisis en R para el procesamiento de información proveniente de censos, encuestas y registros administrativos, utilizando R y SQL. Desarrollo indicadores sociodemográficos a nivel nacional, que se integran en publicaciones estadísticas e instrumentos digitales interactivos (como tableros), diseñados de forma complementaria para facilitar su acceso, análisis y difusión.</p>
+<blockquote class="blockquote">
+<p>Mi trabajo se centra en estadísticas sociales y de población, con foco en la reproducibilidad, los datos abiertos y la comunicación accesible.</p>
+</blockquote>
 <div class="concise">
 <p><em>Publicaciones:</em></p>
 <ul>
 <li><a href="https://shiny.indec.gob.ar/sies/">Shiny app - Sistema Integrado de Estadísticas Sociales (SIES)</a></li>
 <li><a href="https://shiny.indec.gob.ar/tablero_pm/">Shiny app - Tablero personas mayores</a></li>
+<li><a href="https://censo.gob.ar/index.php/censo-2022-sintesis-de-resultados/">Publicación Síntesis de resultados - Censo 2022</a></li>
 <li><a href="https://www.indec.gob.ar/ftp/cuadros/publicaciones/dosier_estadistico_8M_2023.pdf">Dosier Estadístico Día Internacional de la Mujer</a></li>
 <li><a href="https://www.indec.gob.ar/ftp/cuadros/poblacion/dosier_personas_mayores_2023.pdf">Dosier Estadístico de personas mayores</a></li>
 <li><a href="https://www.indec.gob.ar/ftp/cuadros/poblacion/dosier_nnya_11_237A4EFD2B08.pdf">Dosier Estadístico de niñas, niños y adolescentes</a></li>
 <li><a href="https://www.indec.gob.ar/ftp/cuadros/sociedad/enut_2021.pdf">Encuesta Nacional de Uso del Tiempo 2021. Resultados</a></li>
 </ul>
 </div>
-</section>
-<section id="desarrollo-de-software" class="level2">
-<h2 class="anchored" data-anchor-id="desarrollo-de-software">Desarrollo de Software 📦</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<p><img src="image/arcenso.png" class="img-fluid" style="width:80.0%"></p>
-</div><div class="column" style="width:70%;">
-<p><strong>arcenso</strong>: paquete en R con datos censales de población Argentina.</p>
-<p>Desarrolladora principal <a href="https://github.com/SoyAndrea/arcenso/">github.com/SoyAndrea/arcenso</a></p>
-<p>Buenos Aires - 2024</p>
-</div>
-</div>
-</section>
-<section id="becas" class="level2">
-<h2 class="anchored" data-anchor-id="becas">Becas</h2>
+<section id="consultorías" class="level3">
+<h3 class="anchored" data-anchor-id="consultorías">Consultorías</h3>
 <ul>
-<li><a href="https://posit.co/blog/posit-conf-2024-announcement/">posit::conf(2024) - Diversity Scholarchip</a></li>
-</ul>
-<p>Diversity Scholarship to individuals worldwide who are members of an underrepresented group so they can attend posit::conf(). Seattle, Estados Unidos - 2024.</p>
-<ul>
-<li><a href="https://ropensci.org/champions/">rOpenSci Champions Program cohort 2023 - 2024</a></li>
-</ul>
-<p>Mentoring and training program from Scientific Open Source]. Buenos Aires - Virtual. 2024.</p>
-</section>
-<section id="formación-profesional" class="level2">
-<h2 class="anchored" data-anchor-id="formación-profesional">Formación profesional</h2>
-<ul>
-<li><strong>Maestría en Generación y Análisis de Información Estadística</strong></li>
-</ul>
-<p>Universidad Nacional Tres de Febrero (UNTREF). Buenos Aires. 2024-actualidad.</p>
-<ul>
-<li><strong>Licenciatura en Sociología</strong></li>
-</ul>
-<p>Universidad de Buenos Aires (UBA). Buenos Aires. 2020.</p>
-</section>
-<section id="consultorías" class="level2">
-<h2 class="anchored" data-anchor-id="consultorías">Consultorías</h2>
-<ul>
-<li><strong>Fundación Huésped</strong></li>
+<li><strong>Fundación Huésped: Prevención - Ciencia - Derechos</strong></li>
 </ul>
 <p>Analisis de datos y elaboración de reporte de Resultados Encuesta de Salud para Personas Migrantes 2024</p>
 <p>Buenos Aires</p>
@@ -269,24 +243,61 @@ ul.task-list li input[type="checkbox"] {
 <p>Buenos Aires</p>
 <p>01/05/2021 – 30/06/2021</p>
 </section>
-<section id="experiencia-docente" class="level2">
-<h2 class="anchored" data-anchor-id="experiencia-docente">Experiencia docente</h2>
+<section id="experiencia-docente" class="level3">
+<h3 class="anchored" data-anchor-id="experiencia-docente">Experiencia docente</h3>
 <ul>
+<li><p>Consejo Nacional de Investigaciones Científicas y Técnicas - CONICET, <strong>Docente</strong>. Curso Aplicaciones interactivas con R y Shiny para investigación. Buenos Aires - Virtual. 2025</p></li>
 <li><p>Universidad Nacional Guillermo Brown, <strong>Docente adjunta dedicación simple</strong>. Materia Visualización de la Información - carrera de grado ciencia de datos. Buenos Aires - Virtual. 2023-2024.</p></li>
 <li><p>Universidad Nacional de San Martín, <strong>Profesora de Posgrado</strong>. Diplomatura en Ciencias Sociales Computacionales y Humanidades Digitales. Buenos Aires - Virtual. 2023.</p></li>
 <li><p>Asociación Argentina de Especialistas en Estudios del Trabajo, <strong>Docente</strong>. Curso de Introducción al Procesamiento de Datos con R edición 2022 &amp; 2023. Virtual. 2022-2023.</p></li>
 <li><p>Facultad Latinoamericana de Ciencias Sociales (FLACSO), <strong>Tutora técnico-pedagógica</strong>. Curso de Posgrado Big Data e Inteligencia Territorial. Virtual. 2022-2021.</p></li>
 </ul>
 </section>
-<section id="cursos-y-capacitaciones" class="level2">
-<h2 class="anchored" data-anchor-id="cursos-y-capacitaciones">Cursos y capacitaciones</h2>
+</section>
+<section id="desarrollo-de-software" class="level2">
+<h2 class="anchored" data-anchor-id="desarrollo-de-software">Desarrollo de Software 📦</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p><img src="image/arcenso.png" class="img-fluid" style="width:80.0%"></p>
+</div><div class="column" style="width:70%;">
+<p><strong>arcenso</strong>: paquete en R con datos censales de población Argentina.</p>
+<p>Desarrolladora principal <a href="https://github.com/SoyAndrea/arcenso/">github.com/SoyAndrea/arcenso</a></p>
+<p>Buenos Aires - 2024</p>
+</div>
+</div>
+</section>
+<section id="formación-profesional" class="level2">
+<h2 class="anchored" data-anchor-id="formación-profesional">Formación profesional</h2>
 <ul>
+<li><strong>Maestría en Generación y Análisis de Información Estadística</strong></li>
+</ul>
+<p>Universidad Nacional Tres de Febrero (UNTREF). Buenos Aires. 2024-actualidad.</p>
+<ul>
+<li><strong>Licenciatura en Sociología</strong></li>
+</ul>
+<p>Universidad de Buenos Aires (UBA). Buenos Aires. 2020.</p>
+<section id="cursos-y-capacitaciones" class="level3">
+<h3 class="anchored" data-anchor-id="cursos-y-capacitaciones">Cursos y capacitaciones</h3>
+<ul>
+<li><p><em>Curso de Minería de datos con Python.</em> UTN. Buenos Aires. 2025</p></li>
 <li><p><em>Ciclo de formaciones en SQL: Bases de datos con SQL &amp; selecciones avanzadas en SQL ORACLE</em> INDEC. Buenos Aires. 2023</p></li>
 <li><p><em>Diseño y construcción de indicadores &amp; Estadísticas Sociales 2.</em> DANE Colombia. Virtual. 2023</p></li>
 <li><p><em>Aplicación del Sistema de Información Geográfica (SIG) en el análisis de indicadores sociodemográficos.</em> INDEC. Buenos Aires. 2022</p></li>
 <li><p><em>Accesiblidad web: introducción y pautas &amp; técnicas y herramientas para mejorarla.</em> INAP. Virtual. 2022</p></li>
 <li><p><em>Social Data Analytics.</em> Escuela Argentina de Nuevas Tecnologías. Virtual. 2021</p></li>
 </ul>
+</section>
+</section>
+<section id="becas" class="level2">
+<h2 class="anchored" data-anchor-id="becas">Becas</h2>
+<ul>
+<li><a href="https://posit.co/blog/posit-conf-2024-announcement/">posit::conf(2024) - Diversity Scholarchip</a></li>
+</ul>
+<p>Diversity Scholarship to individuals worldwide who are members of an underrepresented group so they can attend posit::conf(). Seattle, Estados Unidos - 2024.</p>
+<ul>
+<li><a href="https://ropensci.org/champions/">rOpenSci Champions Program cohort 2023 - 2024</a></li>
+</ul>
+<p>Mentoring and training program from Scientific Open Source]. Buenos Aires - Virtual. 2024.</p>
 </section>
 <section id="congresos-charlas-ponencias" class="level2">
 <h2 class="anchored" data-anchor-id="congresos-charlas-ponencias">Congresos, charlas, ponencias</h2>
