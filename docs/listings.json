@@ -2,6 +2,7 @@
   {
     "listing": "/talleres.html",
     "items": [
+      "/talleres/2025-shiny-book-club/index.html",
       "/talleres/2025-comunidades-uflo/index.html",
       "/talleres/2024-latinr-tableropm/index.html",
       "/talleres/2024-eph-unlam/index.html",
@@ -38,6 +39,7 @@
   {
     "listing": "/comunidad.html",
     "items": [
+      "/comunidad/2025-useR/index.html",
       "/comunidad/2025-DISCUnconference/index.html",
       "/comunidad/2024-R-buenosaires/index.html",
       "/comunidad/2024-positconf-scholarship/index.html",
