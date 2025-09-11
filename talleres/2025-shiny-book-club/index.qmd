@@ -7,19 +7,17 @@ type: post
 ---
 
 
-Durante 10 encuentros fuimos leyendo algunos capítulos del libro Mastering Shiny de Hadley Wickham,organizado por [R-Ladies Buenos Aires](https://github.com/RLadies-BA)<img height="30" src="https://avatars.githubusercontent.com/u/38664570?s=200&v=4" alt="rladies buenos aires logo"> & [R en Buenos Aires](https://github.com/renbaires) <img height="30" src="https://avatars.githubusercontent.com/u/43609757" alt="r en buenos aires logo">
-
-
-## Capítulos 18 y 19: funciones y módulos
-
-
-Durante la sesión probamos el código en vivo para ver cómo reacciona Shiny con estas funciones y entender lo que siginificaban estos conceptos al momento de ponerlos en práctica en un tablero de datos.
-
-
-
+Durante 10 encuentros fuimos leyendo algunos capítulos del libro Mastering Shiny de Hadley Wickham,organizado por [R-Ladies Buenos Aires](https://github.com/RLadies-BA) & [R en Buenos Aires](https://github.com/renbaires)
 
 ![](encuentro10.png)
 
+## Presentación capítulos 18 y 19: funciones y módulos en Shiny
+
+
+Durante la sesión hicimos el código en vivo para ver cómo reacciona Shiny con estas funciones y entender lo que siginificaban estos conceptos al momento de ponerlos en práctica en un tablero de datos.
+
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTtxoWaxl_1X-02c601c0Zd46KBn5VDipo59hRkf84TgTKRmqJhXJqYVhhwcGW5xr2TOVYcojV334w1/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 ## Lo que pasó en vivo
@@ -28,26 +26,18 @@ El formato interactivo —ejemplos + pruebas en vivo— resultó muy bien recibi
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Llegamos al final del club de lectura de Mastering-Shiny organizado en conjunto con <a href="https://twitter.com/RLadiesBA?ref_src=twsrc%5Etfw">@RLadiesBA</a> 💜. Gracias a todes quienes fueron parte 💫<a href="https://twitter.com/hashtag/rstatsES?src=hash&amp;ref_src=twsrc%5Etfw">#rstatsES</a> <a href="https://t.co/ISeJhrPWOk">pic.twitter.com/ISeJhrPWOk</a></p>&mdash; R en Buenos Aires (@renbaires) <a href="https://twitter.com/renbaires/status/1950719770481009092?ref_src=twsrc%5Etfw">July 31, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+> Este club fue una gran oportunidad para aprender en comunidad, practicar Shiny y compartir experiencias. ¡Nos vemos en la próxima iniciativa!
+
 ## Recursos compartidos
 
-<table>
-  <tr>
-    <td>
-      <img src="https://mastering-shiny.org/cover.png" alt="Portada Mastering Shiny" width="150">
-    </td>
-    <td>
-      <a href="https://mastering-shiny.org/">Libro Mastering Shiny - Hadley Wickham</a>
-    </td>
-  </tr>
-</table>
-
+- [Libro Mastering Shiny - Hadley Wickham](https://mastering-shiny.org/)
 
 - [Repositorio de todos los encuentros](https://github.com/renbaires/mastering-shiny/tree/main)
 
 - [Ejemplo de código sobre módulos y funciones](https://github.com/SoyAndrea/shiny-modules)
 
-- Presentación de los capítulos 18 y 19 
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTtxoWaxl_1X-02c601c0Zd46KBn5VDipo59hRkf84TgTKRmqJhXJqYVhhwcGW5xr2TOVYcojV334w1/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="560" height="269" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-> Este club fue una gran oportunidad para aprender en comunidad, practicar Shiny y compartir experiencias. ¡Nos vemos en la próxima iniciativa!
+
+

@@ -22,18 +22,15 @@
     ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/conoce-arcenso.html",
     "items": [
-      "/blog/2024-tidyverse-devday/index.html",
-      "/blog/2024-positconf-quarto-dashboard/index.html",
-      "/blog/2024-untref-personasmayores/index.html",
-      "/blog/2023-tidytuesday/index.html",
-      "/blog/2022-pasalavos-sociologia/index.html",
-      "/blog/2022-alosvotos-colombia/index.html",
-      "/blog/2022-mujeresvideojuegos/index.html",
-      "/blog/2021-BAendatos/index.html",
-      "/blog/2021-NidoColombia/index.html",
-      "/blog/2020-modoglitter-migracion/index.html"
+      "/conoce-arcenso/2025-useR/index.html",
+      "/conoce-arcenso/2025-ULA/index.html",
+      "/conoce-arcenso/2025-GASP/index.html",
+      "/conoce-arcenso/2025-community-call/index.html",
+      "/conoce-arcenso/2025-opendataday/index.html",
+      "/conoce-arcenso/2024-renred-buenosaires/index.html",
+      "/conoce-arcenso/2024-latinr/index.html"
     ]
   },
   {
@@ -53,15 +50,18 @@
     ]
   },
   {
-    "listing": "/conoce-arcenso.html",
+    "listing": "/blog.html",
     "items": [
-      "/conoce-arcenso/2025-useR/index.html",
-      "/conoce-arcenso/2025-ULA/index.html",
-      "/conoce-arcenso/2025-GASP/index.html",
-      "/conoce-arcenso/2025-community-call/index.html",
-      "/conoce-arcenso/2025-opendataday/index.html",
-      "/conoce-arcenso/2024-renred-buenosaires/index.html",
-      "/conoce-arcenso/2024-latinr/index.html"
+      "/blog/2024-tidyverse-devday/index.html",
+      "/blog/2024-positconf-quarto-dashboard/index.html",
+      "/blog/2024-untref-personasmayores/index.html",
+      "/blog/2023-tidytuesday/index.html",
+      "/blog/2022-pasalavos-sociologia/index.html",
+      "/blog/2022-alosvotos-colombia/index.html",
+      "/blog/2022-mujeresvideojuegos/index.html",
+      "/blog/2021-BAendatos/index.html",
+      "/blog/2021-NidoColombia/index.html",
+      "/blog/2020-modoglitter-migracion/index.html"
     ]
   }
 ]
