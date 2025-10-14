@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.57">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-<meta name="description" content="Participación en persona de useR! en Duke University">
-
-<title>useR! 2025 - The R User Conference – Data by Andre</title>
+<meta name="description" content="taller práctico en la Universidad Nacional de la Matanza - Argentina">
+<title>Procesando datos censales en R – Data by Andre</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +19,6 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 </style>
-
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
@@ -39,8 +35,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -66,18 +61,12 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Enviar",
     "search-label": "Buscar"
   }
-}</script>
-
-
-<link rel="stylesheet" href="../../styles.css">
+}</script><link rel="stylesheet" href="../../styles.css">
 </head>
-
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Data by Andre</span>
@@ -89,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item compact">
+<li class="nav-item compact">
     <a class="nav-link" href="https://github.com/SoyAndrea/"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
 <span class="menu-text"></span></a>
@@ -100,8 +89,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
+<ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item">
     <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Hola</span></a>
   </li>  
@@ -109,13 +98,13 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-curriculum" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Curriculum</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-curriculum">    
-        <li>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-curriculum">
+<li>
     <a class="dropdown-item" href="../../cv_ES.html">
  <span class="dropdown-text">Andrea Gomez Vargas - CV</span></a>
   </li>  
     </ul>
-  </li>
+</li>
   <li class="nav-item">
     <a class="nav-link" href="../../conoce-arcenso.html"> 
 <span class="menu-text">ARcenso</span></a>
@@ -133,44 +122,42 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Comunidad</span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
+</div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">En esta página</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#charlas-favoritas" id="toc-charlas-favoritas" class="nav-link active" data-scroll-target="#charlas-favoritas">Charlas favoritas</a></li>
-  <li><a href="#la-sesión-package-lifecycle" id="toc-la-sesión-package-lifecycle" class="nav-link" data-scroll-target="#la-sesión-package-lifecycle">La sesión <em>Package lifecycle</em></a></li>
-  <li><a href="#comunidad" id="toc-comunidad" class="nav-link" data-scroll-target="#comunidad">Comunidad</a></li>
+<li>
+<a href="#taller-pr%C3%A1ctico-para-aprender-a-explorar-y-procesar-indicadores-demogr%C3%A1ficos-con-los-paquetes-arcenso-y-tidyverse." id="toc-taller-práctico-para-aprender-a-explorar-y-procesar-indicadores-demográficos-con-los-paquetes-arcenso-y-tidyverse." class="nav-link active" data-scroll-target="#taller-pr%C3%A1ctico-para-aprender-a-explorar-y-procesar-indicadores-demogr%C3%A1ficos-con-los-paquetes-arcenso-y-tidyverse.">Taller práctico para aprender a explorar y procesar indicadores demográficos con los paquetes <code>ARcenso</code> y <code>tidyverse</code>.</a>
+  <ul class="collapse">
+<li><a href="#social-media" id="toc-social-media" class="nav-link" data-scroll-target="#social-media">Social media</a></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#links-de-inter%C3%A9s" id="toc-links-de-interés" class="nav-link" data-scroll-target="#links-de-inter%C3%A9s">Links de interés</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/edit/main/comunidad/2025-useR/index.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/blob/main/comunidad/2025-useR/index.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
+</li>
+  </ul><div class="toc-actions"><ul><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/edit/main/conoce-arcenso/2025-unlam/index.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/blob/main/conoce-arcenso/2025-unlam/index.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">useR! 2025 - The R User Conference</h1>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title">Procesando datos censales en R</h1>
   <div class="quarto-categories">
     <div class="quarto-category">R</div>
-    <div class="quarto-category">useR</div>
-    <div class="quarto-category">Comunidad</div>
-    <div class="quarto-category">Duke University</div>
+    <div class="quarto-category">UnLaM</div>
+    <div class="quarto-category">ARcenso</div>
+    <div class="quarto-category">paquete</div>
+    <div class="quarto-category">Taller</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Participación en persona de useR! en Duke University
+    taller práctico en la Universidad Nacional de la Matanza - Argentina
   </div>
 </div>
 
@@ -181,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Fecha de publicación</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">9 de agosto de 2025</p>
+      <p class="date">30 de septiembre de 2025</p>
     </div>
   </div>
   
@@ -190,70 +177,65 @@ ul.task-list li input[type="checkbox"] {
   
 
 
-</header>
-
-
-<p>Del 8 al 10 de agosto de 2025 participé en useR! 2025, la conferencia internacional de usuarios de R, realizada de forma presencial en Duke University (Durham, North Carolina). Fue mi primera experiencia participando en persona, gracias al apoyo de Rconsortium, luego de haber presentado virtualmente en 2021 la charla <a href="https://soyandrea.github.io/talleres/2021-useR-encuesta-r/">Uso de R en Latinoamérica: fortalezas, desafíos y debilidades</a>.</p>
-<p><img src="user1.jpg" class="img-fluid"></p>
-<p>Durante la conferencia asistí a dos talleres talleres, el primero: <em>Debugging Tools for Functions in R</em> con E. David Aja y Shannon Pileggi, y <em>Getting Started with Positron: A Next-Generation IDE for Data Science</em> con Jennifer Bryan y Julia Silge. Fueron dos experiencias muy valiosas para mi trabajo cotidiano, guiadas por referentes internacionales con muchísima experiencia y calidez.</p>
-<section id="charlas-favoritas" class="level3">
-<h3 class="anchored" data-anchor-id="charlas-favoritas">Charlas favoritas</h3>
-<p>Disfruté mucho en personas escuchar y compartir charlar sobre R para debatir y aportar a la convversación, mis keynotes favoritas:</p>
-<ul>
-<li><p><a href="https://www.youtube.com/live/camPaY1g8hs?si=9MD6xHew0pRhQrUx"><em>Data in the Balance: Incentives, Independence, and Public Statistics</em> — <strong>Frauke Kreuter</strong> (LMU Munich / University of Maryland)</a></p></li>
-<li><p><a href="https://www.youtube.com/live/CTTvTQ-JZhw?si=1bes_NP7nZs281w5"><em>We R Together. How to learn, use and improve a programming language as a community</em> — <strong>Yanina Bellini Saibene</strong> (rOpenSci, R-Ladies, Universidad Austral)</a></p></li>
-</ul>
-<p>Además, disfruté muchísimo de las lightning talks:</p>
-<ul>
-<li><a href="https://youtu.be/shGOWlbquo4?si=GLKA2oNKE0IroyV1"><em>Bringing the fun of hex stickers to your R session</em> — <strong>Luis D. Verde Arregoitia</strong> (Instituto de Ecología AC - INECOL)</a></li>
-<li><em>Storytelling with ggplot2: Using custom functions to sequence visualizations</em> — <strong>McCall Pitcher</strong> (Duke University)</li>
-<li><em>tinytable: A lightweight package to create simple and configurable tables in a wide variety of formats</em> — <strong>Vincent Arel-Bundock</strong> (Université de Montréal)</li>
-<li><em>gfwr: an R package to access data from the Global Fishing Watch APIs</em> — <strong>Andrea Sánchez-Tapia</strong> (Global Fishing Watch)</li>
-<li><em>Rediscovering R for Library Data Instruction with Google Colab</em> — <strong>Ahmad Pratama</strong> (Stony Brook University)</li>
-</ul>
-</section>
-<section id="la-sesión-package-lifecycle" class="level3">
-<h3 class="anchored" data-anchor-id="la-sesión-package-lifecycle">La sesión <em>Package lifecycle</em></h3>
-<blockquote class="blockquote">
-<p>Presentar <code>ARcenso</code> por primera vez en inglés, frente a una audiencia internacional, fue una experiencia que no voy a olvidar. Más allá del desafío, fue una oportunidad para ver cómo una iniciativa de datos censales puede inspirar, conectar y aportar a la comunidad open source.</p>
-</blockquote>
-<p>Compartí espacio junto a Noam Ross, director de rOpenSci, y fue interesante ver cómo se conectan los proyectos en sus distintos niveles de experiencia, así como otros que también promueven la construcción colaborativa de paquetes en R. También estuvieron presentes Yanina Bellini, community manager de rOpenSci y coordinadora del programa de campeones, y Luis Verde, mi mentor en el programa, quienes junto al resto de los asistentes pudieron ver mi charla y conocer de cerca el crecimiento del proyecto.</p>
+</header><section id="taller-práctico-para-aprender-a-explorar-y-procesar-indicadores-demográficos-con-los-paquetes-arcenso-y-tidyverse." class="level2"><h2 class="anchored" data-anchor-id="taller-práctico-para-aprender-a-explorar-y-procesar-indicadores-demográficos-con-los-paquetes-arcenso-y-tidyverse.">Taller práctico para aprender a explorar y procesar indicadores demográficos con los paquetes <code>ARcenso</code> y <code>tidyverse</code>.</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="ropensciteam.jpg" class="img-fluid figure-img"></p>
-<figcaption>Equipo rOpenSci</figcaption>
-</figure>
+<figure class="figure"><p><img src="flyearcenso.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Flyer de difusión</figcaption></figure>
 </div>
-<p>Las charlas de esta sesión:</p>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="taller2.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Expositora taller</figcaption></figure>
+</div>
+</div>
+</div>
+<p><br></p>
+<p>Nos reunimos en el auditorio de la biblioteca de la Universidad Nacional de La Matanza (UNLaM), invitada por la materia Demografía Social de la carrera de Ciencia Política y organizado en conjunto con <a href="https://renbaires.github.io/">R en Buenos Aires</a>.</p>
+<p>La idea fue explorar los datos del Censo Nacional de Población, Viviendas y Hogares como fuente de información y usar el paquete de datos <code>ARcenso</code> como ejemplo de paquete de datos conn información histórica del Censo 1970, sumando distintas funciones de <code>tidyverse</code> y <code>gt</code> al flujo de trabajo en ciencia de datos. Se sumaron más de diez personas, con muchas ganas de aprender y de practicar.</p>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="taller3.jpg" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Fotografía grupal asistentes al taller</figcaption></figure>
+</div>
+<p><br></p>
+<p>Durante la práctica nos enfocamos en construir el indicador de estructura de la población, y paso a paso fuimos importando los datos, revisándolos y calculando la distribución por grupo quinquenal y sexo con <code>dplyr</code>.</p>
+<p>Como resultado, llegamos a una pirámide poblacional del Censo 1970 de la provincia de Buenos Aires realizada con <code>ggplot2</code>, acompañada por una tabla de datos en <code>gt</code>. Fue una experiencia muy enriquecedora, donde el interés por los datos censales y el entusiasmo por aprender R se combinaron en un espacio de trabajo colaborativo.</p>
+<section id="social-media" class="level3"><h3 class="anchored" data-anchor-id="social-media">Social media</h3>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="taller.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Instagram stories de <span class="citation" data-cites="unlamoficial">@unlamoficial</span></figcaption></figure>
+</div>
+</div><div class="column" style="width:60%;">
+<blockquote class="twitter-tweet blockquote">
+<p lang="es" dir="ltr">
+</p>
+<p>📸 Así vivimos nuestro último taller de Procesando datos censales en R.<br><br>Gracias a la <a href="https://twitter.com/UnlamOficial?ref_src=twsrc%5Etfw"><span class="citation" data-cites="UnlamOficial">@UnlamOficial</span></a> por el espacio y a todas las personas que se sumaron 🙌 <a href="https://twitter.com/hashtag/Rstats?src=hash&amp;ref_src=twsrc%5Etfw">#Rstats</a> <a href="https://t.co/Kg5pSarxZZ">pic.twitter.com/Kg5pSarxZZ</a></p>
+
+<p>— R en Buenos Aires (<span class="citation" data-cites="renbaires">@renbaires</span>) <a href="https://twitter.com/renbaires/status/1973372279758397583?ref_src=twsrc%5Etfw">October 1, 2025</a></p>
+</blockquote>
+</div>
+</div>
+</section><section id="slides" class="level3"><h3 class="anchored" data-anchor-id="slides">Slides</h3>
+<div class="cell">
+<iframe src="https://soyandrea.github.io/arcenso-unlam/#/title-slide" width="672" height="400" data-external="1">
+</iframe>
+</div>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></section><section id="links-de-interés" class="level3"><h3 class="anchored" data-anchor-id="links-de-interés">Links de interés</h3>
 <ul>
-<li><p><em>ARcenso: a Package Born From Chaos, Powered by Community</em> — Emanuel Ciardullo y Andrea Gómez Vargas</p></li>
-<li><p><em>Curating a Community of Packages: Lessons from a Decade of rOpenSci Peer Review</em> — Noam Ross (rOpenSci)</p></li>
-<li><p><em>rtables: Challenges, Advances and Lessons Learned Going Into Production At J&amp;J</em> — Gabe Becker (Independent)</p></li>
+<li>Ejercicio de practica demográfica <a href="https://practica-censo.netlify.app/">practica-censo.netlify.app</a>
+</li>
+<li><a href="https://soyandrea.github.io/arcenso/">web ARcenso</a></li>
+<li><a href="https://github.com/SoyAndrea/arcenso">repositorio en GitHub de ARcenso</a></li>
+<li>slides en Quarto <a href="https://soyandrea.github.io/arcenso-unlam/#/title-slide">soyandrea.github.io/arcenso-unlam</a>
+</li>
 </ul>
-</section>
-<section id="comunidad" class="level3">
-<h3 class="anchored" data-anchor-id="comunidad">Comunidad</h3>
-<p>Pude reencontrarme con colegas y amigos con quienes colaboro de forma online, y también participar del evento de networking de R-Ladies, donde conocí personas de distintas partes de Carolina del Norte, de Estados Unidos y del mundo. Fue una experiencia muy enriquecedora para descubrir historias, perfiles académicos y profesionales diversos, e invitarlos a seguir conectando y compartiendo.</p>
-<blockquote class="bluesky-embed blockquote" data-bluesky-uri="at://did:plc:xakkcpzucm7uhmsy3a2gh3g6/app.bsky.feed.post/3lwcdetxzn42z" data-bluesky-cid="bafyreigb7urwh3gcvf6mzuef3qj4kdrs3wy3oswqpxlt4ihlxjdok4wike" data-bluesky-embed-color-mode="system">
-<p lang="">
-</p><p>During useR! 2025, we had a special moment to gather at the R-Ladies meetup. It was a great opportunity to connect, share experiences, and keep strengthening our global community. 💜</p>
-<p>Find your local chapter and get involved: rladies.org/about-us/inv…</p>
-#useR2025<br><br><a href="https://bsky.app/profile/did:plc:xakkcpzucm7uhmsy3a2gh3g6/post/3lwcdetxzn42z?ref_src=embed">[image or embed]</a>
-<p></p>
-— R-Ladies (<a href="https://bsky.app/profile/did:plc:xakkcpzucm7uhmsy3a2gh3g6?ref_src=embed"><span class="citation" data-cites="rladies.org">@rladies.org</span></a>) <a href="https://bsky.app/profile/did:plc:xakkcpzucm7uhmsy3a2gh3g6/post/3lwcdetxzn42z?ref_src=embed">13 de agosto de 2025, 14:17</a>
-</blockquote>
-<script async="" src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
-<p>Quiero agradecer especialmente a <strong>Mine Çetinkaya-Rundel</strong>, Chair de la conferencia y a <strong>Heidi Seibold</strong> del Comité Organizadory, por hacer posible mi asistencia, sin ellas esto no hubiera sido posible.</p>
-<p>Fue muy gratificante regresar a casa con tantas experiencias valiosas en tan poco tiempo. La oportunidad de encontrarnos en persona es única, y poder asistir gracias al apoyo de la comunidad tiene un valor enorme. En un contexto de fuertes limitaciones presupuestarias en Argentina, participar de este tipo de eventos representa un impulso muy significativo para mi trabajo, para la comunidad y para el desarrollo de mi ARcenso.</p>
-<blockquote class="blockquote">
-<p>Las presentaciones presenciales estarán disponibles en el <a href="https://www.youtube.com/@useRConference_global/videos">canal de YouTube de useR! Conference</a>.</p>
-</blockquote>
 
 
-</section>
-
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -674,21 +656,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
+<footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">
       &nbsp;
     </div>   
     <div class="nav-footer-center">
 <p>Copyright 2025, Andrea Gomez Vargas</p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/edit/main/comunidad/2025-useR/index.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/blob/main/comunidad/2025-useR/index.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/edit/main/conoce-arcenso/2025-unlam/index.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/blob/main/conoce-arcenso/2025-unlam/index.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
-
-
 
 
 </body></html>
