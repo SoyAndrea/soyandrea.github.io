@@ -6,7 +6,7 @@ title-block-banner: true
 **Licenciada en Sociología & Maestranda en Generación y Análisis de Información Estadística**.
 
 -   [Descargar CV en PDF](documentos/gomezvargas_cv.pdf)
--   [Download CV in PDF](documentos/gomezvargas_cv_EN.html)
+-   [Download CV in PDF](documentos/gomezvargas_cv_EN.pdf)
 
 ## Experiencia profesional
 
@@ -29,9 +29,6 @@ Trabajo en el diseño y desarrollo de procesos integrados de análisis en R para
 -   [Dosier Estadístico de niñas, niños y adolescentes](https://www.indec.gob.ar/ftp/cuadros/poblacion/dosier_nnya_11_237A4EFD2B08.pdf)
 -   [Encuesta Nacional de Uso del Tiempo 2021. Resultados](https://www.indec.gob.ar/ftp/cuadros/sociedad/enut_2021.pdf)
 :::
-
-
-
 
 ### Consultorías
 
@@ -77,7 +74,7 @@ Buenos Aires
 
 ### Experiencia docente
 
--  Consejo Nacional de Investigaciones Científicas y Técnicas - CONICET, **Docente**. Curso Aplicaciones interactivas con R y Shiny para investigación. Buenos Aires - Virtual. 2025
+-   Consejo Nacional de Investigaciones Científicas y Técnicas - CONICET, **Docente**. Curso Aplicaciones interactivas con R y Shiny para investigación. Buenos Aires - Virtual. 2025
 
 -   Universidad Nacional Guillermo Brown, **Docente adjunta dedicación simple**. Materia Visualización de la Información - carrera de grado ciencia de datos. Buenos Aires - Virtual. 2023-2024.
 
@@ -87,7 +84,6 @@ Buenos Aires
 
 -   Facultad Latinoamericana de Ciencias Sociales (FLACSO), **Tutora técnico-pedagógica**. Curso de Posgrado Big Data e Inteligencia Territorial. Virtual. 2022-2021.
 
-
 ## Desarrollo de Software 📦
 
 ::::: columns
@@ -96,11 +92,15 @@ Buenos Aires
 :::
 
 ::: {.column width="70%"}
-**arcenso**: paquete en R con datos censales de población Argentina.
+**ARcenso**: paquete en R con datos censales de población Argentina.
 
 Desarrolladora principal [github.com/SoyAndrea/arcenso](https://github.com/SoyAndrea/arcenso/)
 
 Buenos Aires - 2024
+
+> [soyandrea.github.io/conoce-arcenso](https://soyandrea.github.io/conoce-arcenso.html)
+
+
 :::
 :::::
 
@@ -113,7 +113,6 @@ Universidad Nacional Tres de Febrero (UNTREF). Buenos Aires. 2024-actualidad.
 -   **Licenciatura en Sociología**
 
 Universidad de Buenos Aires (UBA). Buenos Aires. 2020.
-
 
 ### Cursos y capacitaciones
 
@@ -131,28 +130,23 @@ Universidad de Buenos Aires (UBA). Buenos Aires. 2020.
 
 ## Becas
 
+- [RSECon25 – Bursaries](https://rsecon25.society-rse.org/bursaries/) 
+
+Scholarship awarded to attend the Research Software Engineer Conference 2025 (RSECon25) in the UK, covering event registration, Coventry, 2025.
+
+
+- [R Developer Day Scholarship - University of Warwick](https://rsecon25.society-rse.org/r-dev-day-rsecon25/)
+
+Scholarship awarded for in-person participation in RDev Day, a satellite event of RSECon25 in the UK, contributing to R development and collaborating with the international community, Coventry, 2025.
+
 -   [posit::conf(2024) - Diversity Scholarchip](https://posit.co/blog/posit-conf-2024-announcement/)
 
-Diversity Scholarship to individuals worldwide who are members of an underrepresented group so they can attend posit::conf(). Seattle, Estados Unidos - 2024.
+Scholarship awarded to individuals from underrepresented groups worldwide to attend posit::conf, Seattle, USA, 2024.
 
 -   [rOpenSci Champions Program cohort 2023 - 2024](https://ropensci.org/champions/)
 
 Mentoring and training program from Scientific Open Source\]. Buenos Aires - Virtual. 2024.
 
 ## Congresos, charlas, ponencias
-
-[*R en Buenos Aires & R-Ladies Buenos Aires Meetup*](https://github.com/SoyAndrea/arcenso-RenBA) *{ARcenso}📦 - Data from Argentina’s Population Census.* **Andrea Gomez Vargas** & Emanuel Ciardullo. 2024.
-
-[*LatinR2024: Conferencia Latinoamericana sobre Uso de R en Investigación + Desarrollo*](https://github.com/SoyAndrea/arcenso-latinR2024) *{ARcenso}: primeros pasos desarrollando un paquete en comunidad con rOpenSci 📦.* **Andrea Gomez Vargas** & Emanuel Ciardullo. Sesión: Proceso de desarrollo de paquetes. 2024.
-
-[*LatinR2024: Conferencia Latinoamericana sobre Uso de R en Investigación + Desarrollo*](https://github.com/SoyAndrea/tableropm-latinr2024) *Tablero estadístico en Shinydashboard de personas mayores en Argentina 📊.* **Andrea Gomez Vargas**, Juan Manuel Damiani, Barbara Estévez Leston y Leandro Olivo. Sesión: automatización de procesos, gestión de datos y reportes. 2024.
-
-[*LatinR2023: Conferencia Latinoamericana sobre Uso de R en Investigación + Desarrollo*](https://github.com/SoyAndrea/SIES_LatinR2023) *SIES Argentina: R & Shiny en la difusión de estadísticas oficiales.* **Andrea Gomez Vargas**, María Florencia Bathory, Juan Manuel Damiani, Barbara Estévez Leston, Jimena Fernández Moyano y Leandro Olivo. Sesión datos abiertos y estadísticas oficiales. 2023.
-
-[*R-Ladies Buenos Aires Meetup*](https://github.com/SoyAndrea/tallerEPH) *Taller Introducción al Análisis de la Encuesta Permanente de Hogares (EPH) con R.* **Andrea Gomez Vargas** & Betsy Cohen. Facultad de Ciencias Sociales UBA. 2023.
-
-[*CSV Conference*](https://virginiagarciaalonso.github.io/2023-04-17-csvconf-r-git/) *Workshop Software Carpentry: Introducción a Git y GitHub desde Rstudio* Instructoras: Irene Ramos y **Andrea Gomez Vargas**. 2023.
-
-[*useR! 2021 The R Conference*](https://soyandrea.netlify.app/publication/user2021/) *Using R in Latin America: the great, the good, the bad, and the ugly.* García Alonso, Virginia A.; Corrales, Paola; Huaylla, Claudia A.; **Gómez Vargas, Andrea**; Chávez, Joselyn; Fierro Arcos, Denisse. Session 9B - Community and Outreach 2. 2021.
 
 > **Ver más en Charlas & Talleres [soyandrea.github.io/talleres](https://soyandrea.github.io/talleres.html)**

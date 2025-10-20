@@ -564,7 +564,7 @@
     "href": "cv_ES.html#desarrollo-de-software",
     "title": "Andrea Gomez Vargas - CV",
     "section": "Desarrollo de Software 📦",
-    "text": "Desarrollo de Software 📦\n\n\n\n\narcenso: paquete en R con datos censales de población Argentina.\nDesarrolladora principal github.com/SoyAndrea/arcenso\nBuenos Aires - 2024"
+    "text": "Desarrollo de Software 📦\n\n\n\n\nARcenso: paquete en R con datos censales de población Argentina.\nDesarrolladora principal github.com/SoyAndrea/arcenso\nBuenos Aires - 2024\n\nsoyandrea.github.io/conoce-arcenso"
   },
   {
     "objectID": "cv_ES.html#formación-profesional",
@@ -578,14 +578,14 @@
     "href": "cv_ES.html#becas",
     "title": "Andrea Gomez Vargas - CV",
     "section": "Becas",
-    "text": "Becas\n\nposit::conf(2024) - Diversity Scholarchip\n\nDiversity Scholarship to individuals worldwide who are members of an underrepresented group so they can attend posit::conf(). Seattle, Estados Unidos - 2024.\n\nrOpenSci Champions Program cohort 2023 - 2024\n\nMentoring and training program from Scientific Open Source]. Buenos Aires - Virtual. 2024."
+    "text": "Becas\n\nRSECon25 – Bursaries\n\nScholarship awarded to attend the Research Software Engineer Conference 2025 (RSECon25) in the UK, covering event registration, Coventry, 2025.\n\nR Developer Day Scholarship - University of Warwick\n\nScholarship awarded for in-person participation in RDev Day, a satellite event of RSECon25 in the UK, contributing to R development and collaborating with the international community, Coventry, 2025.\n\nposit::conf(2024) - Diversity Scholarchip\n\nScholarship awarded to individuals from underrepresented groups worldwide to attend posit::conf, Seattle, USA, 2024.\n\nrOpenSci Champions Program cohort 2023 - 2024\n\nMentoring and training program from Scientific Open Source]. Buenos Aires - Virtual. 2024."
   },
   {
     "objectID": "cv_ES.html#congresos-charlas-ponencias",
     "href": "cv_ES.html#congresos-charlas-ponencias",
     "title": "Andrea Gomez Vargas - CV",
     "section": "Congresos, charlas, ponencias",
-    "text": "Congresos, charlas, ponencias\nR en Buenos Aires & R-Ladies Buenos Aires Meetup {ARcenso}📦 - Data from Argentina’s Population Census. Andrea Gomez Vargas & Emanuel Ciardullo. 2024.\nLatinR2024: Conferencia Latinoamericana sobre Uso de R en Investigación + Desarrollo {ARcenso}: primeros pasos desarrollando un paquete en comunidad con rOpenSci 📦. Andrea Gomez Vargas & Emanuel Ciardullo. Sesión: Proceso de desarrollo de paquetes. 2024.\nLatinR2024: Conferencia Latinoamericana sobre Uso de R en Investigación + Desarrollo Tablero estadístico en Shinydashboard de personas mayores en Argentina 📊. Andrea Gomez Vargas, Juan Manuel Damiani, Barbara Estévez Leston y Leandro Olivo. Sesión: automatización de procesos, gestión de datos y reportes. 2024.\nLatinR2023: Conferencia Latinoamericana sobre Uso de R en Investigación + Desarrollo SIES Argentina: R & Shiny en la difusión de estadísticas oficiales. Andrea Gomez Vargas, María Florencia Bathory, Juan Manuel Damiani, Barbara Estévez Leston, Jimena Fernández Moyano y Leandro Olivo. Sesión datos abiertos y estadísticas oficiales. 2023.\nR-Ladies Buenos Aires Meetup Taller Introducción al Análisis de la Encuesta Permanente de Hogares (EPH) con R. Andrea Gomez Vargas & Betsy Cohen. Facultad de Ciencias Sociales UBA. 2023.\nCSV Conference Workshop Software Carpentry: Introducción a Git y GitHub desde Rstudio Instructoras: Irene Ramos y Andrea Gomez Vargas. 2023.\nuseR! 2021 The R Conference Using R in Latin America: the great, the good, the bad, and the ugly. García Alonso, Virginia A.; Corrales, Paola; Huaylla, Claudia A.; Gómez Vargas, Andrea; Chávez, Joselyn; Fierro Arcos, Denisse. Session 9B - Community and Outreach 2. 2021.\n\nVer más en Charlas & Talleres soyandrea.github.io/talleres"
+    "text": "Congresos, charlas, ponencias\n\nVer más en Charlas & Talleres soyandrea.github.io/talleres"
   },
   {
     "objectID": "talleres/2021-ComoempezaR/index.html",
