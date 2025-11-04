@@ -6,29 +6,21 @@ categories: [R, useR, Comunidad, Duke University]
 type: post
 ---
 
-
 ::::: columns
 ::: {.column width="40%"}
-
 ![](user2.jpg){width="90%"}
 
 ![](user4.jpg){width="90%"}
-
 :::
 
 ::: {.column width="55%"}
-
 Del 8 al 10 de agosto de 2025 participé en useR! 2025, la conferencia internacional de usuarios de R, realizada de forma presencial en Duke University en Carolina del Norte, Estados Unidos. Fue mi primera experiencia participando en persona, gracias al apoyo de Rconsortium.
 
 Asistí a muchas actividades, una de las primeras fueron los talles, asistí a dos, el primero sobre *Debugging Tools for Functions in R* con E. David Aja y Shannon Pileggi, y *Getting Started with Positron: A Next-Generation IDE for Data Science* con Jennifer Bryan y Julia Silge. Fueron dos experiencias muy valiosas para mi trabajo cotidiano, guiadas por referentes internacionales con muchísima experiencia y calidez.
-
 :::
 :::::
 
-
-
 ### Charlas favoritas
-
 
 Disfruté mucho en personas escuchar y compartir charlar sobre R para debatir y aportar a la convversación, mis keynotes favoritas:
 
@@ -44,42 +36,38 @@ Lightning talks favoritas de esta edición:
 -   *gfwr: an R package to access data from the Global Fishing Watch APIs* — **Andrea Sánchez-Tapia** (Global Fishing Watch)
 -   *Rediscovering R for Library Data Instruction with Google Colab* — **Ahmad Pratama** (Stony Brook University)
 
-
-
-
 ### La sesión *Package lifecycle*
 
-> Presentar `ARcenso` por primera vez en inglés, frente a una audiencia internacional, fue una experiencia que no voy a olvidar. Más allá del desafío, fue una oportunidad para ver cómo una iniciativa de datos censales puede inspirar, conectar y aportar a la comunidad open source.
+Presentar [`ARcenso`](https://soyandrea.github.io/arcenso/) por primera vez en inglés, frente a una audiencia internacional, fue una experiencia que no voy a olvidar. Más allá del desafío, fue una oportunidad para ver cómo una iniciativa de datos censales puede inspirar, conectar y aportar a la comunidad open source.
+
+
+
+> <a href="https://soyandrea.github.io/conoce-arcenso/2025-useR/" target="_blank" rel="noopener" style="font-size:1.5rem; font-weight:600; text-decoration:none;">
+  Mirá la presentación de ARcenso en useR!2025
+</a>
+
 
 Compartí espacio junto a Noam Ross, director de rOpenSci, y fue interesante ver cómo se conectan los proyectos en sus distintos niveles de experiencia, así como otros que también promueven la construcción colaborativa de paquetes en R. También estuvieron presentes Yanina Bellini, community manager de rOpenSci y coordinadora del programa de campeones, y Luis Verde, mi mentor en el programa, quienes junto al resto de los asistentes pudieron ver mi charla y conocer de cerca el crecimiento del proyecto.
 
 ![Equipo rOpenSci](ropensciteam.jpg){width="70%" fig-align="center"}
 
-### Highlights 
+### Highlights
 
 ::::: columns
 ::: {.column width="60%"}
+-   Me reencontré con Stephanie Zimmer, autora del libro [Exploring Complex Survey Data Analysis Using R: A Tidy Introduction with {`srvyr`} and {`survey`}](https://tidy-survey-r.github.io/tidy-survey-book/). Nos habíamos conocido el año pasado y esta vez volvió a acompañarme un montón durante mi estadía y ¡además me regaló su libro! 💛
 
-- Me reencontré con Stephanie Zimmer, autora del libro [Exploring Complex Survey Data Analysis Using R: A Tidy Introduction with {`srvyr`} and {`survey`}](https://tidy-survey-r.github.io/tidy-survey-book/). Nos habíamos conocido el año pasado y esta vez volvió a acompañarme un montón durante mi estadía y ¡además me regaló su libro! 💛
+-   El obsequio de la conferencia fueron unas medias al mejor estilo Duke University, probablemente las más académicas que tengo 🧦😄
 
-- El obsequio de la conferencia fueron unas medias al mejor estilo Duke University, probablemente las más académicas que tengo 🧦😄
+-   Descubrí la iniciativa Digital Research Academy, que ofrece capacitaciones gratuitas sobre control de versiones, proyectos y R. Una propuesta hermosa para seguir aprendiendo y colaborando 🌍
 
-- Descubrí la iniciativa Digital Research Academy, que ofrece capacitaciones gratuitas sobre control de versiones, proyectos y R. Una propuesta hermosa para seguir aprendiendo y colaborando 🌍
-
-
-- Me traje varios cheatsheets de Posit (de Shiny, Quarto, RStudio...) para compartir con la comunidad porque nunca está de más tenerlos a mano y repartir conocimiento. 
-
+-   Me traje varios cheatsheets de Posit (de Shiny, Quarto, RStudio...) para compartir con la comunidad porque nunca está de más tenerlos a mano y repartir conocimiento.
 :::
 
 ::: {.column width="40%"}
-
 ![](user5.jpg)
-
 :::
 :::::
-
-
-
 
 ### Comunidad
 
