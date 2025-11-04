@@ -35,23 +35,6 @@
     ]
   },
   {
-    "listing": "/comunidad.html",
-    "items": [
-      "/comunidad/2025-Rdevday/index.html",
-      "/comunidad/2025-useR/index.html",
-      "/comunidad/2025-DISCUnconference/index.html",
-      "/comunidad/2024-R-buenosaires/index.html",
-      "/comunidad/2024-positconf-scholarship/index.html",
-      "/comunidad/2024-champions-ropensci/index.html",
-      "/comunidad/2023-Rladies-global/iindex.html",
-      "/comunidad/2022-femITconf/index.html",
-      "/comunidad/2022-DegenerandoCP/index.html",
-      "/comunidad/2022-we-are-R-ladies/index.html",
-      "/comunidad/2019-Rladies-BuenosAires/index.html",
-      "/comunidad/2020-accesibilidad-inclusion/index.html"
-    ]
-  },
-  {
     "listing": "/blog.html",
     "items": [
       "/blog/2024-tidyverse-devday/index.html",
@@ -64,6 +47,24 @@
       "/blog/2021-BAendatos/index.html",
       "/blog/2021-NidoColombia/index.html",
       "/blog/2020-modoglitter-migracion/index.html"
+    ]
+  },
+  {
+    "listing": "/comunidad.html",
+    "items": [
+      "/comunidad/2025-Rdevday/index.html",
+      "/comunidad/2025-RSECon25/index.html",
+      "/comunidad/2025-useR/index.html",
+      "/comunidad/2025-DISCUnconference/index.html",
+      "/comunidad/2024-R-buenosaires/index.html",
+      "/comunidad/2024-positconf-scholarship/index.html",
+      "/comunidad/2024-champions-ropensci/index.html",
+      "/comunidad/2023-Rladies-global/iindex.html",
+      "/comunidad/2022-femITconf/index.html",
+      "/comunidad/2022-DegenerandoCP/index.html",
+      "/comunidad/2022-we-are-R-ladies/index.html",
+      "/comunidad/2019-Rladies-BuenosAires/index.html",
+      "/comunidad/2020-accesibilidad-inclusion/index.html"
     ]
   }
 ]
