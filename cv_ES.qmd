@@ -1,12 +1,19 @@
 ---
-title: "Andrea Gomez Vargas - CV"
+title: "Andrea Gomez Vargas"
 title-block-banner: true
+subtitle: "Socióloga & Analista de datos"
 ---
 
-**Licenciada en Sociología & Maestranda en Generación y Análisis de Información Estadística**.
+## Perfil Profesional
 
--   [Descargar CV en PDF](documentos/gomezvargas_cv.pdf)
--   [Download CV in PDF](documentos/gomezvargas_cv_EN.pdf)
+
+Analista de datos con formación en sociología y estadística, con más de cinco años de experiencia trabajando con encuestas, censos y grandes volúmenes de datos. Me especializo en análisis descriptivo, segmentación y visualización para transformar información compleja en insights claros que apoyan la toma de decisiones en distintos contextos.
+
+
+
+:::  hex-card
+[Download CV (PDF)](documentos/Andrea_GomezVargas.pdf)
+:::
 
 ## Experiencia profesional
 
@@ -99,8 +106,6 @@ Desarrolladora principal [github.com/SoyAndrea/arcenso](https://github.com/SoyAn
 Buenos Aires - 2024
 
 > [soyandrea.github.io/conoce-arcenso](https://soyandrea.github.io/conoce-arcenso.html)
-
-
 :::
 :::::
 
@@ -128,14 +133,13 @@ Universidad de Buenos Aires (UBA). Buenos Aires. 2020.
 
 -   *Social Data Analytics.* Escuela Argentina de Nuevas Tecnologías. Virtual. 2021
 
-## Becas
+### Becas
 
-- [RSECon25 – Bursaries](https://rsecon25.society-rse.org/bursaries/) 
+-   [RSECon25 – Bursaries](https://rsecon25.society-rse.org/bursaries/)
 
 Scholarship awarded to attend the Research Software Engineer Conference 2025 (RSECon25) in the UK, covering event registration, Coventry, 2025.
 
-
-- [R Developer Day Scholarship - University of Warwick](https://rsecon25.society-rse.org/r-dev-day-rsecon25/)
+-   [R Developer Day Scholarship - University of Warwick](https://rsecon25.society-rse.org/r-dev-day-rsecon25/)
 
 Scholarship awarded for in-person participation in RDev Day, a satellite event of RSECon25 in the UK, contributing to R development and collaborating with the international community, Coventry, 2025.
 

@@ -6,3 +6,39 @@
     text-align: center;
     padding: 20px 0;
 }
+
+.hex-card {
+  background: #324e65;
+  border-radius: 20px;
+  padding: 16px;
+  margin: 28px 0 30px auto;
+  width: 100%;        /* ocupa todo el ancho del contenedor */
+  max-width: none;    /* elimina el tope anterior */
+  text-align: center;
+  border: 2px solid #324e65;
+
+  /* TEXTO */
+  color: #ffffff;
+
+  /* QUITAR SOMBRAS */
+  box-shadow: none;
+}
+
+/* Forzamos texto blanco adentro */
+.hex-card p,
+.hex-card h1,
+.hex-card h2,
+.hex-card h3,
+.hex-card h4,
+.hex-card h5,
+.hex-card h6,
+.hex-card a {
+  color: #ffffff !important;
+  text-shadow: none !important;
+}
+
+/* Links */
+.hex-card a {
+  /*text-decoration: underline;*/
+  font-weight: 400;
+}
