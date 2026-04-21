@@ -7,6 +7,8 @@ execute:
 
 website:
   title: "Data by Andre"
+  site-url: https://soyandrea.github.io
+  description: "Blog profesional de Andrea Gomez Vargas sobre datos, R y estadísticas"
   repo-url: https://github.com/SoyAndrea/soyandrea.github.io
   repo-actions: [edit, source, issue]
   page-footer: 

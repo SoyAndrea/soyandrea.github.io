@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Data by Andre</title>
+<link>https://soyandrea.github.io/conoce-arcenso.html</link>
+<atom:link href="https://soyandrea.github.io/conoce-arcenso.xml" rel="self" type="application/rss+xml"/>
+<description>Blog profesional de Andrea Gomez Vargas sobre datos, R y estadísticas</description>
+<generator>quarto-1.5.57</generator>
+<lastBuildDate>Tue, 30 Sep 2025 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Procesando datos censales en R</title>
+  <link>https://soyandrea.github.io/conoce-arcenso/2025-unlam/</link>
+  <description><![CDATA[ <section id="taller-práctico-para-aprender-a-explorar-y-procesar-indicadores-demográficos-con-los-paquetes-arcenso-y-tidyverse." class="level2"><h2 class="anchored" data-anchor-id="taller-práctico-para-aprender-a-explorar-y-procesar-indicadores-demográficos-con-los-paquetes-arcenso-y-tidyverse.">Taller práctico para aprender a explorar y procesar indicadores demográficos con los paquetes <code>ARcenso</code> y <code>tidyverse</code>.</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://soyandrea.github.io/conoce-arcenso/2025-unlam/flyearcenso.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Flyer de difusión</figcaption></figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://soyandrea.github.io/conoce-arcenso/2025-unlam/taller2.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Expositora taller</figcaption></figure>
+</div>
+</div>
+</div>
+<p><br></p>
+<p>Nos reunimos en el auditorio de la biblioteca de la Universidad Nacional de La Matanza (UNLaM), invitada por la materia Demografía Social de la carrera de Ciencia Política y organizado en conjunto con <a href="https://renbaires.github.io/">R en Buenos Aires</a>.</p>
+<p>La idea fue explorar los datos del Censo Nacional de Población, Viviendas y Hogares como fuente de información y usar el paquete de datos <code>ARcenso</code> como ejemplo de paquete de datos conn información histórica del Censo 1970, sumando distintas funciones de <code>tidyverse</code> y <code>gt</code> al flujo de trabajo en ciencia de datos. Se sumaron más de diez personas, con muchas ganas de aprender y de practicar.</p>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://soyandrea.github.io/conoce-arcenso/2025-unlam/taller3.jpg" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Fotografía grupal asistentes al taller</figcaption></figure>
+</div>
+<p><br></p>
+<p>Durante la práctica nos enfocamos en construir el indicador de estructura de la población, y paso a paso fuimos importando los datos, revisándolos y calculando la distribución por grupo quinquenal y sexo con <code>dplyr</code>.</p>
+<p>Como resultado, llegamos a una pirámide poblacional del Censo 1970 de la provincia de Buenos Aires realizada con <code>ggplot2</code>, acompañada por una tabla de datos en <code>gt</code>. Fue una experiencia muy enriquecedora, donde el interés por los datos censales y el entusiasmo por aprender R se combinaron en un espacio de trabajo colaborativo.</p>
+<section id="social-media" class="level3"><h3 class="anchored" data-anchor-id="social-media">Social media</h3>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://soyandrea.github.io/conoce-arcenso/2025-unlam/taller.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Instagram stories de <span class="citation" data-cites="unlamoficial">@unlamoficial</span></figcaption></figure>
+</div>
+</div><div class="column" style="width:60%;">
+<blockquote class="twitter-tweet blockquote">
+<p lang="es" dir="ltr">
+</p>
+<p>📸 Así vivimos nuestro último taller de Procesando datos censales en R.<br><br>Gracias a la <a href="https://twitter.com/UnlamOficial?ref_src=twsrc%5Etfw"><span class="citation" data-cites="UnlamOficial">@UnlamOficial</span></a> por el espacio y a todas las personas que se sumaron 🙌 <a href="https://twitter.com/hashtag/Rstats?src=hash&amp;ref_src=twsrc%5Etfw">#Rstats</a> <a href="https://t.co/Kg5pSarxZZ">pic.twitter.com/Kg5pSarxZZ</a></p>
+
+<p>— R en Buenos Aires (<span class="citation" data-cites="renbaires">@renbaires</span>) <a href="https://twitter.com/renbaires/status/1973372279758397583?ref_src=twsrc%5Etfw">October 1, 2025</a></p>
+</blockquote>
+</div>
+</div>
+</section><section id="slides" class="level3"><h3 class="anchored" data-anchor-id="slides">Slides</h3>
+<div class="cell">
+<iframe src="https://soyandrea.github.io/arcenso-unlam/#/title-slide" width="672" height="400" data-external="1">
+</iframe>
+</div>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></section><section id="links-de-interés" class="level3"><h3 class="anchored" data-anchor-id="links-de-interés">Links de interés</h3>
+<ul>
+<li>Ejercicio de practica demográfica <a href="https://practica-censo.netlify.app/">practica-censo.netlify.app</a>
+</li>
+<li><a href="https://soyandrea.github.io/arcenso/">web ARcenso</a></li>
+<li><a href="https://github.com/SoyAndrea/arcenso">repositorio en GitHub de ARcenso</a></li>
+<li>slides en Quarto <a href="https://soyandrea.github.io/arcenso-unlam/#/title-slide">soyandrea.github.io/arcenso-unlam</a>
+</li>
+</ul>
+
+
+</section></section> ]]></description>
+  <category>R</category>
+  <category>UnLaM</category>
+  <category>ARcenso</category>
+  <category>paquete</category>
+  <category>Taller</category>
+  <guid>https://soyandrea.github.io/conoce-arcenso/2025-unlam/</guid>
+  <pubDate>Tue, 30 Sep 2025 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>useR! 2025 - The R User Conference</title>
+  <link>https://soyandrea.github.io/conoce-arcenso/2025-useR/</link>
+  <description><![CDATA[ <section id="arcenso-a-package-born-from-chaos-powered-by-community" class="level2"><h2 class="anchored" data-anchor-id="arcenso-a-package-born-from-chaos-powered-by-community">
+<code>ARcenso</code>: a Package Born From <code>Chaos</code>, Powered by <code>Community</code>
+</h2>
+<section id="session-talk-package-lifecycle" class="level3"><h3 class="anchored" data-anchor-id="session-talk-package-lifecycle">Session talk: Package lifecycle</h3>
+<ul>
+<li>Speaker &amp; Co-author: <a href="https://github.com/SoyAndrea">Andrea Gomez Vargas</a>
+</li>
+<li>Co-author: <a href="https://github.com/ECiardullo">Emanuel Ciardullo</a>
+</li>
+</ul>
+<p><img src="https://soyandrea.github.io/conoce-arcenso/2025-useR/expo.jpg" class="img-fluid" style="width:100.0%"></p>
+<p>Presentar ARcenso en useR! fue una experiencia enorme para mí: era mi primera vez exponiendo en Estados Unidos, en inglés y en persona, lo que implicaba un gran desafío interno. Gracias al apoyo del R Consortium y al programa de movilidad de la OIM pude estar allí y compartir el paquete con la comunidad global de R.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>En la charla mostré el origen de ARcenso, su propuesta, su equipo y el trabajo a futuro. Además del desafío de organizar datos censales en R, compartí cómo muchos de los problemas que enfrentamos —archivos de Excel desordenados, la necesidad de estandarizar y de facilitar el acceso a la información— son comunes más allá del tema censal.</p>
+<p>Fue un lujo coincidir en persona con parte del equipo de rOpenSci —incluido mi mentor Luis Verde, la community manager Yanina Bellini y el director Noam Ross— y mostrar cómo el proyecto se fue fortaleciendo con el tiempo y cómo la comunidad de R jugó un rol excepcional en ese proceso. Me llevo el aprendizaje de que somos muchas personas trabajando con datos censales y que es un tema relevante a nivel global, además de la alegría de sumar comunidad y llevar la bandera de ARcenso y de R en Buenos Aires a un escenario internacional.</p>
+</div><div class="column" style="width:10%;">
+
+</div><div class="column" style="width:40%;">
+<p><img src="https://soyandrea.github.io/conoce-arcenso/2025-useR/arcensotalk.jpeg" class="img-fluid"></p>
+<p><img src="https://soyandrea.github.io/conoce-arcenso/2025-useR/ropensciteam.jpg" class="img-fluid"></p>
+</div>
+</div>
+</section><section id="presentación" class="level3"><h3 class="anchored" data-anchor-id="presentación">Presentación</h3>
+<div class="cell">
+<iframe src="https://soyandrea.github.io/arcenso-useR2025/#/title-slide" width="672" height="300" data-external="1">
+</iframe>
+</div>
+</section><section id="presentación-en-youtube" class="level3"><h3 class="anchored" data-anchor-id="presentación-en-youtube">Presentación en youtube</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5iujHzMTvZA?si=VttGywqGJvnxzJfr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</section><section id="quarto-theme" class="level3"><h3 class="anchored" data-anchor-id="quarto-theme">Quarto theme</h3>
+<p>Este tema de Quarto fue diseñado y desarrollado por <a href="https://github.com/ariibard">Ariana Bardauil</a> específicamente para esta presentación. Su uso es posible gracias a su permiso, ya que por el momento no está disponible públicamente.</p>
+<p>Estoy muy agradecida con Ariana por su creatividad y dedicación en el diseño de este tema, que le aporta una identidad visual única al proyecto.</p>
+</section><section id="helpful-links" class="level3"><h3 class="anchored" data-anchor-id="helpful-links">Helpful links</h3>
+<ul>
+<li><p>R package website <a href="https://soyandrea.github.io/arcenso/" class="uri">https://soyandrea.github.io/arcenso/</a></p></li>
+<li><p>ARcenso Github <a href="https://github.com/SoyAndrea/arcenso" class="uri">https://github.com/SoyAndrea/arcenso</a></p></li>
+<li><p>slides <a href="https://soyandrea.github.io/arcenso-useR2025/#/title-slide">soyandrea.github.io/arcenso-useR2025</a></p></li>
+<li><p>rOpenSci Program <a href="https://ropensci.org/blog/2024/02/15/champions-program-champions-2024/#andrea-gomez-vargas" class="uri">https://ropensci.org/blog/2024/02/15/champions-program-champions-2024/#andrea-gomez-vargas</a></p></li>
+</ul></section><section id="agradecimientos" class="level3"><h3 class="anchored" data-anchor-id="agradecimientos">Agradecimientos</h3>
+<p>Gracias al apoyo económico de R consortium y al programa de movilidad de la OIM, no hubiera sido posible llegar a esta edición de useR!. Haber podido compartir ARcenso en este espacio me recordó lo importante que es el apoyo comunitario para que proyectos abiertos sigan creciendo y lleguen más lejos.</p>
+<p><img src="https://soyandrea.github.io/conoce-arcenso/2025-useR/r-consortium.png" class="img-fluid"></p>
+<p><img src="https://soyandrea.github.io/conoce-arcenso/2025-useR/OIM.svg" class="img-fluid" style="width:50.0%"></p>
+
+
+</section></section> ]]></description>
+  <category>R</category>
+  <category>useR</category>
+  <category>ARcenso</category>
+  <category>rOpenSci</category>
+  <category>paquete</category>
+  <category>Charla</category>
+  <category>Comunidad</category>
+  <guid>https://soyandrea.github.io/conoce-arcenso/2025-useR/</guid>
+  <pubDate>Sat, 09 Aug 2025 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Seminario de Ciencia Abierta de la Escuela Estadística</title>
+  <link>https://soyandrea.github.io/conoce-arcenso/2025-ULA/</link>
+  <description><![CDATA[ <section id="r-y-datos-censales-sistematización-reproducible-con-el-paquete-arcenso" class="level2"><h2 class="anchored" data-anchor-id="r-y-datos-censales-sistematización-reproducible-con-el-paquete-arcenso">R y datos censales: sistematización reproducible con el paquete <code>ARcenso</code>
+</h2>
+<section id="charla-virtual" class="level3"><h3 class="anchored" data-anchor-id="charla-virtual">Charla virtual</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Fui invitada a dar una charla en el Seminario de la Universidad de Los Andes (ULA) de Mérida, Venezuela, donde presenté el paquete ARcenso a estudiantes y graduado en Estadística. Compartí cómo surgió el proyecto a partir de la necesidad de transformar cientos de archivos dispersos en un recurso accesible y censales.</p>
+<p>Participaron alrededor de 25 personas de Venezuela, Argentina y otros países de la región, con mucho interés en discutir sobre datos reproducibles y en encontrar formas de trabajo más eficaces y colaborativas.</p>
+<p>💛 Un agradecimiento especial a <em>Anavelyz Pérez</em> por la invitación y la calidez con la que me recibió en el espacio.</p>
+</div><div class="column" style="width:10%;">
+
+</div><div class="column" style="width:40%;">
+<p><img src="https://soyandrea.github.io/conoce-arcenso/2025-ULA/seminario.png" class="img-fluid"></p>
+</div>
+</div>
+</section><section id="slides" class="level3"><h3 class="anchored" data-anchor-id="slides">Slides</h3>
+<div class="cell">
+<iframe src="https://soyandrea.github.io/arcenso-ULA/#/title-slide" width="672" height="400" data-external="1">
+</iframe>
+</div>
+</section><section id="links-de-interés" class="level3"><h3 class="anchored" data-anchor-id="links-de-interés">Links de interés</h3>
+<ul>
+<li><a href="https://soyandrea.github.io/arcenso/">web ARcenso</a></li>
+<li><a href="https://github.com/SoyAndrea/arcenso">repositorio en GitHub de ARcenso</a></li>
+<li>slides en Quarto <a href="https://soyandrea.github.io/arcenso-ULA/#/title-slide">soyandrea.github.io/arcenso-ULA</a>
+</li>
+</ul>
+
+
+</section></section> ]]></description>
+  <category>R</category>
+  <category>ULA</category>
+  <category>ARcenso</category>
+  <category>rOpenSci</category>
+  <category>paquete</category>
+  <category>Charla</category>
+  <category>Comunidad</category>
+  <guid>https://soyandrea.github.io/conoce-arcenso/2025-ULA/</guid>
+  <pubDate>Thu, 03 Jul 2025 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Government Advances in Statistical Programming</title>
+  <dc:creator>Andrea Gómez Vargas</dc:creator>
+  <link>https://soyandrea.github.io/conoce-arcenso/2025-GASP/</link>
+  <description><![CDATA[ <section id="arcenso-a-package-born-from-chaos-powered-by-community" class="level1"><h1>ARcenso: a Package Born From Chaos, Powered by Community 📦</h1>
+<section id="lightning-talks-publishing-data-and-metadata" class="level3"><h3 class="anchored" data-anchor-id="lightning-talks-publishing-data-and-metadata">Lightning Talks: Publishing Data and Metadata</h3>
+<p><br></p>
+<p>Estuvimos contando sobre arcenso en GASP 2025, un evento virtual que se realizó del 24 al 26 de junio y reunió a más de 100 personas por día de distintos ámbitos: gobierno, academia e industria, todas interesadas en el uso de estadísticas públicas. Fue una gran oportunidad para compartir este proyecto con personas que trabajan con datos censales en Estados Unidos, como integrantes del Census Bureau o investigadoras de universidades como la de Chicago. Presentamos cómo arcenso busca ordenar y hacer accesibles los datos del censo argentino a través de un paquete en R, pensado para facilitar su uso por parte de funcionariado, investigadoras y la ciudadanía en general. También compartimos cómo la comunidad R fue clave para desarrollar esta herramienta: desde aprender buenas prácticas hasta recibir apoyo e inspiración para transformar el caos en un recurso útil para todas las personas que trabajan con datos.</p>
+</section><section id="oradores" class="level3"><h3 class="anchored" data-anchor-id="oradores">Oradores</h3>
+<ul>
+<li><a href="https://github.com/SoyAndrea">Andrea Gomez Vargas</a></li>
+<li><a href="https://github.com/ECiardullo">Emanuel Ciardullo</a></li>
+</ul></section><section id="programa-de-la-sesión" class="level3"><h3 class="anchored" data-anchor-id="programa-de-la-sesión">Programa de la sesión</h3>
+<p><img src="https://soyandrea.github.io/conoce-arcenso/2025-GASP/gasp25.png" class="img-fluid" style="width:70.0%"></p>
+</section><section id="apoyan" class="level3"><h3 class="anchored" data-anchor-id="apoyan">Apoyan</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>El evento fue patrocinado por el grupo Data Science for Federal Statistics (DSFS) —parte del Federal Committee on Statistical Methodology (FCSM)— y organizado con el apoyo de la American Statistical Association (ASA).</p>
+</div><div class="column" style="width:1%;">
+
+</div><div class="column" style="width:40%;">
+<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPrXjVM_HltGLva_1ZkIY4wG8mb52470N_3Q&amp;s.png" class="img-fluid" style="width:70.0%"></p>
+<p><img src="https://www.amstat.org/assets/images/fb-og.jpg" class="img-fluid" style="width:70.0%"></p>
+</div>
+</div>
+</section><section id="slides" class="level3"><h3 class="anchored" data-anchor-id="slides">Slides</h3>
+<div class="cell">
+<iframe src="https://eciardullo.github.io/arcenso-GASP25/" width="672" height="400" data-external="1">
+</iframe>
+</div>
+</section><section id="links-de-interés" class="level3"><h3 class="anchored" data-anchor-id="links-de-interés">Links de interés</h3>
+<ul>
+<li>GASP home <a href="https://community.amstat.org/gasp/home" class="uri">https://community.amstat.org/gasp/home</a>
+</li>
+<li><a href="https://soyandrea.github.io/arcenso/">web ARcenso</a></li>
+<li><a href="https://github.com/SoyAndrea/arcenso">repositorio en GitHub de ARcenso</a></li>
+<li>slides en Quarto <a href="https://eciardullo.github.io/arcenso-GASP25/#/title-slide">eciardullo.github.io/arcenso-GASP25</a>
+</li>
+<li><a href="https://ropensci.org/blog/2024/02/15/champions-program-champions-2024/#andrea-gomez-vargas">rOpenSci Champions Program - Andrea Gomez Vargas</a></li>
+</ul>
+
+
+</section></section> ]]></description>
+  <category>R</category>
+  <category>GASP</category>
+  <category>ARcenso</category>
+  <category>rOpenSci</category>
+  <category>paquete</category>
+  <category>Charla</category>
+  <category>Comunidad</category>
+  <guid>https://soyandrea.github.io/conoce-arcenso/2025-GASP/</guid>
+  <pubDate>Wed, 25 Jun 2025 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>rOpenSci - Community call</title>
+  <dc:creator>Andrea Gómez Vargas</dc:creator>
+  <link>https://soyandrea.github.io/conoce-arcenso/2025-community-call/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="fomentando-la-ciencia-abierta-en-américa-latina---programa-de-ropensci" class="level1">
+<h1>Fomentando la Ciencia Abierta en América Latina - Programa de rOpenSci</h1>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p>Terminó la cohorte de campeones 2023-2024, y llegó el momento de compartir la experiencia: lo aprendido, los logros, lo que me llevo y lo que sigue. Y por supuesto, presentar {arcenso}. Esta vez, lo hacemos en español para invitar a más personas de la comunidad a sumarse a la cohorte 2025 en Latinoamérica.</p>
+</div><div class="column" style="width:40%;">
+<p><img src="https://soyandrea.github.io/conoce-arcenso/2025-community-call/ropensci.png" class="img-fluid"></p>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>Toda la información del encuentro esta disponible en el sitio web <a href="https://ropensci.org/es/commcalls/champions-latino-2025/" class="uri">https://ropensci.org/es/commcalls/champions-latino-2025/</a></p>
+</blockquote>
+<div style="padding:56.25% 0 0 0;position:relative;">
+<iframe src="https://player.vimeo.com/video/1067708090?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Fomentando la Ciencia Abierta en América Latina - Programa de rOpenSci">
+</iframe>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>paquete</category>
+  <category>rOpenSci</category>
+  <category>ARcenso</category>
+  <category>Charla</category>
+  <guid>https://soyandrea.github.io/conoce-arcenso/2025-community-call/</guid>
+  <pubDate>Wed, 12 Mar 2025 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Turing Way Fireside Chat</title>
+  <dc:creator>Andrea Gómez Vargas</dc:creator>
+  <link>https://soyandrea.github.io/conoce-arcenso/2025-opendataday/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="nurturing-open-science-in-challenging-economic-and-political-times" class="level1">
+<h1>Nurturing Open Science in Challenging Economic and Political times</h1>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p>La serie Turing Way Fireside Chat presenta a expertos, campeones y sus proyectos de diferentes comunidades internacionales en reproducibilidad, investigación abierta, ética, colaboración y todo lo demás. En esta ocasión co-organizado como parte del #OpenDataDay con Open Knowledge Foundation y moderada por Esther Plomp (Universidad de Aruba, Aruba), este panel contó con las opiniones de Andrea Gómez (ARcenso, Argentina), Anelda van der Walt (Talarify, Sudáfrica), Pen-Yuan Hsing (MammelWeb, Reino Unido) y Shern Tee (The Turing Way/LAMMPS, Australia).</p>
+</div><div class="column" style="width:40%;">
+<p><br> <br></p>
+<p><img src="https://soyandrea.github.io/conoce-arcenso/2025-opendataday/flyer.png" class="img-fluid"></p>
+</div>
+</div>
+<p>En esta discusión, el panel de expertos abordó cómo el actual panorama político y económico ha influido en las prácticas de investigación y academia, impactando a sus comunidades y roles, y destacando las acciones que están tomando para mantenerse resilientes. Se trataron los riesgos y desafíos derivados de la limitada financiación disponible para las comunidades de Ciencia Abierta, así como otros contextos en el sur global. En este espacio, <strong>se presentó el paquete arcenso y su utilidad en los tiempos que vivimos, resaltando sus potencialidades como herramienta para la comunidad.</strong></p>
+<blockquote class="blockquote">
+<p>Quiero agradecer a Liz Hare, compañera de cohorte en el programa de Champions, por postularme para participar en el debate y por recordarme la importancia de mi proyecto. Es un honor poder compartir mi trabajo y aprender de tantas experiencias enriquecedoras</p>
+</blockquote>
+<section id="fireside-chat-en-youtube" class="level3">
+<h3 class="anchored" data-anchor-id="fireside-chat-en-youtube">Fireside Chat en Youtube</h3>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/p2Odyp9VIPA?si=1GWwscOaOuAvJx1V" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Data</category>
+  <category>ARcenso</category>
+  <category>Charla</category>
+  <category>Open Science</category>
+  <category>Comunidad</category>
+  <guid>https://soyandrea.github.io/conoce-arcenso/2025-opendataday/</guid>
+  <pubDate>Thu, 06 Mar 2025 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>R en red: ARcenso, oportunidades y comunidad</title>
+  <dc:creator>Andrea Gómez Vargas</dc:creator>
+  <link>https://soyandrea.github.io/conoce-arcenso/2024-renred-buenosaires/</link>
+  <description><![CDATA[ <section id="arcenso---data-from-argentinas-population-census" class="level1"><h1>{ARcenso}📦 - Data from Argentina’s Population Census</h1>
+<p><img src="https://soyandrea.github.io/conoce-arcenso/2024-renred-buenosaires/flyer.png" class="img-fluid"></p>
+<blockquote class="blockquote">
+<p>Charla <a href="https://github.com/RLadies-BA">R-Ladies Buenos Aires</a><img src="https://avatars.githubusercontent.com/u/38664570?s=200&amp;v=4" alt="rladies buenos aires logo" height="27"> &amp; <a href="https://github.com/renbaires">R en Buenos Aires</a> <img src="https://avatars.githubusercontent.com/u/43609757" alt="r en buenos aires logo" height="27"></p>
+</blockquote>
+<section id="oradores" class="level3"><h3 class="anchored" data-anchor-id="oradores">Oradores</h3>
+<ul>
+<li><a href="https://github.com/SoyAndrea">Andrea Gomez Vargas</a></li>
+<li><a href="https://github.com/ECiardullo">Emanuel Ciardullo</a></li>
+</ul></section><section id="resumen" class="level3"><h3 class="anchored" data-anchor-id="resumen">Resumen:</h3>
+<p>Presentamos el paquete <code>ARcenso</code> a la comunidad de usuarios de la ciudad de Buenos Aires, Desde la idea hasta las primeras funciones disponibles, y del acompañamiento en comunidad como parte del programa de campeones y campeonas del software de rOpenSci.</p>
+<div class="columns">
+<div class="column" style="width:45%;">
+<blockquote class="twitter-tweet blockquote">
+<p lang="es" dir="ltr">
+</p>
+<p>Gracias a todes por este increíble meet up junto a <a href="https://twitter.com/RLadiesBA?ref_src=twsrc%5Etfw"><span class="citation" data-cites="RLadiesBA">@RLadiesBA</span></a> 💜. R en Red 🌟<a href="https://twitter.com/hashtag/RStats?src=hash&amp;ref_src=twsrc%5Etfw">#RStats</a> <a href="https://t.co/viz1tSE7iZ">pic.twitter.com/viz1tSE7iZ</a></p>
+
+<p>— R en Buenos Aires (<span class="citation" data-cites="renbaires">@renbaires</span>) <a href="https://twitter.com/renbaires/status/1870566237031616872?ref_src=twsrc%5Etfw">December 21, 2024</a></p>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div><div class="column" style="width:10%;">
+
+</div><div class="column" style="width:45%;">
+<blockquote class="twitter-tweet blockquote">
+<p lang="es" dir="ltr">
+</p>
+<p>La evolución de los logos del Censo 🇦🇷 <a href="https://t.co/gjM4e0RS8s">pic.twitter.com/gjM4e0RS8s</a></p>
+
+<p>— R-Ladies BuenosAires (<span class="citation" data-cites="RLadiesBA">@RLadiesBA</span>) <a href="https://twitter.com/RLadiesBA/status/1870224531710742853?ref_src=twsrc%5Etfw">December 20, 2024</a></p>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</div>
+</section><section id="slides" class="level3"><h3 class="anchored" data-anchor-id="slides">Slides</h3>
+<div class="cell">
+<iframe src="https://soyandrea.github.io/arcenso-RenBA" width="672" height="400" data-external="1">
+</iframe>
+</div>
+</section><section id="links-de-interés" class="level3"><h3 class="anchored" data-anchor-id="links-de-interés">Links de interés</h3>
+<ul>
+<li><a href="https://soyandrea.github.io/arcenso/">web arcenso</a></li>
+<li><a href="https://github.com/SoyAndrea/arcenso">repositorio en GitHub de arcenso</a></li>
+<li>slides <a href="https://soyandrea.github.io/arcenso-RenBA">soyandrea.github.io/arcenso-RenBA/</a>
+</li>
+<li><a href="https://ropensci.org/blog/2024/02/15/champions-program-champions-2024/#andrea-gomez-vargas">rOpenSci Champions Program - Andrea Gomez Vargas</a></li>
+</ul>
+
+
+</section></section> ]]></description>
+  <category>R</category>
+  <category>paquete</category>
+  <category>rOpenSci</category>
+  <category>censo</category>
+  <category>ARcenso</category>
+  <category>Charla</category>
+  <category>Comunidad</category>
+  <guid>https://soyandrea.github.io/conoce-arcenso/2024-renred-buenosaires/</guid>
+  <pubDate>Fri, 20 Dec 2024 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>LatinR 2024: ARcenso con rOpenSci</title>
+  <dc:creator>Andrea Gómez Vargas</dc:creator>
+  <link>https://soyandrea.github.io/conoce-arcenso/2024-latinr/</link>
+  <description><![CDATA[ <section id="arcenso-primeros-pasos-desarrollando-un-paquete-en-comunidad-con-ropensci" class="level1"><h1>{ARcenso}: primeros pasos desarrollando un paquete en comunidad con rOpenSci 📦</h1>
+<section id="panel-proceso-de-desarrollo-de-paquetes" class="level3"><h3 class="anchored" data-anchor-id="panel-proceso-de-desarrollo-de-paquetes">Panel: Proceso de desarrollo de paquetes</h3>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>En esta charla compartimos la experiencia de armar un paquete desde cero acompañados por rOpenSci y toda su comunidad, con las capacitaciones, la mentoría 1:1 y la sesiones de coworking que delimitaron los puntos de partida y estrategias para el armado del proyecto, la toma de decisiones, el armado conceptual, los desafíos y aprendizajes a la hora de construir un paquete, las primeras funciones y la hoja de ruta para incorporar los seis periodos censales.</p>
+</div><div class="column" style="width:10%;">
+
+</div><div class="column" style="width:40%;">
+<p><br></p>
+<p><img src="https://soyandrea.github.io/conoce-arcenso/2024-latinr/portada.png" class="img-fluid"></p>
+</div>
+</div>
+</section><section id="oradores" class="level3"><h3 class="anchored" data-anchor-id="oradores">Oradores</h3>
+<ul>
+<li><a href="https://github.com/SoyAndrea">Andrea Gomez Vargas</a></li>
+<li><a href="https://github.com/ECiardullo">Emanuel Ciardullo</a></li>
+</ul></section><section id="presentación" class="level3"><h3 class="anchored" data-anchor-id="presentación">Presentación</h3>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/YYfyBrQhMQc?si=rfruwDTsfbjwPa1F" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section><section id="slides" class="level3"><h3 class="anchored" data-anchor-id="slides">Slides</h3>
+<div class="cell">
+<iframe src="https://soyandrea.github.io/arcenso-latinR2024/" width="672" height="400" data-external="1">
+</iframe>
+</div>
+</section><section id="social-media" class="level3"><h3 class="anchored" data-anchor-id="social-media">Social media</h3>
+<blockquote class="twitter-tweet blockquote">
+<p lang="es" dir="ltr">
+</p>
+<p>No estoy llorando, este bebé salió a la luz en <a href="https://twitter.com/LatinR_Conf?ref_src=twsrc%5Etfw"><span class="citation" data-cites="LatinR_Conf">@LatinR_Conf</span></a> en su primer versión en github <a href="https://t.co/pVF8JB2DFt">https://t.co/pVF8JB2DFt</a> 💜<a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a><a href="https://twitter.com/hashtag/LatinR2024?src=hash&amp;ref_src=twsrc%5Etfw">#LatinR2024</a> <a href="https://t.co/DyLiUHTFSz">pic.twitter.com/DyLiUHTFSz</a></p>
+
+<p>— andrea (<span class="citation" data-cites="me_andre">@me_andre</span>) <a href="https://twitter.com/me_andre/status/1859244999243657685?ref_src=twsrc%5Etfw">November 20, 2024</a></p>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></section><section id="links-de-interés" class="level3"><h3 class="anchored" data-anchor-id="links-de-interés">Links de interés</h3>
+<ul>
+<li><a href="https://soyandrea.github.io/arcenso/">web ARcenso</a></li>
+<li><a href="https://github.com/SoyAndrea/arcenso">repositorio en GitHub de ARcenso</a></li>
+<li>slides en Quarto <a href="https://soyandrea.github.io/arcenso-latinR2024/">soyandrea.github.io/arcenso-latinR2024/</a>
+</li>
+<li><a href="https://ropensci.org/blog/2024/02/15/champions-program-champions-2024/#andrea-gomez-vargas">rOpenSci Champions Program - Andrea Gomez Vargas</a></li>
+</ul>
+
+
+</section></section> ]]></description>
+  <category>R</category>
+  <category>LatinR</category>
+  <category>ARcenso</category>
+  <category>rOpenSci</category>
+  <category>paquete</category>
+  <category>Charla</category>
+  <category>Comunidad</category>
+  <guid>https://soyandrea.github.io/conoce-arcenso/2024-latinr/</guid>
+  <pubDate>Wed, 20 Nov 2024 03:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
