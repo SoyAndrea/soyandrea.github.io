@@ -1,0 +1,19 @@
+---
+title: "Estadísticas nacionales en Shiny: presentes en la galería del sector público de Posit"
+date: 2026-04-13
+description: Shiny in the Public Sector by posit 
+categories: [R, Shiny, Public Sector, SIES, Personas Mayores, INDEC]
+type: post
+---
+
+Desde la Dirección de Estadísticas Sociales (DES) del INDEC se desarrollan aplicaciones interactivas en Shiny para facilitar el acceso, la exploración y la comunicación de estadísticas nacionales. Estas herramientas, construidas con software de código abierto, permiten generar productos flexibles, reproducibles y accesibles para distintos públicos.
+
+Las aplicaciones incluidas en esta galería son el [Sistema Integrado de Estadísticas Sociales (SIES)](https://shiny.indec.gob.ar/sies/) y el [Shinydashboard de Personas Mayores](https://shiny.indec.gob.ar/tablero_pm/), dos desarrollos que integran información de distintas fuentes y permiten explorar indicadores sociodemográficos a través de visualizaciones interactivas.
+
+![](shiny%20post.png)
+
+Ambas aplicaciones forman parte de la galería del sector público de Posit, un espacio que reúne experiencias de organismos que utilizan tecnologías abiertas para comunicar datos oficiales, visibilizando así el trabajo realizado en el desarrollo de herramientas para el acceso a la información pública.
+
+> 👉 Podés explorar la galería completa en [Public Sector Shiny Showcase](https://pub.current.posit.team/public/Public_Sector_Shiny_Showcase/#national-statistics)
+
+Agradecemos la convocatoria impulsada por [Jeremy Allen, Product Marketing Manager de Posit PBC](https://posit.co/blog/serving-the-public-see-how-government-agencies-use-r-python-shiny-and-quarto-to-drive-research-and-data-science-modernization) que promueve la difusión de iniciativas del sector público que utilizan Shiny para acercar la información a la ciudadanía.

@@ -39,6 +39,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/blog/2026-shiny-public-sector/index.html",
       "/blog/2024-tidyverse-devday/index.html",
       "/blog/2024-positconf-quarto-dashboard/index.html",
       "/blog/2024-untref-personasmayores/index.html",
@@ -54,6 +55,7 @@
   {
     "listing": "/comunidad.html",
     "items": [
+      "/comunidad/2026-RSE-Argentina/index.html",
       "/comunidad/2025-Rdevday/index.html",
       "/comunidad/2025-RSECon25/index.html",
       "/comunidad/2025-useR/index.html",

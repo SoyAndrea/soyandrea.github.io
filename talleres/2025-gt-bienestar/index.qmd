@@ -6,9 +6,7 @@ categories: [Estadísticas Oficiales, Bienestar, INDEC, CEPAL, Charlas]
 type: post
 ---
 
-
-## Guía para la elaboración de sistemas integrados de indicadores de bienestar en América Latina y el Caribe 
-
+## Guía para la elaboración de sistemas integrados de indicadores de bienestar en América Latina y el Caribe
 
 ![RTC Flyer de difusión](difusion.png)
 
@@ -20,19 +18,16 @@ Como resultado elaboramos la Guía para la construcción de sistemas integrados 
 
 La guía fue presentada en el ciclo de seminarios organizado por la División de Estadísticas de la CEPAL junto con el INE de Chile, donde se difundieron los resultados de los grupos de trabajo del período.
 
-
-
 ### Presentación de resultaddos en Youtube
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/prxrTDKBa0A?si=luTz_vYyKlD72dZ7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/prxrTDKBa0A?si=luTz_vYyKlD72dZ7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
+</iframe>
 
-### Links útiles 
+### Links útiles
 
+-   [Grupo de Trabajo 2024 - 2025](https://rtc-cea.cepal.org/es/grupo-trabajo/guia-para-la-elaboracion-de-un-sistema-integrado-de-indicadores-de-bienestar/2024)
 
--  [Grupo de Trabajo 2024 - 2025](https://rtc-cea.cepal.org/es/grupo-trabajo/guia-para-la-elaboracion-de-un-sistema-integrado-de-indicadores-de-bienestar/2024)
+-   [Publicación CEPAL](https://www.cepal.org/es/publicaciones/83980-guia-la-elaboracion-un-sistema-integrado-indicadores-bienestar)
 
-
-- [Publicación CEPAL](https://cea.cepal.org/13/es/documentos/guia-la-elaboracion-un-sistema-integrado-indicadores-bienestar)
-
-- [Red de Transmisión del Conocimiento](https://rtc-cea.cepal.org/es/evento/presentacion-de-resultados-grupos-de-trabajo-cea-2024-2025-indicadores-de-bienestar)
+-   [Red de Transmisión del Conocimiento](https://rtc-cea.cepal.org/es/evento/presentacion-de-resultados-grupos-de-trabajo-cea-2024-2025-indicadores-de-bienestar)
