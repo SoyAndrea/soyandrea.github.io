@@ -21,24 +21,56 @@ format:
 
 ### Hi there, I'm Andre 👋
 
-Analista de datos con formación en sociología y estadística. Me especializo en segmentación y análisis de grupos poblacionales para generar insights accionables.
+Analista de datos con formación en sociología y estadística. Me especializo en segmentación y análisis de grupos poblacionales para transformar datos en información útil para la toma de decisiones.
 
 <br>
 
 <li style="display:flex; align-items:center; margin:12px 0;">
-  <img src="image/arcenso.png"
+
+```{=html}
+<img src="image/arcenso.png"
        alt="ARcenso logo"
        width="200"
        height="200"
        style="margin-right:16px;" />
+```
 
-  <h4 style="margin:0; font-size:1.3em;">
-    <a href="https://soyandrea.github.io/conoce-arcenso.html"
-       style="text-decoration:none; color:inherit;">
-     <code>ARcenso</code>: Mi primer paquete en R para trabajar con datos censales históricos de Argentina
-    </a>
-  </h4>
+<h4 style="margin:0; font-size:1.3em;">
+
+<a href="https://soyandrea.github.io/conoce-arcenso.html"
+       style="text-decoration:none; color:inherit;"> <code>ARcenso</code>: Mi primer paquete en R para trabajar con datos censales históricos de Argentina </a>
+
+</h4>
+
 </li>
 
 
+<ul style="list-style-type: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center;">
+
+<li style="display: flex; align-items: center; margin: 5px;">
+  <img src="https://avatars.githubusercontent.com/u/259428568?s=200&v=4" alt="RSE Argentina logo" style="margin-right: 10px; width: 40px; height: 40px;"/>
+  <a href="https://github.com/rse-argentina"><strong>RSE Argentina</strong></a>
+</li>
+
+<li style="display: flex; align-items: center; margin: 5px;">
+  <img src="https://avatars.githubusercontent.com/u/43609757" alt="R en Buenos Aires logo" style="margin-right: 10px; width: 40px; height: 40px;"/>
+  <a href="https://github.com/renbaires"><strong>R en Buenos Aires</strong></a>
+</li>
+
+<li style="display: flex; align-items: center; margin: 5px;">
+  <img src="https://avatars.githubusercontent.com/u/1200269?s=200&amp;v=4" alt="rOpenSci logo" style="margin-right: 10px; width: 40px; height: 40px;"/>
+  <a href="https://github.com/ropensci"><strong>rOpenSci</strong></a>
+</li>
+
+<li style="display: flex; align-items: center; margin: 5px;">
+  <img src="https://avatars.githubusercontent.com/u/21295846?s=200&amp;v=4" alt="R-Ladies Global logo" style="margin-right: 10px; width: 40px; height: 40px;"/>
+  <a href="https://github.com/rladies"><strong>R-Ladies Global</strong></a>
+</li>
+
+<li style="display: flex; align-items: center; margin: 5px;">
+  <img src="https://avatars.githubusercontent.com/u/38664570?s=200&amp;v=4" alt="R-Ladies Buenos Aires logo" style="margin-right: 10px; width: 40px; height: 40px;"/>
+  <a href="https://github.com/RLadies-BA"><strong>R-Ladies Buenos Aires</strong></a>
+</li>
+
+</ul>
 

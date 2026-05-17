@@ -14,38 +14,35 @@ page-layout: full
 #title-block-banner: true
 title-block-banner: "#c9d2d8"
 title-block-banner-color: "#000000"
-subtitle: "Participo en comunidades de ciencia de datos y código abierto, enfocándome en promover el uso de R y fomentar la diversidad."
+subtitle: "Participo en comunidades de ciencia de datos y código abierto, enfocándome en promover el uso de R y fomentar la diversidad de sus participantes."
 ---
+
 
 <ul style="list-style-type: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center;">
 
-  <li style="display: flex; align-items: center; margin: 5px;">
-    <a href="https://github.com/renbaires"><strong>R en Buenos Aires</strong></a>
-    <img src="https://avatars.githubusercontent.com/u/43609757"
-         alt="R en Buenos Aires logo"
-         style="margin-left: 10px; width: 40px; height: 40px;" />
-  </li>
+<li style="display: flex; align-items: center; margin: 5px;">
+  <img src="https://avatars.githubusercontent.com/u/259428568?s=200&v=4" alt="RSE Argentina logo" style="margin-right: 10px; width: 40px; height: 40px;"/>
+  <a href="https://github.com/rse-argentina"><strong>RSE Argentina</strong></a>
+</li>
 
-  <li style="display: flex; align-items: center; margin: 5px;">
-    <a href="https://github.com/ropensci"><strong>rOpenSci</strong></a>
-    <img src="https://avatars.githubusercontent.com/u/1200269?s=200&v=4"
-         alt="rOpenSci logo"
-         style="margin-left: 10px; width: 40px; height: 40px;" />
-  </li>
+<li style="display: flex; align-items: center; margin: 5px;">
+  <img src="https://avatars.githubusercontent.com/u/43609757" alt="R en Buenos Aires logo" style="margin-right: 10px; width: 40px; height: 40px;"/>
+  <a href="https://github.com/renbaires"><strong>R en Buenos Aires</strong></a>
+</li>
 
-  <li style="display: flex; align-items: center; margin: 5px;">
-    <a href="https://github.com/rladies"><strong>R-Ladies Global</strong></a>
-    <img src="https://avatars.githubusercontent.com/u/21295846?s=200&v=4"
-         alt="R-Ladies Global logo"
-         style="margin-left: 10px; width: 40px; height: 40px;" />
-  </li>
+<li style="display: flex; align-items: center; margin: 5px;">
+  <img src="https://avatars.githubusercontent.com/u/1200269?s=200&amp;v=4" alt="rOpenSci logo" style="margin-right: 10px; width: 40px; height: 40px;"/>
+  <a href="https://github.com/ropensci"><strong>rOpenSci</strong></a>
+</li>
 
-  <li style="display: flex; align-items: center; margin: 5px;">
-    <a href="https://github.com/RLadies-BA"><strong>R-Ladies Buenos Aires</strong></a>
-    <img src="https://avatars.githubusercontent.com/u/38664570?s=200&v=4"
-         alt="R-Ladies Buenos Aires logo"
-         style="margin-left: 10px; width: 40px; height: 40px;" />
-  </li>
+<li style="display: flex; align-items: center; margin: 5px;">
+  <img src="https://avatars.githubusercontent.com/u/21295846?s=200&amp;v=4" alt="R-Ladies Global logo" style="margin-right: 10px; width: 40px; height: 40px;"/>
+  <a href="https://github.com/rladies"><strong>R-Ladies Global</strong></a>
+</li>
+
+<li style="display: flex; align-items: center; margin: 5px;">
+  <img src="https://avatars.githubusercontent.com/u/38664570?s=200&amp;v=4" alt="R-Ladies Buenos Aires logo" style="margin-right: 10px; width: 40px; height: 40px;"/>
+  <a href="https://github.com/RLadies-BA"><strong>R-Ladies Buenos Aires</strong></a>
+</li>
 
 </ul>
-

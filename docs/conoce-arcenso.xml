@@ -9,6 +9,7 @@
 <link>https://soyandrea.github.io/conoce-arcenso.html</link>
 <atom:link href="https://soyandrea.github.io/conoce-arcenso.xml" rel="self" type="application/rss+xml"/>
 <description>Blog profesional de Andrea Gomez Vargas sobre datos, R y estadísticas</description>
+<<<<<<< HEAD
 <generator>quarto-1.5.57</generator>
 <lastBuildDate>Wed, 13 May 2026 03:00:00 GMT</lastBuildDate>
 <item>
@@ -54,6 +55,10 @@
   <guid>https://soyandrea.github.io/conoce-arcenso/2026-umet-nis/</guid>
   <pubDate>Wed, 13 May 2026 03:00:00 GMT</pubDate>
 </item>
+=======
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Tue, 30 Sep 2025 03:00:00 GMT</lastBuildDate>
+>>>>>>> 62aba228b7304a2d2a9cb7506d056955b137344c
 <item>
   <title>Procesando datos censales en R</title>
   <link>https://soyandrea.github.io/conoce-arcenso/2025-unlam/</link>
