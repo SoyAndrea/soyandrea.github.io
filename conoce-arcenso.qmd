@@ -18,9 +18,13 @@ title-block-banner-color: "#000000"
 
 ::::: columns
 ::: {.column width="70%"}
-[{ARcenso}](https://soyandrea.github.io/arcenso/) es un paquete en desarrollo que facilitará el acceso a los datos oficiales de los censos nacionales de población en Argentina.
 
-Este proyecto fue apoyado por el [Programa de Campeones de rOpenSci 2023-2024](https://soyandrea.github.io/comunidad/champions-ropensci/), con Andrea Gómez Vargas & Emanuel Ciardullo como autores.
+[ARcenso](https://soyandrea.github.io/arcenso/) es un paquete en desarrollo que busca facilitar el acceso y uso reproducible de los datos oficiales de los censos nacionales de población de Argentina. Actualmente incluye bases correspondientes a los censos de 1970 y 1980, y continúa ampliándose con nuevos datos y herramientas para el análisis demográfico.
+
+Este proyecto fue apoyado por el [Programa de Campeones de rOpenSci 2023–2024](https://soyandrea.github.io/comunidad/champions-ropensci/) y es desarrollado por Andrea Gómez Vargas y Emanuel Ciardullo.
+
+En esta sección se reúnen distintas iniciativas desarrolladas alrededor de ARcenso para promover el acceso y análisis reproducible de datos censales en R.
+
 :::
 
 ::: {.column width="30%"}
