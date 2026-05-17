@@ -10,7 +10,50 @@
 <atom:link href="https://soyandrea.github.io/conoce-arcenso.xml" rel="self" type="application/rss+xml"/>
 <description>Blog profesional de Andrea Gomez Vargas sobre datos, R y estadísticas</description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Tue, 30 Sep 2025 03:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 13 May 2026 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>De datos censales a análisis demográficos en R</title>
+  <link>https://soyandrea.github.io/conoce-arcenso/2026-umet-nis/</link>
+  <description><![CDATA[ <div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://soyandrea.github.io/conoce-arcenso/2026-umet-nis/resumen.png" class="img-fluid figure-img"></p>
+<figcaption>Fotografías resumen del encuentro</figcaption></figure>
+</div>
+<p>Brindamos de manera presencial un taller práctico en R junto a <a href="https://github.com/ECiardullo">Emanuel Ciardullo</a>, en una actividad organizada en conjunto con la Universidad Metropolitana para la Educación y el Trabajo(UMET) y la Licenciatura en Informática de la universidad. La charla fue impulsada por el Núcleo de Innovación Social (NIS), quienes nos convocaron para presentar ARcenso y explorar cómo acceder a tablas históricas de los censos de Argentina. Durante la jornada trabajamos con datos censales reales, mostrando cómo buscar, organizar y analizar información histórica de forma reproducible en R.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://soyandrea.github.io/conoce-arcenso/2026-umet-nis/presentacion.jpg" class="img-fluid figure-img"></p>
+<figcaption>Oradores del taller</figcaption></figure>
+</div>
+<p>El taller estuvo basado en la <a href="https://soyandrea.github.io/arcenso/articles/indicadores_demograficos.html"><strong>vignette “Construyendo indicadores demográficos”</strong></a>, donde construimos distintos indicadores como el <em>índice de envejecimiento, el índice de feminidad por grupos de edad y el índice de Whipple</em>, además de analizar la estructura de la población para comparar los censos de 1970 y 1980. Nos acompañaron más de 20 personas interesadas en aprender nuevas herramientas para el análisis de datos sociales y demográficos.</p>
+<p>Fue un encuentro muy especial, con mucha participación, preguntas e intercambio entre quienes se acercaron a conocer el paquete y descubrir todo lo que puede construirse a partir de los datos censales. Ver el interés y la curiosidad de tantas personas nos hizo sentir que ARcenso sigue creciendo como un proyecto comunitario, conectado con el espíritu del software libre y el trabajo abierto que impulsa rOpenSci.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://informaticos.ar/content/images/size/w2000/2026/05/charla-r-umet-agc.jpg" class="img-fluid figure-img"></p>
+<figcaption>Comunidades organizadoras del taller</figcaption></figure>
+</div>
+<section id="presentación" class="level2"><h2 class="anchored" data-anchor-id="presentación">Presentación</h2>
+<div class="cell">
+<iframe src="https://soyandrea.github.io/arcenso-umet-nis/#/title-slide" width="672" height="400" data-external="1">
+</iframe>
+</div>
+<section id="links-de-interés" class="level3"><h3 class="anchored" data-anchor-id="links-de-interés">Links de interés</h3>
+<ul>
+<li><a href="https://soyandrea.github.io/arcenso/">web ARcenso</a></li>
+<li><a href="https://soyandrea.github.io/arcenso/articles/indicadores_demograficos.html">vignette Construyendo indicadores demográficos de ARcenso</a></li>
+<li><a href="https://informaticos.ar/nuevas-redes-entre-comunidades-taller-sobre-datos-censales-y-r-en-umet/">Nuevas redes entre comunidades: taller sobre datos censales y R en la UMET</a></li>
+<li><a href="https://nucleodeinnovacionsocial.com.ar/charlas/2026-05-meetup-arcenso/">Núcleo de Innovación Social: Taller práctico en R en UMET junto a AGC TI y R Buenos Aires</a></li>
+</ul>
+
+
+</section></section> ]]></description>
+  <category>R</category>
+  <category>UMET</category>
+  <category>NIS</category>
+  <category>ARcenso</category>
+  <category>censo</category>
+  <category>demografía</category>
+  <category>Taller</category>
+  <guid>https://soyandrea.github.io/conoce-arcenso/2026-umet-nis/</guid>
+  <pubDate>Wed, 13 May 2026 03:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Procesando datos censales en R</title>
   <link>https://soyandrea.github.io/conoce-arcenso/2025-unlam/</link>
