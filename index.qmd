@@ -11,9 +11,12 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/andreasociologa/
-    - icon: r-project
-      text: R-Ladies
-      href: https://rladies.org/about-us/global-team/
+    - text: "{{< iconify simple-icons bluesky >}} Bluesky"
+      href: https://bsky.app/profile/goandre.bsky.social
+    - text: "{{< iconify simple-icons orcid >}} ORCID"
+      href: https://orcid.org/0009-0007-8745-3967
+    - text: "{{<  iconify simple-icons r >}} ARcenso"
+      href: https://soyandrea.github.io/arcenso/
 format:
   html:
     toc: FALSE 
@@ -22,7 +25,6 @@ format:
 ### Hi there, I'm Andre 👋
 
 Analista de datos con formación en sociología y estadística. Me especializo en segmentación y análisis de grupos poblacionales para transformar datos en información útil para la toma de decisiones.
-
 
 <li style="display:flex; align-items:center; margin:12px 0;">
 
