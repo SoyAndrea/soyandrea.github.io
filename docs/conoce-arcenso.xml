@@ -9,8 +9,36 @@
 <link>https://soyandrea.github.io/conoce-arcenso.html</link>
 <atom:link href="https://soyandrea.github.io/conoce-arcenso.xml" rel="self" type="application/rss+xml"/>
 <description>Blog profesional de Andrea Gomez Vargas sobre datos, R y estadísticas</description>
-<generator>quarto-1.5.57</generator>
-<lastBuildDate>Wed, 13 May 2026 03:00:00 GMT</lastBuildDate>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Wed, 15 Jul 2026 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Open Data Is Not Enough</title>
+  <link>https://soyandrea.github.io/conoce-arcenso/2026-unilorin/</link>
+  <description><![CDATA[ <section id="creating-reusable-census-data-infrastructure" class="level2"><h2 class="anchored" data-anchor-id="creating-reusable-census-data-infrastructure">Creating Reusable Census Data Infrastructure</h2>
+<p><img src="https://soyandrea.github.io/conoce-arcenso/2026-unilorin/unilorin.png" class="img-fluid"></p>
+<p>En esta actividad brindé la charla “Open Data Is Not Enough: Creating Reusable Census Data Infrastructure”, en la que compartí los aprendizajes obtenidos durante el desarrollo de arcenso. La presentación partió de una idea central: publicar datos de forma abierta es fundamental, pero no es suficiente para garantizar que puedan ser utilizados.</p>
+<p>A partir de la experiencia de trabajar con datos censales históricos de Argentina, hablé sobre las dificultades que aparecen cuando la información se encuentra dispersa en publicaciones, archivos Excel, PDF y otros formatos. También compartí las decisiones y procesos necesarios para transformar esos datos en recursos más accesibles, interoperables, reutilizables y reproducibles, así como la importancia de las comunidades de código abierto en la construcción de este tipo de infraestructura.</p>
+<p>No quiero dejar de agradecer al equipo organizador por la invitación y, especialmente, a Ezekiel, con quien compartí el programa rOpenSci Champions 2023–2024. Este encuentro también refleja uno de los aspectos más valiosos del programa: los vínculos que se construyen durante la cohorte continúan en el tiempo y nos permiten seguir en contacto, intercambiar experiencias y generar nuevas oportunidades de colaboración.</p>
+<p>En esta parte podes encontra el video de la sesión y la presentación.</p>
+<section id="presentación-en-youtube" class="level3"><h3 class="anchored" data-anchor-id="presentación-en-youtube">Presentación en youtube</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TEHYZ5uoUB4?si=CDdsW4bKpebddMEa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</section><section id="slides" class="level3"><h3 class="anchored" data-anchor-id="slides">Slides</h3>
+<div class="cell">
+<iframe src="https://soyandrea.github.io/arcenso-unilorin/#/title-slide" width="672" height="400" data-external="1">
+</iframe>
+</div>
+
+
+</section></section> ]]></description>
+  <category>R</category>
+  <category>Unilorin</category>
+  <category>ARcenso</category>
+  <category>paquete</category>
+  <category>Charla</category>
+  <guid>https://soyandrea.github.io/conoce-arcenso/2026-unilorin/</guid>
+  <pubDate>Wed, 15 Jul 2026 03:00:00 GMT</pubDate>
+</item>
 <item>
   <title>De datos censales a análisis demográficos en R</title>
   <link>https://soyandrea.github.io/conoce-arcenso/2026-umet-nis/</link>
