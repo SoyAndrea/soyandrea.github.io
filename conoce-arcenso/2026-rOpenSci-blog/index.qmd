@@ -1,0 +1,19 @@
+---
+title: "Análisis demográfico con ARcenso"
+date: 2026-08-10
+description: Blog post técnico en rOpenSci sobre cómo transformar datos censales en análisis demográficos con R 
+categories: [R, rOpenSci, ARcenso, paquete, Blog]
+type: post
+---
+
+![](portada-blog.png)
+
+En esta ocasión, junto a Emanuel Ciardullo, autores de ARcenso, preparamos para el blog de rOpenSci la nota técnica “_De datos censales a análisis demográficos con ARcenso: un flujo de trabajo reproducible en R_”.
+
+En este blog post técnico mostramos, con código y ejemplos reproducibles, cómo utilizar el paquete desde el acceso y procesamiento de los datos hasta la construcción de indicadores demográficos, tablas y visualizaciones en R. Para el análisis utilizamos datos censales de Argentina disponibles en ARcenso a nivel nacional para 1970 y 1980, que nos permiten explorar y comparar tendencias demográficas entre ambos censos.
+
+La nota está disponible en dos idiomas:
+
+> **En español**: [De datos censales a análisis demográficos con ARcenso: un flujo de trabajo reproducible en R](https://ropensci.org/es/blog/2026/08/10/analisis-demografico-con-arcenso/) 
+
+> **En inglés**: [From Census Data to Demographic Analysis with ARcenso: A Reproducible Workflow in R](https://ropensci.org/blog/2026/08/10/analisis-demografico-con-arcenso/)

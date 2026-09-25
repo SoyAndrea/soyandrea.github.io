@@ -9,8 +9,38 @@
 <link>https://soyandrea.github.io/conoce-arcenso.html</link>
 <atom:link href="https://soyandrea.github.io/conoce-arcenso.xml" rel="self" type="application/rss+xml"/>
 <description>Blog profesional de Andrea Gomez Vargas sobre datos, R y estadísticas</description>
-<generator>quarto-1.7.32</generator>
-<lastBuildDate>Wed, 15 Jul 2026 03:00:00 GMT</lastBuildDate>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Mon, 10 Aug 2026 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Análisis demográfico con ARcenso</title>
+  <link>https://soyandrea.github.io/conoce-arcenso/2026-rOpenSci-blog/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://soyandrea.github.io/conoce-arcenso/2026-rOpenSci-blog/portada-blog.png" class="img-fluid"></p>
+<p>En esta ocasión, junto a Emanuel Ciardullo, autores de ARcenso, preparamos para el blog de rOpenSci la nota técnica “<em>De datos censales a análisis demográficos con ARcenso: un flujo de trabajo reproducible en R</em>”.</p>
+<p>En este blog post técnico mostramos, con código y ejemplos reproducibles, cómo utilizar el paquete desde el acceso y procesamiento de los datos hasta la construcción de indicadores demográficos, tablas y visualizaciones en R. Para el análisis utilizamos datos censales de Argentina disponibles en ARcenso a nivel nacional para 1970 y 1980, que nos permiten explorar y comparar tendencias demográficas entre ambos censos.</p>
+<p>La nota está disponible en dos idiomas:</p>
+<blockquote class="blockquote">
+<p><strong>En español</strong>: <a href="https://ropensci.org/es/blog/2026/08/10/analisis-demografico-con-arcenso/">De datos censales a análisis demográficos con ARcenso: un flujo de trabajo reproducible en R</a></p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>En inglés</strong>: <a href="https://ropensci.org/blog/2026/08/10/analisis-demografico-con-arcenso/">From Census Data to Demographic Analysis with ARcenso: A Reproducible Workflow in R</a></p>
+</blockquote>
+
+
+
+ ]]></description>
+  <category>R</category>
+  <category>rOpenSci</category>
+  <category>ARcenso</category>
+  <category>paquete</category>
+  <category>Blog</category>
+  <guid>https://soyandrea.github.io/conoce-arcenso/2026-rOpenSci-blog/</guid>
+  <pubDate>Mon, 10 Aug 2026 03:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Open Data Is Not Enough</title>
   <link>https://soyandrea.github.io/conoce-arcenso/2026-unilorin/</link>

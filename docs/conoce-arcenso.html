@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>ARcenso – Data by Andre</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -38,10 +41,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c9d90881a78653edbc1206f90e2260da.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b6a7ac2dfc346960e40ce1753a27ac0d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -56,7 +59,7 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Sin resultados",
+    "search-no-results-text": "No se han encontrado resultados",
     "search-matching-documents-text": "documentos encontrados",
     "search-copy-link-title": "Copiar el enlace en la búsqueda",
     "search-hide-matches-text": "Ocultar resultados adicionales",
@@ -117,7 +120,7 @@ background: #c9d2d8;
 </style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -130,7 +133,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -238,7 +241,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="QVJjZW5zbw=="><span class="quarto-category-count category-cloud-10">ARcenso</span></div><div class="category" data-category="Y2Vuc28="><span class="quarto-category-count category-cloud-2">censo</span></div><div class="category" data-category="Q2hhcmxh"><span class="quarto-category-count category-cloud-8">Charla</span></div><div class="category" data-category="Q29tdW5pZGFk"><span class="quarto-category-count category-cloud-6">Comunidad</span></div><div class="category" data-category="RGF0YQ=="><span class="quarto-category-count category-cloud-1">Data</span></div><div class="category" data-category="ZGVtb2dyYWYlQzMlQURh"><span class="quarto-category-count category-cloud-1">demografía</span></div><div class="category" data-category="R0FTUA=="><span class="quarto-category-count category-cloud-1">GASP</span></div><div class="category" data-category="TGF0aW5S"><span class="quarto-category-count category-cloud-1">LatinR</span></div><div class="category" data-category="TklT"><span class="quarto-category-count category-cloud-1">NIS</span></div><div class="category" data-category="T3BlbiUyMFNjaWVuY2U="><span class="quarto-category-count category-cloud-1">Open Science</span></div><div class="category" data-category="cGFxdWV0ZQ=="><span class="quarto-category-count category-cloud-8">paquete</span></div><div class="category" data-category="Ug=="><span class="quarto-category-count category-cloud-9">R</span></div><div class="category" data-category="ck9wZW5TY2k="><span class="quarto-category-count category-cloud-6">rOpenSci</span></div><div class="category" data-category="VGFsbGVy"><span class="quarto-category-count category-cloud-2">Taller</span></div><div class="category" data-category="VUxB"><span class="quarto-category-count category-cloud-1">ULA</span></div><div class="category" data-category="VU1FVA=="><span class="quarto-category-count category-cloud-1">UMET</span></div><div class="category" data-category="VW5pbG9yaW4="><span class="quarto-category-count category-cloud-1">Unilorin</span></div><div class="category" data-category="VW5MYU0="><span class="quarto-category-count category-cloud-1">UnLaM</span></div><div class="category" data-category="dXNlUg=="><span class="quarto-category-count category-cloud-1">useR</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="QVJjZW5zbw=="><span class="quarto-category-count category-cloud-10">ARcenso</span></div><div class="category" data-category="QmxvZw=="><span class="quarto-category-count category-cloud-1">Blog</span></div><div class="category" data-category="Y2Vuc28="><span class="quarto-category-count category-cloud-2">censo</span></div><div class="category" data-category="Q2hhcmxh"><span class="quarto-category-count category-cloud-8">Charla</span></div><div class="category" data-category="Q29tdW5pZGFk"><span class="quarto-category-count category-cloud-6">Comunidad</span></div><div class="category" data-category="RGF0YQ=="><span class="quarto-category-count category-cloud-1">Data</span></div><div class="category" data-category="ZGVtb2dyYWYlQzMlQURh"><span class="quarto-category-count category-cloud-1">demografía</span></div><div class="category" data-category="R0FTUA=="><span class="quarto-category-count category-cloud-1">GASP</span></div><div class="category" data-category="TGF0aW5S"><span class="quarto-category-count category-cloud-1">LatinR</span></div><div class="category" data-category="TklT"><span class="quarto-category-count category-cloud-1">NIS</span></div><div class="category" data-category="T3BlbiUyMFNjaWVuY2U="><span class="quarto-category-count category-cloud-1">Open Science</span></div><div class="category" data-category="cGFxdWV0ZQ=="><span class="quarto-category-count category-cloud-9">paquete</span></div><div class="category" data-category="Ug=="><span class="quarto-category-count category-cloud-10">R</span></div><div class="category" data-category="ck9wZW5TY2k="><span class="quarto-category-count category-cloud-7">rOpenSci</span></div><div class="category" data-category="VGFsbGVy"><span class="quarto-category-count category-cloud-2">Taller</span></div><div class="category" data-category="VUxB"><span class="quarto-category-count category-cloud-1">ULA</span></div><div class="category" data-category="VU1FVA=="><span class="quarto-category-count category-cloud-1">UMET</span></div><div class="category" data-category="VW5pbG9yaW4="><span class="quarto-category-count category-cloud-1">Unilorin</span></div><div class="category" data-category="VW5MYU0="><span class="quarto-category-count category-cloud-1">UnLaM</span></div><div class="category" data-category="dXNlUg=="><span class="quarto-category-count category-cloud-1">useR</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -266,10 +269,45 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="UiUyQ1VuaWxvcmluJTJDQVJjZW5zbyUyQ3BhcXVldGUlMkNDaGFybGE=" data-listing-date-sort="1784084400000" data-listing-file-modified-sort="1784747265765" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="217">
+<div class="g-col-1" data-index="0" data-categories="UiUyQ3JPcGVuU2NpJTJDQVJjZW5zbyUyQ3BhcXVldGUlMkNCbG9n" data-listing-date-sort="1786330800000" data-listing-file-modified-sort="1790366955663" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
+<a href="./conoce-arcenso/2026-rOpenSci-blog/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img loading='lazy' src="conoce-arcenso\2026-rOpenSci-blog\portada-blog.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Análisis demográfico con ARcenso
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ck9wZW5TY2k='); return false;">rOpenSci</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QVJjZW5zbw=='); return false;">ARcenso</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGFxdWV0ZQ=='); return false;">paquete</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QmxvZw=='); return false;">Blog</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Blog post técnico en rOpenSci sobre cómo transformar datos censales en análisis demográficos con R</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+10 ago 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="UiUyQ1VuaWxvcmluJTJDQVJjZW5zbyUyQ3BhcXVldGUlMkNDaGFybGE=" data-listing-date-sort="1784084400000" data-listing-file-modified-sort="1784747265765" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="217">
 <a href="./conoce-arcenso/2026-unilorin/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="conoce-arcenso\2026-unilorin\unilorin.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img loading='lazy' src="conoce-arcenso\2026-unilorin\unilorin.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Open Data Is Not Enough
@@ -301,10 +339,10 @@ Open Data Is Not Enough
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="UiUyQ1VNRVQlMkNOSVMlMkNBUmNlbnNvJTJDY2Vuc28lMkNkZW1vZ3JhZiVDMyVBRGElMkNUYWxsZXI=" data-listing-date-sort="1778641200000" data-listing-file-modified-sort="1784731765100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="272">
+<div class="g-col-1" data-index="2" data-categories="UiUyQ1VNRVQlMkNOSVMlMkNBUmNlbnNvJTJDY2Vuc28lMkNkZW1vZ3JhZiVDMyVBRGElMkNUYWxsZXI=" data-listing-date-sort="1778641200000" data-listing-file-modified-sort="1784731765100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="272">
 <a href="./conoce-arcenso/2026-umet-nis/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="conoce-arcenso\2026-umet-nis\resumen.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img loading='lazy' src="conoce-arcenso\2026-umet-nis\resumen.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 De datos censales a análisis demográficos en R
@@ -340,10 +378,10 @@ De datos censales a análisis demográficos en R
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="UiUyQ1VuTGFNJTJDQVJjZW5zbyUyQ3BhcXVldGUlMkNUYWxsZXI=" data-listing-date-sort="1759201200000" data-listing-file-modified-sort="1784731765040" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="288">
+<div class="g-col-1" data-index="3" data-categories="UiUyQ1VuTGFNJTJDQVJjZW5zbyUyQ3BhcXVldGUlMkNUYWxsZXI=" data-listing-date-sort="1759201200000" data-listing-file-modified-sort="1784731765040" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="288">
 <a href="./conoce-arcenso/2025-unlam/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="conoce-arcenso\2025-unlam\flyearcenso.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img loading='lazy' src="conoce-arcenso\2025-unlam\flyearcenso.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Procesando datos censales en R
@@ -375,10 +413,10 @@ Procesando datos censales en R
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="UiUyQ3VzZVIlMkNBUmNlbnNvJTJDck9wZW5TY2klMkNwYXF1ZXRlJTJDQ2hhcmxhJTJDQ29tdW5pZGFk" data-listing-date-sort="1754708400000" data-listing-file-modified-sort="1784731765089" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="385">
+<div class="g-col-1" data-index="4" data-categories="UiUyQ3VzZVIlMkNBUmNlbnNvJTJDck9wZW5TY2klMkNwYXF1ZXRlJTJDQ2hhcmxhJTJDQ29tdW5pZGFk" data-listing-date-sort="1754708400000" data-listing-file-modified-sort="1784731765089" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="385">
 <a href="./conoce-arcenso/2025-useR/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="conoce-arcenso\2025-useR\expo.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img loading='lazy' src="conoce-arcenso\2025-useR\expo.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 useR! 2025 - The R User Conference
@@ -414,10 +452,10 @@ useR! 2025 - The R User Conference
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="UiUyQ1VMQSUyQ0FSY2Vuc28lMkNyT3BlblNjaSUyQ3BhcXVldGUlMkNDaGFybGElMkNDb211bmlkYWQ=" data-listing-date-sort="1751511600000" data-listing-file-modified-sort="1784731764988" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="136">
+<div class="g-col-1" data-index="5" data-categories="UiUyQ1VMQSUyQ0FSY2Vuc28lMkNyT3BlblNjaSUyQ3BhcXVldGUlMkNDaGFybGElMkNDb211bmlkYWQ=" data-listing-date-sort="1751511600000" data-listing-file-modified-sort="1784731764988" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="136">
 <a href="./conoce-arcenso/2025-ULA/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="conoce-arcenso\2025-ULA\seminario.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img loading='lazy' src="conoce-arcenso\2025-ULA\seminario.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Seminario de Ciencia Abierta de la Escuela Estadística
@@ -453,10 +491,10 @@ Seminario de Ciencia Abierta de la Escuela Estadística
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="UiUyQ0dBU1AlMkNBUmNlbnNvJTJDck9wZW5TY2klMkNwYXF1ZXRlJTJDQ2hhcmxhJTJDQ29tdW5pZGFk" data-listing-date-sort="1750820400000" data-listing-file-modified-sort="1784731764985" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="246">
+<div class="g-col-1" data-index="6" data-categories="UiUyQ0dBU1AlMkNBUmNlbnNvJTJDck9wZW5TY2klMkNwYXF1ZXRlJTJDQ2hhcmxhJTJDQ29tdW5pZGFk" data-listing-date-sort="1750820400000" data-listing-file-modified-sort="1784731764985" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="246">
 <a href="./conoce-arcenso/2025-GASP/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="conoce-arcenso\2025-GASP\gasp25.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img loading='lazy' src="conoce-arcenso\2025-GASP\gasp25.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Government Advances in Statistical Programming
@@ -492,10 +530,10 @@ Andrea Gómez Vargas
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="UiUyQ3BhcXVldGUlMkNyT3BlblNjaSUyQ0FSY2Vuc28lMkNDaGFybGE=" data-listing-date-sort="1741748400000" data-listing-file-modified-sort="1784731765000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
+<div class="g-col-1" data-index="7" data-categories="UiUyQ3BhcXVldGUlMkNyT3BlblNjaSUyQ0FSY2Vuc28lMkNDaGFybGE=" data-listing-date-sort="1741748400000" data-listing-file-modified-sort="1784731765000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
 <a href="./conoce-arcenso/2025-community-call/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="conoce-arcenso\2025-community-call\ropensci.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img loading='lazy' src="conoce-arcenso\2025-community-call\ropensci.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 rOpenSci - Community call
@@ -527,10 +565,10 @@ Andrea Gómez Vargas
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="RGF0YSUyQ0FSY2Vuc28lMkNDaGFybGElMkNPcGVuJTIwU2NpZW5jZSUyQ0NvbXVuaWRhZA==" data-listing-date-sort="1741230000000" data-listing-file-modified-sort="1784731765017" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="220">
+<div class="g-col-1" data-index="8" data-categories="RGF0YSUyQ0FSY2Vuc28lMkNDaGFybGElMkNPcGVuJTIwU2NpZW5jZSUyQ0NvbXVuaWRhZA==" data-listing-date-sort="1741230000000" data-listing-file-modified-sort="1784731765017" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="220">
 <a href="./conoce-arcenso/2025-opendataday/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="conoce-arcenso\2025-opendataday\flyer.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img loading='lazy' src="conoce-arcenso\2025-opendataday\flyer.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 The Turing Way Fireside Chat
@@ -562,10 +600,10 @@ Andrea Gómez Vargas
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="UiUyQ3BhcXVldGUlMkNyT3BlblNjaSUyQ2NlbnNvJTJDQVJjZW5zbyUyQ0NoYXJsYSUyQ0NvbXVuaWRhZA==" data-listing-date-sort="1734663600000" data-listing-file-modified-sort="1784731764975" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
+<div class="g-col-1" data-index="9" data-categories="UiUyQ3BhcXVldGUlMkNyT3BlblNjaSUyQ2NlbnNvJTJDQVJjZW5zbyUyQ0NoYXJsYSUyQ0NvbXVuaWRhZA==" data-listing-date-sort="1734663600000" data-listing-file-modified-sort="1784731764975" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
 <a href="./conoce-arcenso/2024-renred-buenosaires/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="conoce-arcenso\2024-renred-buenosaires\flyer.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img loading='lazy' src="conoce-arcenso\2024-renred-buenosaires\flyer.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 R en red: ARcenso, oportunidades y comunidad
@@ -601,10 +639,10 @@ Andrea Gómez Vargas
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="UiUyQ0xhdGluUiUyQ0FSY2Vuc28lMkNyT3BlblNjaSUyQ3BhcXVldGUlMkNDaGFybGElMkNDb211bmlkYWQ=" data-listing-date-sort="1732071600000" data-listing-file-modified-sort="1784731764944" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
+<div class="g-col-1" data-index="10" data-categories="UiUyQ0xhdGluUiUyQ0FSY2Vuc28lMkNyT3BlblNjaSUyQ3BhcXVldGUlMkNDaGFybGElMkNDb211bmlkYWQ=" data-listing-date-sort="1732071600000" data-listing-file-modified-sort="1784731764944" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
 <a href="./conoce-arcenso/2024-latinr/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="conoce-arcenso\2024-latinr\portada.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img loading='lazy' src="conoce-arcenso\2024-latinr\portada.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 LatinR 2024: ARcenso con rOpenSci
@@ -694,13 +732,14 @@ Andrea Gómez Vargas
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -1050,7 +1089,7 @@ Andrea Gómez Vargas
     </div>   
     <div class="nav-footer-center">
 <p>Copyright 2025, Andrea Gomez Vargas</p>
-<div class="toc-actions"><ul><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/edit/main/conoce-arcenso.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/blob/main/conoce-arcenso.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
+<div class="toc-actions"><ul><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/edit/main/conoce-arcenso.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/blob/main/conoce-arcenso.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li><li><a href="https://github.com/SoyAndrea/soyandrea.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar sobre problema</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
