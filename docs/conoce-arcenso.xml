@@ -9,8 +9,64 @@
 <link>https://soyandrea.github.io/conoce-arcenso.html</link>
 <atom:link href="https://soyandrea.github.io/conoce-arcenso.xml" rel="self" type="application/rss+xml"/>
 <description>Blog profesional de Andrea Gomez Vargas sobre datos, R y estadísticas</description>
-<generator>quarto-1.9.38</generator>
-<lastBuildDate>Mon, 10 Aug 2026 03:00:00 GMT</lastBuildDate>
+<generator>quarto-1.5.57</generator>
+<lastBuildDate>Thu, 15 Oct 2026 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>II Congreso Argentino de Estadística</title>
+  <link>https://soyandrea.github.io/conoce-arcenso/2026-CAE/</link>
+  <description><![CDATA[ <section id="arcenso-datos-abiertos-software-libre-y-reproducibilidad-en-estadísticas-censales" class="level1"><h1>ARcenso: Datos abiertos, Software libre y Reproducibilidad en estadísticas censales</h1>
+<p><img src="https://soyandrea.github.io/conoce-arcenso/2026-CAE/arcenso_cae.png" class="img-fluid quarto-figure quarto-figure-center"><br></p>
+<section id="resumen" class="level2"><h2 class="anchored" data-anchor-id="resumen">Resumen</h2>
+<p>El 15 de octubre de 2026 presentamos ARcenso, junto con Emanuel Ciardullo, en el II Congreso Argentino de Estadística (CAE 2026) en Tandil, en la modalidad de comunicaciones orales, dentro del área de Estadísticas oficiales.</p>
+<div class="columns">
+<div class="column" style="width:55%;">
+<p>Durante la presentación compartimos cómo surgió ARcenso y cómo desarrollamos su primera versión, abordando los fundamentos teóricos y metodológicos que orientaron el proyecto, así como el proceso de organización y procesamiento de los datos censales mediante R. También mostramos las funcionalidades actuales del paquete y los próximos pasos para continuar ampliando su cobertura y desarrollo.</p>
+<p>Compartimos la sesión con otras exposiciones sobre el acceso a información estadística, la armonización de datos para la construcción de indicadores comparables en América Latina y la apertura, interpretación y uso de las estadísticas oficiales en la provincia de Buenos Aires. Estas experiencias permitieron ampliar la discusión sobre la importancia de producir, difundir y reutilizar datos públicos.</p>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div style="display: flex; justify-content: left; margin: 2rem 0;">
+<p><iframe style="width: 280px; height: 400px; border: 0;" src="https://www.youtube.com/embed/UTfzKTnQsO8" title="ARcenso en el CAE 2026" allowfullscreen=""> </iframe></p>
+</div>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure"><p><img src="https://soyandrea.github.io/conoce-arcenso/2026-CAE/equipo.jpeg" width="280" height="280" class="figure-img"></p>
+<figcaption>Equipo</figcaption></figure>
+</div>
+</div><div class="column" style="width:60%;">
+<p>Además de compartir nuestro trabajo, el congreso fue una linda oportunidad para encontrarnos con colegas, conocer otras experiencias y conversar sobre los desafíos de las estadísticas oficiales. Nos llevamos nuevos intercambios e ideas para seguir trabajando en ARcenso y fortaleciendo los vínculos con la comunidad estadística del país.</p>
+<p><em>Expositores: <a href="https://github.com/SoyAndrea">Andrea Gomez Vargas</a>] &amp; <a href="https://github.com/ECiardullo">Emanuel Ciardullo</a></em></p>
+</div>
+</div>
+<section id="slides" class="level3"><h3 class="anchored" data-anchor-id="slides">Slides</h3>
+<div class="cell">
+<iframe src="https://soyandrea.github.io/arcenso-cae2026/#/title-slide" width="672" height="400" data-external="1">
+</iframe>
+</div>
+</section><section id="links-de-interés" class="level3"><h3 class="anchored" data-anchor-id="links-de-interés">Links de interés</h3>
+<ul>
+<li>web ARcenso <a href="https://soyandrea.github.io/arcenso/" class="uri">https://soyandrea.github.io/arcenso/</a>
+</li>
+<li>Repositorio ARcenso <a href="https://github.com/SoyAndrea/arcenso" class="uri">https://github.com/SoyAndrea/arcenso</a>
+</li>
+<li>slides <a href="https://soyandrea.github.io/arcenso-cae2026/#/title-slide">soyandrea.github.io/arcenso-cae2026</a>
+</li>
+</ul>
+
+
+</section></section></section> ]]></description>
+  <category>R</category>
+  <category>CAE</category>
+  <category>ARcenso</category>
+  <category>Charla</category>
+  <category>UNICEN</category>
+  <category>Tandil</category>
+  <guid>https://soyandrea.github.io/conoce-arcenso/2026-CAE/</guid>
+  <pubDate>Thu, 15 Oct 2026 03:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Análisis demográfico con ARcenso</title>
   <link>https://soyandrea.github.io/conoce-arcenso/2026-rOpenSci-blog/</link>
